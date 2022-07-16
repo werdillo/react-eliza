@@ -1,0 +1,812 @@
+
+
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+/* ------------------------ Navbar ----------------------- */
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+.navbar {
+  margin: 0;
+  height: 80px;
+  width: 100%;
+  background: rgb(54, 54, 54);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+}
+
+.nav-logo {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links {
+  padding: 0;
+  margin: 0;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 30px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s all;
+}
+
+.nav-link:hover {
+  color: rgb(134, 81, 81);
+}
+
+.nav-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    position: absolute;
+    overflow: initial;
+    z-index: 289;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 80px;
+    left: -100%;
+    transition: 0.5s all;
+  }
+
+  .nav-links.active {
+    background: rgb(54, 54, 54);
+    left: 0;
+  }
+
+  .nav-item {
+    padding: 10px 0;
+    /* border-top: 1px solid red; */
+    /* border-bottom: 1px solid red; */
+  }
+
+  .nav-icon {
+    display: flex;
+  }
+}
+
+
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+/* ------------------------ Header ----------------------- */
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+
+
+/* .slick-slider {
+  overflow: hidden;
+} */
+
+.swiper-button-next:after { color: #5A5A5A; }
+.swiper-button-prev:after { color: #5A5A5A; }
+
+
+/* 
+.navUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navLi {
+  float: left;
+}
+
+.navLi a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navLi a:hover {
+  background-color: rgb(56, 56, 56);
+  color: white;
+
+} */
+
+
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/*------------------------ Footer ------------------------*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+
+.footer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  background-color: #333333;
+  padding-top: 30px;
+  
+}
+.footer-img {
+  padding-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.footer-title {
+  padding-left: 20px;
+  color: aliceblue;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Avenir', sans-serif;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+
+.footer-about {
+  padding-left: 20px;
+  color: aliceblue;
+  font-size: 10px;
+  font-family: 'Avenir', sans-serif;
+  text-align: left;
+  padding: auto 0;
+  margin-bottom: 10px;
+}
+
+.footer-year-box {
+  background-color: 333333;
+  align-items: center;
+  padding: 12px 0px;
+  
+}
+
+.footer-year{
+  color: aliceblue;
+  font-size: 14px;
+  font-family: 'Avenir', sans-serif;
+  text-align: center;
+  margin-bottom: auto;
+
+}
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/*------------------------ Main ------------------------*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+
+
+#container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#main-content {
+  flex: 1;
+}
+
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+/* ---------------------- Home-page ---------------------- */
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+
+/* -------------------- */
+/* ----- Carousel- ---- */
+/* -------------------- */
+
+
+.slider-img1{
+  width: 100%;
+  height: 90vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  backface-visibility: hidden;
+  background-image: url(assets/images/slider/Pic1.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.slider-img2{
+  width: 100%;
+  height: 90vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  backface-visibility: hidden;
+  background-image: url(assets/images/slider/Pic2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-img3{
+  width: 100%;
+  height: 90vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  backface-visibility: hidden;
+  background-image: url(assets/images/slider/Pic3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+
+.mySwiper{
+  height: 360px;
+}
+
+.slider-mini{
+  height: 100%;
+}
+
+
+
+/* -------------------- */
+/* ----- Text block---- */
+/* -------------------- */
+
+.TextBlock-header{
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Avenir', sans-serif;
+}
+
+.TextBlock-text{
+  font-size: 28px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: 'Avenir', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .TextBlock-header { 
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .TextBlock-text { 
+    font-size: 20px;
+  }  
+}
+
+
+/* -------------------- */
+/* -------- Map ------- */
+/* -------------------- */
+
+.map-text {
+  font-family: 'Avenir', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.map-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .map-text { 
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .map-image { 
+    width: 90%;
+
+  }  
+}
+
+/* -------------------- */
+/* ------ awards ------ */
+/* -------------------- */
+
+
+.awards-title {
+  font-family: 'Avenir', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.awards-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-family: 'Avenir', sans-serif;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.awards-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .awards-title { 
+    font-size: 24px;
+    margin-bottom: 10px;
+
+  }
+  .awards-text { 
+    font-size: 14px;
+    width: 90%;
+  }
+  .awards-image { 
+    width: 90%;
+
+  }  
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+  width: 100%;
+
+}
+
+.product-text {
+  font-family: 'Avenir', sans-serif;  
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+}
+
+.product-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: 200ms;
+}
+
+.production-list-wrapper {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  transition: 250ms;
+  cursor: pointer;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.production-list-text {
+  font-family: 'Avenir', sans-serif;
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  color: #ffffff;
+}
+
+.product-list-img:hover {
+  opacity: 0.9;
+  transition: opacity 124ms linear, transform 124ms linear;
+  cursor: pointer;
+}
+.product-list-img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container { 
+    grid-template-columns: auto;
+  }
+}
+
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/*---------------------- Production ----------------------*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+
+
+.products-container {
+  padding: 20px 25px;
+}
+
+
+.production-type-wrapper {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 20px 10px;
+  transition: 250ms;
+  box-shadow: 0px 10px 10px  rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.production-type-wrapper:hover{
+  box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.20);
+}
+
+.production-type-wrapper:active{
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.production-type-image {
+  height: auto;
+  width: 100%;
+}
+
+
+.production-type-text {
+  font-family: 'Avenir', sans-serif;  
+  font-size: 24px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+}
+
+.production-type-title {
+  font-family: 'Avenir', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+.item-title {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.item-specs-block {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.item-spec {
+  margin-bottom: 4px;
+}
+
+.item-text {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.item-text-bold {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+/* product item */
+.product-slider {
+  height: 80vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+  .product-slider {
+    height: 40vh;
+  }
+  .item-text-bold {
+    font-size: 18px;
+  }
+  .item-text {
+    font-size: 18px;
+  }
+  .item-title {
+    font-size: 48px;
+  }
+
+}
+
+/* product item */
+
+
+.product-image {
+  max-width: 100%;
+}
+
+.product-wrapper {
+  transition: 500ms;
+  padding-bottom: 2px;
+  margin-bottom: 25px;
+  /* box-shadow: 0px 15px 15px  rgba(59, 59, 59, 0.05); */
+  border-radius: 2px;
+  
+  
+}
+
+.product-wrapper:hover {
+  box-shadow: 0px 10px 10px  rgba(59, 59, 59, 0.10);  
+}
+
+.production-wrapper:active{
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.product-main-text {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Avenir', sans-serif;  
+  text-align: center;
+  font-size: 18;
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+}
+
+.product-main-text:link {
+  color: red;
+}
+
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/*----------------------- Catalogue ----------------------*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+
+.collection-wraper {  
+  margin-bottom: 50px;
+}
+
+.collection-image {
+  
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+  height: 355px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: 250ms;
+}
+
+.collection-image:hover {
+  
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.2));
+}
+
+.collection-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1500px) {
+  .collection-image { 
+    height: 305px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .collection-image { 
+    height: 260px;
+  }
+}
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/*------------------------ HoReCa ------------------------*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+
+.horeca-header {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+
+}
+
+.horeca-text {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.horeca-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+
+}
+
+@media screen and (max-width: 500px) {
+  .horeca-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    
+  }
+
+  .horeca-header {
+    font-size: 16px;  
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+  }
+
+  .horeca-text {
+    font-size: 12px;  
+  }
+}
+
+
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/*------------------ FurnitureComponents -----------------*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+
+.furniture-components-header {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.furniture-components-text {
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+
+}
+
+.furniture-components-img {
+  width: 100%;
+  height: auto;
+}
+
+.furniture-components-container{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* .furniture-components-box{ */
+  /* background: #FDFDFD; */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+/* } */
+
+/* .production-img{
+  width: 100%;
+  margin-bottom: 20px;
+  min-height: 300px;
+  display: block;
+  backface-visibility: hidden;
+  background-image: url(assets/images/furnitureComponents/porolon.png);
+} */
+
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/*------------------------ Contacts ----------------------*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+
+
+.contacts-title {
+  margin-top: 25px;
+  font-size: 48px;  
+  font-weight: 500;
+  font-family: 'Avenir', sans-serif;
+}
+.contacts-wrapper {
+  margin-top: 10px;
+}
+
+.place-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Avenir', sans-serif;
+}
+
+.place-text {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Avenir', sans-serif;
+}
+
