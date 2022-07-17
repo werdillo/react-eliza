@@ -7,9 +7,11 @@ import { Pagination } from "swiper";
 import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 
-import Pic1 from "../assets/images/slider/Pic1.jpeg";
-import Pic2 from "../assets/images/slider/Pic2.jpg";
-import Pic3 from "../assets/images/slider/Pic3.jpg";
+import Pic1 from "../assets/images/miniSlider/pic1.jpg";
+import Pic2 from "../assets/images/miniSlider/pic2.jpg";
+import Pic3 from "../assets/images/miniSlider/pic3.jpg";
+import Pic4 from "../assets/images/miniSlider/pic4.jpg";
+import Pic5 from "../assets/images/miniSlider/pic5.jpg";
 
 // import required modules
 
@@ -19,9 +21,10 @@ export default function MiniSlider() {
         <Swiper
         slidesPerView={1}
         spaceBetween={10}
-        // pagination={{
-        //   clickable: true,
-        // }}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
           640: {
             slidesPerView: 1,
@@ -42,8 +45,8 @@ export default function MiniSlider() {
         <SwiperSlide><img src={Pic2} alt='' className='slider-mini'></img></SwiperSlide>
         <SwiperSlide><img src={Pic3} alt='' className='slider-mini'></img></SwiperSlide>
         <SwiperSlide><img src={Pic1} alt='' className='slider-mini'></img></SwiperSlide>
-        <SwiperSlide><img src={Pic2} alt='' className='slider-mini'></img></SwiperSlide>
-        <SwiperSlide><img src={Pic3} alt='' className='slider-mini'></img></SwiperSlide>
+        <SwiperSlide><img src={Pic4} alt='' className='slider-mini'></img></SwiperSlide>
+        <SwiperSlide><img src={Pic5} alt='' className='slider-mini'></img></SwiperSlide>
       </Swiper>
     </>
   );

@@ -46,8 +46,6 @@ export default function Production_chairs() {
 					<ProductLink link='details/polo' img={Polo} text="POLO" />
 					<ProductLink link='details/serenity' img={Serenity} text="SERENITY" />
 					<ProductLink link='details/spencer' img={Spencer} text="SPENCER" />
-
-
 				</Row>
 			</Container>
 		</div>
