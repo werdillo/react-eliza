@@ -57,15 +57,16 @@ export default function ProductionItem(props) {
 								);
 							})}				
 						</div>
+						{props.file ?
+							<a href={props.file} target='_blank' rel='noopener noreferrer'>
+								<img src={size} className="item-document-link" />
+							</a>
+
+							: null}
 						<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
 							<img src={cleaning} className="item-document-link" />
 						</a>
-						{props.file ? 
-						<a href={props.file} target='_blank' rel='noopener noreferrer'>
-							<img src={size} className="item-document-link" />
-						</a>
-						
-						: null}
+	
 					</Col>	
 				</Row>
 			</Container>
