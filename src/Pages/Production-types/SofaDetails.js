@@ -2,6 +2,16 @@ import React from 'react';
 import '../../App.css';
 import { Route, Routes } from 'react-router-dom';
 
+// files
+import altitude_size from '../../assets/Files/Products/sofas/altitude.pdf'
+import channel_size from '../../assets/Files/Products/sofas/channel.pdf'
+import duke_size from '../../assets/Files/Products/sofas/duke.pdf'
+import frontSide_size from '../../assets/Files/Products/sofas/frontSide.pdf'
+import hanapepe_size from '../../assets/Files/Products/sofas/hanapepe.pdf'
+import keala_size from '../../assets/Files/Products/sofas/keala.pdf'
+import maverick_size from '../../assets/Files/Products/sofas/maverick.pdf'
+import summerSwell_size from '../../assets/Files/Products/sofas/summerSwell.pdf'
+
 import ProductionItem from '../../Components/ProductionItem';
 export default function SofaDetails() {
 	const aerial_specs = [
@@ -221,7 +231,8 @@ export default function SofaDetails() {
 					title='ALTITUDE'
 					description="Мoduļu dīvāns, kurā ietilpst neatkarīgī elementi ar savu karkasu , kurus var izvietot neatkarīgi vienu no otra, vai ari salikt vienotā – veselā kompozīcijā. Iespējami dažādi moduļu izmeri un modifikācijas. ALTITUDE Dīvāna moduļi ļauj izveidot nepieciešamo komplektāciju un individuālu atpūtas telpu."
 					specs={altitude_specs}
-					images={altitude_img} />}
+					images={altitude_img}
+					file={altitude_size} />}
 				/>
 				<Route path="backton"
 					element={<ProductionItem 
@@ -242,42 +253,48 @@ export default function SofaDetails() {
 					title='CHANNEL'
 					description="Мoduļu dīvāns, kurā ietilpst neatkarīgī elementi ar savu karkasu , kurus var izvietot neatkarīgi vienu no otra, vai ari salikt vienotā – veselā kompozīcijā. Iespējami dažādi moduļu izmeri un modifikācijas. CHANNEL Dīvāna moduļi ļauj izveidot nepieciešamo komplektāciju un individuālu atpūtas telpu."
 					specs={channel_specs}
-					images={channel_img} />}
+					images={channel_img}
+					file={channel_size} />}
 				/>
 				<Route path="duke"
 					element={<ProductionItem 
 					title='DUKE'
 					description=""
 					specs={duke_specs}
-					images={duke_img} />}
+					images={duke_img} 
+					file={duke_size} />}
 				/>
 				<Route path="frontSide"
 					element={<ProductionItem 
 					title='FRONT-SIDE'
-						description="Мoduļu dīvāns, kurā ietilpst neatkarīgī elementi ar savu karkasu , kurus var izvietot neatkarīgi vienu no otra, vai ari salikt vienotā – veselā kompozīcijā. Iespējami dažādi moduļu izmeri un modifikācijas FRONT-SIDE Dīvāna moduļi ļauj izveidot nepieciešamo komplektāciju un individuālu atpūtas telpu."
+					description="Мoduļu dīvāns, kurā ietilpst neatkarīgī elementi ar savu karkasu , kurus var izvietot neatkarīgi vienu no otra, vai ari salikt vienotā – veselā kompozīcijā. Iespējami dažādi moduļu izmeri un modifikācijas FRONT-SIDE Dīvāna moduļi ļauj izveidot nepieciešamo komplektāciju un individuālu atpūtas telpu."
 					specs={frontSide_specs}
-					images={frontSide_img} />}
+					images={frontSide_img}
+					file={frontSide_size} />}
 				/>
 				<Route path="hanapepe"
 					element={<ProductionItem
 					title='HANAPEPE'
 					description="Мoduļu dīvāns, kurā ietilpst neatkarīgī elementi ar savu karkasu , kurus var izvietot neatkarīgi vienu no otra, vai ari salikt vienotā – veselā kompozīcijā. Iespējami dažādi moduļu izmeri un modifikācijas. Dīvāna HANAPEPE moduļi ļauj izveidot nepieciešamo komplektāciju un individuālu atpūtas telpu."
 					specs={hanapepe_specs}
-					images={hanapepe_img} />}
+					images={hanapepe_img}
+					file={hanapepe_size} />}
 				/>
 				<Route path="keala"
 					element={<ProductionItem
 					title='KEALA'
 					description="Мoduļu dīvāns, kurā ietilpst neatkarīgī elementi ar savu karkasu , kurus var izvietot neatkarīgi vienu no otra, vai ari salikt vienotā – veselā kompozīcijā. Iespējami dažādi moduļu izmeri un modifikācijas. KEALA Dīvāna moduļi ļauj izveidot nepieciešamo komplektāciju un individuālu atpūtas telpu."
 					specs={keala_specs}
-					images={keala_img} />}
+					images={keala_img}
+					file={keala_size} />}
 				/>
 				<Route path="maverick"
 					element={<ProductionItem
 					title='MAVERICK'
 					description="Мoduļu dīvāns, kurā ietilpst neatkarīgī elementi ar savu karkasu , kurus var izvietot neatkarīgi vienu no otra, vai ari salikt vienotā – veselā kompozīcijā. Iespējami dažādi moduļu izmeri un modifikācijas. MAVERIECK Dīvāna moduļi ļauj izveidot nepieciešamo komplektāciju un individuālu atpūtas telpu."
 					specs={maverick_specs}
-					images={maverick_img} />}
+					images={maverick_img} 
+					file={maverick_size} />}
 				/>
 
 				<Route path="padington"
@@ -307,7 +324,8 @@ export default function SofaDetails() {
 					title='SUMMER SWELL'
 					description="Мoduļu dīvāns, kurā ietilpst neatkarīgī elementi ar savu karkasu , kurus var izvietot neatkarīgi vienu no otra, vai ari salikt vienotā – veselā kompozīcijā. Iespējami dažādi moduļu izmeri un modifikācijas. SUMMER SWELL Dīvāna moduļi ļauj izveidot nepieciešamo komplektāciju un individuālu atpūtas telpu."
 					specs={summerSwell_specs}
-					images={summerSwell_img} />}
+					images={summerSwell_img}
+					file={summerSwell_size} />}
 				/>
 					
 			</Routes>

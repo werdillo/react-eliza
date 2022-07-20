@@ -2,6 +2,13 @@ import React from 'react';
 import '../../App.css';
 import { Route, Routes } from 'react-router-dom';
 
+// files
+import elefant_size from '../../assets/Files/Products/chairs/elefant.pdf'
+import flamingo_size from '../../assets/Files/Products/chairs/flamingo.pdf'
+import hilton_size from '../../assets/Files/Products/chairs/hilton.pdf'
+import nord_size from '../../assets/Files/Products/chairs/nord.pdf'
+import serenity_size from '../../assets/Files/Products/chairs/serenity.pdf'
+
 import ProductionItem from '../../Components/ProductionItem';
 export default function SofaDetails() {
 	const altitude_specs = [
@@ -160,14 +167,16 @@ export default function SofaDetails() {
 						title='ELEFANT'
 						description=""
 						specs={elefant_specs}
-						images={elefant_img} />}
+						images={elefant_img}
+						file={elefant_size} />}
 				/>
 				<Route path="flamingo"
 					element={<ProductionItem
 						title='FLAMINGO'
 						description=""
 						specs={flamingo_specs}
-						images={flamingo_img} />}
+						images={flamingo_img}
+						file={flamingo_size} />}
 				/>
 				<Route path="haleiwa"
 					element={<ProductionItem
@@ -181,7 +190,8 @@ export default function SofaDetails() {
 						title='HILTON'
 						description=""
 						specs={hilton_specs}
-						images={hilton_img} />}
+						images={hilton_img}
+						file={hilton_size} />}
 				/>
 				<Route path="local"
 					element={<ProductionItem
@@ -202,7 +212,8 @@ export default function SofaDetails() {
 						title='NORD'
 						description=""
 						specs={nord_specs}
-						images={nord_img} />}
+						images={nord_img}
+						file={nord_size} />}
 				/>
 				<Route path="polo"
 					element={<ProductionItem
@@ -216,7 +227,8 @@ export default function SofaDetails() {
 						title='SERENITY'
 						description=""
 						specs={serenity_specs}
-						images={serenity_img} />}
+						images={serenity_img}
+						file={serenity_size} />}
 				/>
 				<Route path="spencer"
 					element={<ProductionItem

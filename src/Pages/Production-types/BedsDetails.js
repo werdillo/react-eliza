@@ -2,6 +2,12 @@ import React from 'react';
 import '../../App.css';
 import { Route, Routes } from 'react-router-dom';
 
+// files
+import lanai_size from '../../assets/Files/Products/beds/lanai.pdf'
+import lissi_size from '../../assets/Files/Products/beds/lissi.pdf'
+import pointbreak_size from '../../assets/Files/Products/beds/pointbreak.pdf'
+import tossa_size from '../../assets/Files/Products/beds/tossa.pdf'
+
 import ProductionItem from '../../Components/ProductionItem';
 export default function BedsDetails() {
 	const daniela_specs = [
@@ -152,14 +158,16 @@ export default function BedsDetails() {
 						title='LANAI'
 						description="Gulta var būt standarta izmēros: 200*180, 200*160, 200*140 cm."
 						specs={lanai_specs}
-						images={lanai_img} />}
+						images={lanai_img}
+						file={lanai_size} />}
 				/>
 				<Route path="lissi"
 					element={<ProductionItem
 						title='LISSI'
 						description=""
 						specs={lissi_specs}
-						images={lissi_img} />}
+						images={lissi_img}
+						file={lissi_size} />}
 				/>
 				<Route path="melene"
 					element={<ProductionItem
@@ -173,14 +181,16 @@ export default function BedsDetails() {
 						title='POINTBREAK'
 						description="Gulta var būt standarta izmēros: 200*180, 200*160, 200*140 cm."
 						specs={pointbreak_specs}
-						images={pointbreak_img} />}
+						images={pointbreak_img}
+						file={pointbreak_size} />}
 				/>
 				<Route path="tossa"
 					element={<ProductionItem
 						title='TOSSA'
 						description=""
 						specs={tossa_specs}
-						images={tossa_img} />}
+						images={tossa_img}
+						file={tossa_size} />}
 				/>
 
 			</Routes>

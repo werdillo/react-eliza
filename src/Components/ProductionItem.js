@@ -2,6 +2,10 @@ import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
+import size from "../assets/images/production/size.png";
+import cleaning from "../assets/images/production/cleaning.png";
+import cleaningFile from "../assets/Files/Products/cleaning.pdf";
+
 // swiper
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
 import { Navigation, Autoplay, Pagination } from "swiper";
@@ -53,6 +57,15 @@ export default function ProductionItem(props) {
 								);
 							})}				
 						</div>
+						<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
+							<img src={cleaning} className="item-document-link" />
+						</a>
+						{props.file ? 
+						<a href={props.file} target='_blank' rel='noopener noreferrer'>
+							<img src={size} className="item-document-link" />
+						</a>
+						
+						: null}
 					</Col>	
 				</Row>
 			</Container>

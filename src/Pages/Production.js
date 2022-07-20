@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 
 import sofa from "../assets/images/production/sofa.png"
 import armchair from "../assets/images/production/armchair.png";
-import puffs from "../assets/images/production/puffs.jpg";
-import sofa_beds from "../assets/images/production/sofa-beds.jpg";
-import tahtas from "../assets/images/production/tahtas.jpg";
-import beds from "../assets/images/production/beds.jpg";
+import puffs from "../assets/images/production/puffs.png";
+import sofa_beds from "../assets/images/production/sofa-beds.png";
+import tahtas from "../assets/images/production/tahtas.png";
+import beds from "../assets/images/production/beds.png";
 
 function ProductionLink(props) {
 	return (

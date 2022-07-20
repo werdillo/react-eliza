@@ -2,6 +2,37 @@ import React from 'react';
 import '../../App.css';
 import { Route, Routes } from 'react-router-dom';
 
+// files
+import alberts_size from '../../assets/Files/Products/sofa-beds/alberts.pdf'
+import alegro_size from '../../assets/Files/Products/sofa-beds/alegro.pdf'
+import argo_size from '../../assets/Files/Products/sofa-beds/argo.pdf'
+import astoria_size from '../../assets/Files/Products/sofa-beds/astoria.pdf'
+import barbara_size from '../../assets/Files/Products/sofa-beds/barbara.pdf'
+import boston_size from '../../assets/Files/Products/sofa-beds/boston.pdf'
+import dora_size from '../../assets/Files/Products/sofa-beds/dora.pdf'
+import elefant_size from '../../assets/Files/Products/sofa-beds/elefant.pdf'
+import favorits_size from '../../assets/Files/Products/sofa-beds/favorits.pdf'
+import filippa_size from '../../assets/Files/Products/sofa-beds/filippa.pdf'
+
+import flamingo_size from '../../assets/Files/Products/sofa-beds/flamingo.pdf'
+import florida_size from '../../assets/Files/Products/sofa-beds/florida.pdf'
+import graffiti_size from '../../assets/Files/Products/sofa-beds/graffiti.pdf'
+import hilton_size from '../../assets/Files/Products/sofa-beds/hilton.pdf'
+import lionNT_size from '../../assets/Files/Products/sofa-beds/lionNT.pdf'
+import lionNTplus_size from '../../assets/Files/Products/sofa-beds/lionNTplus.pdf'
+import lusso_size from '../../assets/Files/Products/sofa-beds/lusso.pdf'
+import malta_size from '../../assets/Files/Products/sofa-beds/malta.pdf'
+import milan_size from '../../assets/Files/Products/sofa-beds/milan.pdf'
+import nica_size from '../../assets/Files/Products/sofa-beds/nica.pdf'
+
+import nord_size from '../../assets/Files/Products/sofa-beds/nord.pdf'
+import ricards_size from '../../assets/Files/Products/sofa-beds/ricards.pdf'
+import roma_size from '../../assets/Files/Products/sofa-beds/roma.pdf'
+import spriditis_size from '../../assets/Files/Products/sofa-beds/spriditis.pdf'
+import turin_size from '../../assets/Files/Products/sofa-beds/turin.pdf'
+import vena_size from '../../assets/Files/Products/sofa-beds/vena.pdf'
+import verona_size from '../../assets/Files/Products/sofa-beds/verona.pdf'
+
 import ProductionItem from '../../Components/ProductionItem';
 export default function SofaBedsDetails() {
 	// 28 products 
@@ -516,126 +547,144 @@ export default function SofaBedsDetails() {
 						title='ALBERTS'
 						description=""
 						specs={alberts_specs}
-						images={alberts_img} />}
+						images={alberts_img}
+						file={alberts_size} />}
 				/>
 				<Route path="alegro"
 					element={<ProductionItem
 						title='ALEGRO'
 						description="Dīvāns ar transformācijas mehānismu - lifts „Eiro-grāmata”. Paredzēts ikdienas lietošanai. Transformējot dīvānu, abas virsmas veido vienotu un taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks, vienkārši un ērti ekspluatējams. Dīvāna priekšrocības ir veļas kaste, kura taisīta no saplākšņa un mēbeļu lamināta, kā arī atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={alegro_specs}
-						images={alegro_img} />}
+						images={alegro_img}
+						file={alegro_size} />}
 				/>
 				<Route path="argo"
 					element={<ProductionItem
 						title='ARGO'
 						description=""
 						specs={argo_specs}
-						images={argo_img} />}
+						images={argo_img}
+						file={argo_size} />}
 				/>
 				<Route path="astoria"
 					element={<ProductionItem
 						title='ASTORIA'
 						description=""
 						specs={astoria_specs}
-						images={astoria_img} />}
+						images={astoria_img}
+						file={astoria_size} />}
 				/>
 				<Route path="barbara"
 					element={<ProductionItem
 						title='BARBARA'
 						description=""
 						specs={barbara_specs}
-						images={barbara_img} />}
+						images={barbara_img}
+						file={barbara_size} />}
 				/>
 				<Route path="boston"
 					element={<ProductionItem
 						title='BOSTON'
 						description=""
 						specs={boston_specs}
-						images={boston_img} />}
+						images={boston_img}
+						file={boston_size} />}
 				/>
 				<Route path="dora"
 					element={<ProductionItem
 						title='DORA'
 						description="Stūra dīvāns ar transformācijas mehānismu „Euro-grāmata”.Paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams.Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={dora_specs}
-						images={dora_img} />}
+						images={dora_img}
+						file={dora_size} />}
 				/>
 				<Route path="elefantMN"
 					element={<ProductionItem
 						title='ELEFANT MN'
 						description="Dīvāns ar transformācijas mehānismu „Euro-grāmata”, paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa ,mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={elefantMN_specs}
-						images={elefantMN_img} />}
+						images={elefantMN_img}
+						file={elefant_size} />}
 				/>
 				<Route path="favorits"
 					element={<ProductionItem
 						title='FAVORITS'
 						description="Dīvāns izvelkams uz priekšu ar transformācijas mehānismu „Nord’.Paredzēts ikdienas lietošanai. Transformējot virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa un mēbeļu lamināta."
 						specs={favorits_specs}
-						images={favorits_img} />}
+						images={favorits_img}
+						file={favorits_size} />}
 				/>
 				<Route path="filippa"
 					element={<ProductionItem
 						title='FILIPPA'
 						description="Stūra dīvāns, ar transformācijas mehānismu “Delfin”. Iiespējamas dažādas moduļu modifikācijas. Piespējams vaiants, gan ar mehanismu „Delfin, gan bez tā .Paredzēts ikdienas lietošanai. Transformējot virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa un mēbeļu lamināta."
 						specs={filippa_specs}
-						images={filippa_img} />}
+						images={filippa_img}
+						file={filippa_size} />}
 				/>
 				<Route path="flamingo"
 					element={<ProductionItem
 						title='FLAMINGO'
 						description="Dīvāns ar transformācijas mehānismu „Eiro-grāmata”. Paredzēts ikdienas lietošanai. Transformējot dīvānu, abas virsmas veido vienotu un taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks, vienkārši un ērti ekspluatējams. Dīvāna priekšrocības ir veļas kaste, kura taisīta no saplākšņa un mēbeļu lamināta, kā arī atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={flamingo_specs}
-						images={flamingo_img} />}
+						images={flamingo_img}
+						file={flamingo_size} />}
 				/>
 				<Route path="florida"
 					element={<ProductionItem
 						title='FLORIDA'
 						description=""
 						specs={florida_specs}
-						images={florida_img} />}
+						images={florida_img}
+						file={florida_size} />}
 				/>
 				<Route path="graffiti"
 					element={<ProductionItem
 						title='GRAFFITI'
 						description=""
 						specs={graffiti_specs}
-						images={graffiti_img} />}
+						images={graffiti_img}
+						file={graffiti_size} />}
 				/>
 				<Route path="hilton"
 					element={<ProductionItem
 						title='HILTON'
 						description="Dīvāns ar transformācijas mehānismu „Euro-grāmata”, paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa,mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={hilton_specs}
-						images={hilton_img} />}
+						images={hilton_img}
+						file={hilton_size} />}
 				/>
 				<Route path="lionNT"
 					element={<ProductionItem
 						title='LION NT'
 						description="Izvelkams stūra dīvāns paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={lionNT_specs}
-						images={lionNT_img} />}
+						images={lionNT_img}
+						file={lionNT_size} />}
 				/>
 				<Route path="lionNTplus"
 					element={<ProductionItem
 						title='LION NT+'
 						description="Izvelkams stūra dīvāns paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={lionNTplus_specs}
-						images={lionNTplus_img} />}
+						images={lionNTplus_img}
+						file={lionNTplus_size} />}
 				/>
 				<Route path="lusso"
 					element={<ProductionItem
 						title='LUSSO'
 						description="Stūra dīvāns, ar transformācijas mehānismu “Delfin”. Iiespējamas dažādas moduļu modifikācijas.Piespējams vaiants, gan ar mehanismu „Delfin, gan bez tā . Paredzēts ikdienas lietošanai. Transformējot virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa un mēbeļu lamināta."
 						specs={lusso_specs}
-						images={lusso_img} />}
+						images={lusso_img}
+						file={lusso_size} />}
 				/>
 				<Route path="malta"
 					element={<ProductionItem
 						title='MALTA'
 						description="Dīvāns ar transformācijas mehānismu „Euro-grāmata”.Paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”,, kurš ir ilgmūžīgs."
 						specs={malta_specs}
-						images={malta_img} />}
+						images={malta_img}
+						file={malta_size} />}
 				/>
 				<Route path="michelle"
 					element={<ProductionItem
@@ -649,63 +698,72 @@ export default function SofaBedsDetails() {
 						title='MILAN'
 						description="Dīvāns izvelkams uz priekšu. Paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”,, kurš ir ilgmūžīgs."
 						specs={milan_specs}
-						images={milan_img} />}
+						images={milan_img}
+						file={milan_size} />}
 				/>
 				<Route path="nica"
 					element={<ProductionItem
 						title='NICA'
 						description="Dīvāns ar transformācijas mehānismu „Euro-grāmata”, paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={nica_specs}
-						images={nica_img} />}
+						images={nica_img}
+						file={nica_size} />}
 				/>
 				<Route path="nord"
 					element={<ProductionItem
 						title='NORD'
 						description="Dīvāns izvelkams uz priekšu ar transformācijas mehānismu „Nord’.Paredzēts ikdienas lietošanai. Transformējot virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa un mēbeļu lamināta."
 						specs={nord_specs}
-						images={nord_img} />}
+						images={nord_img}
+						file={nord_size} />}
 				/>
 				<Route path="ricards"
 					element={<ProductionItem
 						title='RICARDS'
 						description="Stūra dīvāns ar transformācijas mehānismu „Euro-grāmata”. Paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={ricards_specs}
-						images={ricards_img} />}
+						images={ricards_img}
+						file={ricards_size} />}
 				/>
 				<Route path="roma"
 					element={<ProductionItem
 						title='ROMA'
 						description="Stūra dīvāns ar transformācijas mehānismu „Euro-grāmata”. Paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={roma_specs}
-						images={roma_img} />}
+						images={roma_img}
+						roma_size={roma_size} />}
 				/>
 				<Route path="spriditis"
 					element={<ProductionItem
 						title='SPRĪDĪTIS'
 						description="Dīvāns izvelkams uz priekšu ar transformācijas mehānismu „Nord’.Paredzēts ikdienas lietošanai. Transformējot virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa un mēbeļu lamināta."
 						specs={spriditis_specs}
-						images={spriditis_img} />}
+						images={spriditis_img}
+						file={spriditis_size} />}
 				/>
 				<Route path="turin"
 					element={<ProductionItem
 						title='TURIN'
 						description="Stūra dīvāns, ar transformācijas mehānismu. Paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={turin_specs}
-						images={turin_img} />}
+						images={turin_img}
+						file={turin_size} />}
 				/>
 				<Route path="vena"
 					element={<ProductionItem
 						title='VENA'
 						description="Dīvāns izvelkams uz priekšu. Paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa, mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={vena_specs}
-						images={vena_img} />}
+						images={vena_img}
+						file={vena_size} />}
 				/>
 				<Route path="verona"
 					element={<ProductionItem
 						title='VERONA'
 						description="Dīvāns izvelkams uz priekšu.Paredzēts ikdienas lietošanai. Transformējot abas virsmas veido vienotu taisnu virsmu. Ideāli der gan gulēšanai, gan atpūtai. Komfortabls, ergonomisks un vienkārši ērti ekspluatējams. Dīvāna priekšrocība ir veļas kaste, kurš taisits no saplakšņa , mēbeļu lamināta un atsperu bloks „Bonnell”, kurš ir ilgmūžīgs."
 						specs={verona_specs}
-						images={verona_img} />}
+						images={verona_img}
+						file={verona_size} />}
 				/>
 
 			</Routes>

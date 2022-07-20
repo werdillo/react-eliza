@@ -300,8 +300,6 @@
   height: 100%;
 }
 
-
-
 /* -------------------- */
 /* ----- Text block---- */
 /* -------------------- */
@@ -593,6 +591,12 @@
   font-weight: 400;
   font-size: 22px;
   font-weight: 700;
+}
+
+.item-document-link {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  margin-bottom: 50px;
+  margin-right: 20px;
 }
 
 

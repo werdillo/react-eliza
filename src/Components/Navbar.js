@@ -28,22 +28,22 @@ const Navbar = () => {
 			</div>
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
 				<li className="nav-item">
-					<NavLink to='/Horeca' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Horeca</NavLink>
+					<NavLink to='/Horeca' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>HoReCa</NavLink>
 				</li>
 				<li className="nav-item">
-					<NavLink to='/Components' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Components</NavLink>
+					<NavLink to='/Components' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Mēbeļu komponenti</NavLink>
 				</li>
 				<li className="nav-item">
-					<NavLink to='/Production' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Production</NavLink>
+					<NavLink to='/Production' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Produkcija</NavLink>
 				</li>
 				<li className="nav-item">
-					<NavLink to='/Collection' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Collection</NavLink>
+					<NavLink to='/Collection' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Kolekcijas</NavLink>
 				</li>
 				<li className="nav-item">
-					<NavLink to='/gallery' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Gallery</NavLink>
+					<NavLink to='/gallery' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Galerija</NavLink>
 				</li>
 				<li className="nav-item">
-					<NavLink to='/contacts' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Contacts</NavLink>
+					<NavLink to='/contacts' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Kontakti</NavLink>
 				</li>
 			</ul>
 		</nav>
