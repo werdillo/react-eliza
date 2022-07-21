@@ -33,7 +33,7 @@ export default function ProductionItem(props) {
 				{props.images.map((img) => {
 					return (
 						<>
-							<SwiperSlide><img src={img.src} className="product-slider"></img></SwiperSlide>
+							<SwiperSlide><img src={img.src} alt="" className="product-slider"></img></SwiperSlide>
 						</>
 					);
 				})}				
@@ -59,12 +59,12 @@ export default function ProductionItem(props) {
 						</div>
 						{props.file ?
 							<a href={props.file} target='_blank' rel='noopener noreferrer'>
-								<img src={size} className="item-document-link" />
+								<img src={size} alt="" className="item-document-link" />
 							</a>
 
 							: null}
 						<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
-							<img src={cleaning} className="item-document-link" />
+							<img src={cleaning} alt="" className="item-document-link" />
 						</a>
 	
 					</Col>	

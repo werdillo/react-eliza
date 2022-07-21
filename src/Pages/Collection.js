@@ -32,9 +32,9 @@ export default function Production () {
 				<Col sm={12} >
 					<p className='production-type-title'>Kolekcija</p>
 				</Col>
-				<Catalogs link={catalog_2018} img={collection_2018} title="Kotologs 2018" />
-				<Catalogs link={catalog_2019} img={collection_2019} title="Kotologs 2019" />
-				<Catalogs link={catalog_2021} img={collection_2021} title="Kotologs 2021" />
+				<Catalogs link={catalog_2018} img={collection_2018} title="Katalogs 2018" />
+				<Catalogs link={catalog_2019} img={collection_2019} title="Katalogs 2019" />
+				<Catalogs link={catalog_2021} img={collection_2021} title="Katalogs 2021" />
 			</Row>
 		</Container>
 	);

@@ -13,7 +13,7 @@ function ProductListItem(props) {
 			<div className='grid-item'>
 				<div className='production-list-wrapper'>
 					<img className='product-list-img' alt='' src={props.img}></img>
-					<div class="production-list-text">{props.text}</div>
+					<div className="production-list-text">{props.text}</div>
 				</div>
 			</div>
 		</Link>

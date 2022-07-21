@@ -19,7 +19,7 @@ export default function Layout() {
 				<Container fluid className='footer-container'>
 					<Row>
 						<Col sm={12} lg={3}>
-						<img src={logo} className='footer-img'></img>
+						<img src={logo} alt="" className='footer-img'></img>
 						<p className='footer-about'>
  Šodien “Eliza” ir mīksto mēbeļu ražošanas uzņēmums, kas veiksmīgi un dinamiski attīstās.
   Kompānijas mēbeļu modeļi ir pieprasīti Anglijā, Vācijā, Šveicē, Itālijā, Austrijā un citās valstīs.</p>

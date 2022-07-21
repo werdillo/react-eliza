@@ -56,8 +56,6 @@
   .navbar {
     display: flex;
     z-index: 289;
-    /* position: absolute; */
-    /* overflow: initial; */
   }
 
   .nav-links {
