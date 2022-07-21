@@ -22,7 +22,7 @@ import ProductionPufs from './Pages/Production-types/Production_puffs';
 import PuffsDetails from './Pages/Production-types/PuffsDetails';
 
 // Production-types
-import Collection from './Pages/Collection';
+import Catalogs from './Pages/Catalogs';
 import Horeca from './Pages/Horeca';
 import FurnitureComponents from './Pages/FurnitureComponents';
 import NotFound from './Pages/NotFound';
@@ -55,7 +55,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />}/>
           <Route path="/gallery" element={<Gallery />}/>
 
-          <Route path="/Collection" element={<Collection /> }/>
+          <Route path="/Catalogs" element={<Catalogs /> }/>
           <Route path="*" element={<NotFound /> }/>
         </Route>
       </Routes>

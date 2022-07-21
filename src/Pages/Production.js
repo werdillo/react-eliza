@@ -17,7 +17,7 @@ function ProductionLink(props) {
 			<Link to={props.link}>
 				<div className='production-type-wrapper'>
 					<img src={props.img} alt='' className='production-type-image'></img>
-					<div class="production-type-text">{props.text}</div>
+					<div className="production-type-text">{props.text}</div>
 				</div>
 			</Link>
 		</Col>

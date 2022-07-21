@@ -10,7 +10,7 @@ export default function Contacts() {
 				<Col sm={12} lg={12}>
 					<p className='contacts-title'>Kontakti</p>
 				</Col>
-				<Col sm={12} lg={6}>
+				<Col sm={12} lg={4}>
 					<div className='contacts-wrapper'>
 						<p className='place-title'>Mēbeļu salons ELIZA</p>
 						<p className='place-text'>Rīga, А. Deglava iela 50, LV-1035</p>
@@ -18,7 +18,7 @@ export default function Contacts() {
 						<p className='place-text'>+371 29 112 49</p>
 					</div>
 				</Col>
-				<Col sm={12} lg={6}>
+				<Col sm={12} lg={4}>
 					<div className='contacts-wrapper'>
 						<p className='place-title'>Porolona ražotne</p>
 						<p className='place-text'>Rīga, A. Deglava iela 52A,</p>
@@ -26,20 +26,12 @@ export default function Contacts() {
 						<p className='place-text'>+371 28 363 860</p>
 					</div>
 				</Col>
-				<Col sm={12} lg={6}>
+				<Col sm={12} lg={4}>
 					<div className='contacts-wrapper'>
 						<p className='place-title'>Audumu noliktava</p>
 						<p className='place-text'>Rīga, А. Deglava iela 50, LV-1035</p>
 						<p className='place-text'>teika@eliza-k.lv</p>
 						<p className='place-text'>+371 29 112 49</p>
-					</div>
-				</Col>
-				<Col sm={12} lg={6}>
-					<div className='contacts-wrapper'>
-						<p className='place-title'>Realizācijas nodaļa</p>
-						<p className='place-text'>realizacija@eliza-k.lv</p>
-						<p className='place-text'>teika@eliza-k.lv</p>
-						<p className='place-text'>+371 67 549 424</p>
 					</div>
 				</Col>
 			</Row>

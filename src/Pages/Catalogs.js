@@ -11,30 +11,29 @@ import catalog_2018 from "../assets/Files/Catalogs/catalog_2018.pdf";
 import catalog_2019 from "../assets/Files/Catalogs/catalog_2019.pdf";
 import catalog_2021 from "../assets/Files/Catalogs/catalog_2021.pdf";
 
-function Catalogs(props) {
+function Catalog(props) {
 	return (
 		<Col sm={12} lg={4}>
-			<div className='collection-wraper'>
+			<div className='catalog-wraper'>
 				<a href={props.link} target='_blank' rel='noopener noreferrer'>
-					<img src={props.img} alt='' className="collection-image"></img>
+					<img src={props.img} alt='' className="catalog-image"></img>
 				</a>
-				<span className='collection-text'>{props.title}</span>
+				<span className='catalog-text'>{props.title}</span>
 			</div>
-		</Col>	
-
+		</Col>
 	);
 }
 
-export default function Production () {
+export default function Catalogs () {
 	return (		
 		<Container>
 			<Row>
 				<Col sm={12} >
-					<p className='production-type-title'>Kolekcija</p>
+					<p className='production-type-title'>Katalogi</p>
 				</Col>
-				<Catalogs link={catalog_2018} img={collection_2018} title="Katalogs 2018" />
-				<Catalogs link={catalog_2019} img={collection_2019} title="Katalogs 2019" />
-				<Catalogs link={catalog_2021} img={collection_2021} title="Katalogs 2021" />
+				<Catalog link={catalog_2018} img={collection_2018} title="Katalogs 2018" />
+				<Catalog link={catalog_2019} img={collection_2019} title="Katalogs 2019" />
+				<Catalog link={catalog_2021} img={collection_2021} title="Katalogs 2021" />
 			</Row>
 		</Container>
 	);
