@@ -55,9 +55,9 @@
 @media only screen and (max-width: 1000px) {
   .navbar {
     display: flex;
+    z-index: 289;
     /* position: absolute; */
     /* overflow: initial; */
-    /* z-index: 289; */
   }
 
   .nav-links {
