@@ -55,9 +55,9 @@
 @media only screen and (max-width: 1000px) {
   .navbar {
     display: flex;
-    position: absolute;
-    overflow: initial;
-    z-index: 289;
+    /* position: absolute; */
+    /* overflow: initial; */
+    /* z-index: 289; */
   }
 
   .nav-links {
@@ -210,7 +210,6 @@
 
 #header-content {
   display: flex;
-  flex: 1;
 }
 
 
