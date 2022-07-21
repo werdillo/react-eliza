@@ -54,35 +54,33 @@ export default function Gallery() {
   };
 
   return (
-    <>
-      <Container fluid>
-        <p className='production-type-title'>Galerija</p>
-        <Row>
-          {images.map((src, index) => (
-            <Col xs={6} md={4} lg={3}>
-              <div className='production-type-wrapper'>
-                <img
-                src={ src }
-                onClick={ () => openImageViewer(index) }
-                className="img-fluid"
-                key={ index }
-                alt=""
-                />
-              </div>
+    <Container fluid>
+      <p className='production-type-title'>Galerija</p>
+      <Row>
+        {images.map((src, index) => (
+          <Col xs={6} md={4} lg={3}>
+            <div className='production-type-wrapper'>
+              <img
+              src={ src }
+              onClick={ () => openImageViewer(index) }
+              className="img-fluid"
+              key={ index }
+              alt=""
+              />
+            </div>
 
-            </Col>
-          ))}
-        </Row>
-        {isViewerOpen && (
-            <ImageViewer
-              src={ images }
-              currentIndex={ currentImage }
-              disableScroll={ true }
-              closeOnClickOutside={ true }
-              onClose={ closeImageViewer }
-            />
-          )}
-      </Container>	   
-    </>
+          </Col>
+        ))}
+      </Row>
+      {isViewerOpen && (
+          <ImageViewer
+            src={ images }
+            currentIndex={ currentImage }
+            disableScroll={ true }
+            closeOnClickOutside={ true }
+            onClose={ closeImageViewer }
+          />
+        )}
+    </Container>	   
   );
 }

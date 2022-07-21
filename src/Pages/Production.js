@@ -26,20 +26,18 @@ function ProductionLink(props) {
 
 export default function Production() {
 	return (
-		<>
-			<Container fluid>
-				<Row>
-					<Col sm={12} >
-						<p className='production-type-title'>Mūsu produkcija</p>
-					</Col>
-					<ProductionLink img={sofa} link="sofa" text="Dīvāni" />
-					<ProductionLink img={sofa_beds} link="sofa_beds" text="Dīvāni-gultas" />
-					<ProductionLink img={beds} link="beds" text="Gultas" />
-					<ProductionLink img={tahtas} link="tahtas" text="Tahtas" />
-					<ProductionLink img={armchair} link="chairs" text="Krēsli" />
-					<ProductionLink img={puffs} link="puffs" text="Pufi un banketes" />
-				</Row>
-			</Container>
-		</>
+		<Container fluid>
+			<Row>
+				<Col sm={12} >
+					<p className='production-type-title'>Mūsu produkcija</p>
+				</Col>
+				<ProductionLink img={sofa} link="sofa" text="Dīvāni" />
+				<ProductionLink img={sofa_beds} link="sofa_beds" text="Dīvāni-gultas" />
+				<ProductionLink img={beds} link="beds" text="Gultas" />
+				<ProductionLink img={tahtas} link="tahtas" text="Tahtas" />
+				<ProductionLink img={armchair} link="chairs" text="Krēsli" />
+				<ProductionLink img={puffs} link="puffs" text="Pufi un banketes" />
+			</Row>
+		</Container>
 	);
 }

@@ -22,13 +22,11 @@ function ProductListItem(props) {
 
 export default function ProductList () {
 	return (
-		<>
-			<div className='grid-container'>
-				<ProductListItem link='/collection' img={Collection} text="Kolekcijas"/>
-				<ProductListItem link='/Production' img={Production} text="Produkcija"/>
-				<ProductListItem link='/Horeca' img={Hotel} text="Horeca"/>
-				<ProductListItem link='/Components' img={Mattresses} text="Komponenti"/>
-			</div>
-		</>
+		<div className='grid-container'>
+			<ProductListItem link='/collection' img={Collection} text="Kolekcijas"/>
+			<ProductListItem link='/Production' img={Production} text="Produkcija"/>
+			<ProductListItem link='/Horeca' img={Hotel} text="Horeca"/>
+			<ProductListItem link='/Components' img={Mattresses} text="Komponenti"/>
+		</div>
 	)
 }

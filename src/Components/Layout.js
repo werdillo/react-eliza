@@ -9,7 +9,7 @@ import Navbar from "./Navbar"
 export default function Layout() {
 	return (
 		<div id="container">
-			<header> 
+			<header id="header-content"> 
 				<Navbar />
 			</header> 
 			<main id="main-content">

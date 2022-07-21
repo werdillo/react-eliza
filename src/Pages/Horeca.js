@@ -26,7 +26,6 @@ function HorecaItem(props) {
 export default function Horeca() {
 	return (
 		<>
-			{/* <Header /> */}
 			<HorecaItem header="Viesnīcas" img={hotel} text="Mūsu uzņēmums nodarbojas ar augstākās kvalitātes mēbeļu izstrādi. Elīza mēbelēm piemīt ergonomika, ērtība, izturība, kā arī maksimāla atbilstība interjeram, kuram tās ir izveidotas."/>
 			<HorecaItem header="Restorāni" img={restaraunt} text="Konkrētam interjeram mēs palīdzēsim izvēlēties atbilstoša stila un materiāla mēbeles,
 				kas pēc formas, izmēra un tekstūras organiski iekļausies iestādes interjerā."/>			

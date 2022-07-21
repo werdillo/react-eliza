@@ -11,27 +11,25 @@ import 'swiper/modules/navigation/navigation.min.css'
 
 export default function SimpleSlider() {
   return (
-    <>
-      <Swiper 
-        loop={true}
-         centeredSlides={true}
+    <Swiper 
+      loop={true}
+        centeredSlides={true}
 
-         autoplay={{
-           delay: 10000,
-           disableOnInteraction: false,
-         }}
-         pagination={{
-           clickable: true,
-         }}
-         navigation={true}
-         modules={[Autoplay, Navigation]}
+        autoplay={{
+          delay: 10000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Navigation]}
 
-         >
-        <SwiperSlide><div className='slider-img1'></div></SwiperSlide>
-        <SwiperSlide><div className='slider-img2'></div></SwiperSlide>
-        <SwiperSlide><div className='slider-img3'></div></SwiperSlide>
-        <SwiperSlide><div className='slider-img4'></div></SwiperSlide>
-      </Swiper>
-    </>
+        >
+      <SwiperSlide><div className='slider-img1'></div></SwiperSlide>
+      <SwiperSlide><div className='slider-img2'></div></SwiperSlide>
+      <SwiperSlide><div className='slider-img3'></div></SwiperSlide>
+      <SwiperSlide><div className='slider-img4'></div></SwiperSlide>
+    </Swiper>
   );
 }
