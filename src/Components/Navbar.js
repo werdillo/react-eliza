@@ -16,9 +16,14 @@ const Navbar = () => {
 		setOpen(false);
 	};
 
+	const NavItem = (props) => {
+		return(
+			<li className="nav-item">
+				<NavLink to={props.link} onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>{props.title}</NavLink>
+			</li>
+		)
+	};
 	
-	// const setActive = ({ isActive }) => isActive ? 'active-link' : '';
-
 	return (
 		<nav className="navbar fixed-top">
 			<NavLink to="/" className="nav-logo" onClick={closeMenu}>
@@ -28,27 +33,16 @@ const Navbar = () => {
 				{open ? <FiX /> : <FiMenu />}
 			</div>
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
-				<li className="nav-item">
-					<NavLink to='/Production' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Produkcija</NavLink>
-				</li>
-				<li className="nav-item">
-					<NavLink to='/Components' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Mēbeļu komponenti</NavLink>
-				</li>
-				<li className="nav-item">
-					<NavLink to='/Horeca' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>HoReCa</NavLink>
-				</li>
-				<li className="nav-item">
-					<NavLink to='/Catalogs' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Katalogi</NavLink>
-				</li>
-				<li className="nav-item">
-					<NavLink to='/gallery' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Galerija</NavLink>
-				</li>
-				<li className="nav-item">
-					<NavLink to='/contacts' onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : 'grey' })}>Kontakti</NavLink>
-				</li>
+				<NavItem link='/Production' title='Produkcija' />
+				<NavItem link='/collection' title='Kolekcija' />
+				<NavItem link='/Components' title='Mēbeļu komponenti' />
+				<NavItem link='/Horeca' title='HoReCa' />
+				<NavItem link='/Catalogs' title='Katalogi' />
+				<NavItem link='/gallery' title='Galerija' />
+				<NavItem link='/about-us' title='Par mums' />
+				<NavItem link='/contacts' title='Kontakti' />
 			</ul>
 		</nav>
 	);
 };
-
 export default Navbar;

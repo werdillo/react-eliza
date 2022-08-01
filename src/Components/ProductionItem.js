@@ -1,10 +1,11 @@
 import React from 'react';
 import '../App.css';
-import 'bootstrap/dist/css/bootstrap.css'
-import { Row, Col, Container } from 'react-bootstrap';
 import size from "../assets/images/production/size.png";
 import cleaning from "../assets/images/production/cleaning.png";
 import cleaningFile from "../assets/Files/Products/cleaning.pdf";
+
+import 'bootstrap/dist/css/bootstrap.css'
+import { Row, Col, Container } from 'react-bootstrap';
 
 // swiper
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
@@ -38,24 +39,24 @@ export default function ProductionItem(props) {
 					);
 				})}				
 			</Swiper>
-			<Container>				
+			
+			<Container>
 				<Row>
 					<Col sm={12} lg={12}>
-			<p className='item-title'>{props.title}</p>
-			<p className='item-text'>{props.description}</p>
-			{/* <p className='item-header'>Apraksts</p> */}
-			<div className='item-specs-block'>
-				{/* return spec */}
-				{props.specs.map((spec) =>{
-					return (
-						<div className='item-spec'>
-							<span className='item-text-bold'>{spec.title}</span>
-							<span className='item-text-bold'> - </span>
-							<span className='item-text'>{spec.content}</span>
-							<br></br>
-						</div >
-					);
-				})}				
+						<p className='item-title'>{props.title}</p>
+						<p className='item-text'>{props.description}</p>
+						<div className='item-specs-block'>
+							{/* return spec */}
+							{props.specs.map((spec) =>{
+								return (
+									<div className='item-spec'>
+										<span className='item-text-bold'>{spec.title}</span>
+										<span className='item-text-bold'> - </span>
+										<span className='item-text'>{spec.content}</span>
+										<br></br>
+									</div >
+								);
+							})}				
 						</div>
 						{props.file ?
 							<a href={props.file} target='_blank' rel='noopener noreferrer'>
@@ -66,8 +67,7 @@ export default function ProductionItem(props) {
 						<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
 							<img src={cleaning} alt="" className="item-document-link" />
 						</a>
-	
-					</Col>	
+					</Col>
 				</Row>
 			</Container>
 		</>

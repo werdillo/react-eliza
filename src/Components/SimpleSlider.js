@@ -7,6 +7,10 @@ import { Navigation, Autoplay } from "swiper";
 import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 import 'swiper/modules/navigation/navigation.min.css'
+import pic1 from '../assets/images/slider/Pic1.jpg'
+import pic2 from '../assets/images/slider/Pic2.jpg'
+import pic3 from '../assets/images/slider/Pic3.jpg'
+import pic4 from '../assets/images/slider/Pic4.jpg'
 // import required modules
 
 export default function SimpleSlider() {
@@ -24,12 +28,15 @@ export default function SimpleSlider() {
         }}
         navigation={true}
         modules={[Autoplay, Navigation]}
-
         >
-      <SwiperSlide><div className='slider-img1'></div></SwiperSlide>
+      <SwiperSlide><img src={pic1} className='slider-img'></img></SwiperSlide>
+      <SwiperSlide><img src={pic2} className='slider-img'></img></SwiperSlide>
+      <SwiperSlide><img src={pic3} className='slider-img'></img></SwiperSlide>
+      <SwiperSlide><img src={pic4} className='slider-img'></img></SwiperSlide>
+      {/* <SwiperSlide><div className='slider-img1'></div></SwiperSlide>
       <SwiperSlide><div className='slider-img2'></div></SwiperSlide>
       <SwiperSlide><div className='slider-img3'></div></SwiperSlide>
-      <SwiperSlide><div className='slider-img4'></div></SwiperSlide>
+      <SwiperSlide><div className='slider-img4'></div></SwiperSlide> */}
     </Swiper>
   );
 }
