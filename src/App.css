@@ -31,7 +31,7 @@
   justify-items: center;
   display: grid;
   grid-template-columns: repeat(8, auto);
-  grid-gap: 30px;
+  grid-gap: 20px;
   list-style: none;
 }
 
