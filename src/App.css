@@ -15,7 +15,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  font-size: 1.2rem;
+  font-size: 14px;
 }
 
 .nav-logo {
@@ -171,6 +171,7 @@
 } */
 
 .footer-text {
+  font-weight: 500;
   padding: 0;
   margin: 0;
   color: #ffffff;
