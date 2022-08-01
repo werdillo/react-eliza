@@ -41,21 +41,21 @@ export default function ProductionItem(props) {
 			<Container>				
 				<Row>
 					<Col sm={12} lg={12}>
-						<p className='item-title'>{props.title}</p>
-						<p className='item-text'>{props.description}</p>
-						{/* <p className='item-header'>Apraksts</p> */}
-						<div className='item-specs-block'>
-							{/* return spec */}
-							{props.specs.map((spec) =>{
-								return (
-									<div className='item-spec'>
-										<span className='item-text-bold'>{spec.title}</span>
-										<span className='item-text-bold'> - </span>
-										<span className='item-text'>{spec.content}</span>
-										<br></br>
-									</div >
-								);
-							})}				
+			<p className='item-title'>{props.title}</p>
+			<p className='item-text'>{props.description}</p>
+			{/* <p className='item-header'>Apraksts</p> */}
+			<div className='item-specs-block'>
+				{/* return spec */}
+				{props.specs.map((spec) =>{
+					return (
+						<div className='item-spec'>
+							<span className='item-text-bold'>{spec.title}</span>
+							<span className='item-text-bold'> - </span>
+							<span className='item-text'>{spec.content}</span>
+							<br></br>
+						</div >
+					);
+				})}				
 						</div>
 						{props.file ?
 							<a href={props.file} target='_blank' rel='noopener noreferrer'>
