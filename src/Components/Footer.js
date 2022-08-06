@@ -20,8 +20,8 @@ import IfAward2020 from "../assets/images/footer/IfAward2020.svg";
 
 export default function Footer() {
 	return (
-		<Container fluid className='footer-container'>
-			<Row>
+		<Container fluid>
+			<Row className='footer-container'>
 				<Col sm={12} lg={1}>
 					<div className='footer-left'>
 						<div className='footer-left-wrapper'>
@@ -48,10 +48,10 @@ export default function Footer() {
 					</div>
 				</Col>
 				{/* Eliza-K year */}
-				<div className='footer-year-box'>
-					<p className='footer-year'>© {(new Date().getFullYear())} A/S Eliza-K</p>
-				</div>
 			</Row>
+			<div className='footer-year-box'>
+				<p className='footer-year'>© {(new Date().getFullYear())} A/S Eliza-K</p>
+			</div>
 		</Container>
 	);
 }
