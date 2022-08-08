@@ -1,6 +1,5 @@
 
 
-
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
 /* ------------------------ Navbar ----------------------- */
@@ -531,9 +530,10 @@
 
 .product-list-img {
   width: 100%;
-  height: auto;
-  opacity: 0.8; 
-  filter: grayscale(.3)
+  height: 80vh;
+  opacity: 0.85; 
+  filter: grayscale(.3);
+  object-fit: cover;
 }
 
 .product-list-img:hover {
@@ -543,12 +543,16 @@
   filter: grayscale(.5 )
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .grid-container { 
     grid-template-columns: auto;
   }
   .production-list-text {
     font-size: 32px;
+  }
+  .product-list-img {
+    width: 100%;
+    height: auto;
   }
 }
 

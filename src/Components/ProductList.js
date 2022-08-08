@@ -17,7 +17,7 @@ function ProductListItem(props) {
 			<div className='grid-item'>
 				<div className='production-list-wrapper'>
 					<img className='product-list-img' alt='' src={props.img}></img>
-					<div className="production-list-text">{props.text}</div>
+					<span className="production-list-text">{props.text}</span>
 				</div>
 			</div>
 		</Link>

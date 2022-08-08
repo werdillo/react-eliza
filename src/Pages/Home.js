@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css';
 // components
 import SimpleSlider from "../Components/SimpleSlider";
-import Awards from "../Components/Awards";
 import Map from "../Components/Map";
 import ProductList from "../Components/ProductList";
 import TextBlock from "../Components/TextBlock";
@@ -17,7 +16,7 @@ export default function Home() {
 			{/* <TextBlock header="Individuāla pieeja" text="Piedāvājam saviem pircējiem iespēju veikt nestandarta pasūtījumus. Šādu pasūtījumu veikšanas termiņš ir 1 - 2 mēneši." /> */}
 			{/* <MiniSlider /> */}
 			{/* <Map /> */}
-			<Awards />
+			<p className='awards-text'>“Eliza” mēbeļu modeļi jau vairākus gadus tiek nominēti prēmijai “German Design Award” un “Interior Innovation Award” Vācijā. Tas liecina, ka kompānijas “Eliza” produkcija ir stilīga, ekskluzīva un neatkārtojama.</p>
 		</>
 	)
 }

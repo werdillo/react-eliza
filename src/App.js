@@ -29,7 +29,7 @@ import NotFound from './Pages/NotFound';
 import AboutUs from './Pages/AboutUs';
 import Collection from './Pages/Collection';
 
-import {Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 
 function App() {
@@ -43,23 +43,39 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/Catalogs" element={<Catalogs />} />
+          <Route path="/about-us" element={<AboutUs />} />
+
+          <Route path="/collection" element={<Collection />} />
+          <Route path="/collection/eliza" element={<Collection />} />
+          <Route path="/collection/bebold" element={<Collection />} />
+          <Route path="/collection/sophisticated-living" element={<Collection />} />
 
           <Route path="/Production" element={<Production /> } />
+
           <Route path="/Production/sofa/" element={<ProductionSofa />} />
-          <Route path="/Production/sofa/details/*" element={<SofaDetails /> } />     
+          <Route path="/Production/sofa/details/*" element={<SofaDetails /> } />
+          <Route path="/Production/sofa/details/" element={<Navigate to="/Production/sofa" replace />} />
+
           <Route path="/Production/chairs" element={<ProductionChairs />} />
-          <Route path="/Production/chairs/details/*" element={<ChairsDetails />} />     
+          <Route path="/Production/chairs/details/*" element={<ChairsDetails />} />  
+          <Route path="/Production/chairs/details/" element={<Navigate to="/Production/chairs" replace />} />
+
           <Route path="/Production/beds" element={<ProductionBeds /> }/>   
           <Route path="/Production/beds/details/*" element={<BedsDetails />} />
+          <Route path="/Production/beds/details/" element={<Navigate to="/Production/tahtas" replace />} />
+
           <Route path="/Production/tahtas" element={<ProductionTahtas />} />
           <Route path="/Production/tahtas/details/*" element={<TahtasDetails />} />
+          <Route path="/Production/tahtas/details/" element={<Navigate to="/Production/tahtas" replace />} />
+
           <Route path="/Production/sofa_beds" element={<ProductionSofaBeds /> }/>
           <Route path="/Production/sofa_beds/details/*" element={<SofaBedsDetails /> }/>
+          <Route path="/Production/sofa_beds/details/" element={<Navigate to="/Production/sofa_beds" replace />} />
+
           <Route path="/Production/puffs" element={<ProductionPufs />}/>
           <Route path="/Production/puffs/details/*" element={<PuffsDetails />} />
+          <Route path="/Production/puffs/details/" element={<Navigate to="/Production/puffs" replace />} />
 
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/collection" element={<Collection />} />
 
 
 
