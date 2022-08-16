@@ -708,6 +708,9 @@
 a:link {
   text-decoration: none;
 }
+a:visited {
+  text-decoration: none;
+}
 
 .product-main-text {
   margin-top: 5px;
@@ -728,6 +731,17 @@ a:link {
 /*---------------------- Collection ----------------------*/
 /* ------------------------------------------------------ */
 /* ------------------------------------------------------ */
+
+.collection-type-title {
+  font-family: 'Avenir', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+
 .collection-wrapper {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -744,6 +758,46 @@ a:link {
   /* width: 33.3%; */
 }
 
+.filter-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-left: 50px; */
+
+}
+
+.filter-link {
+  border: #333333 solid 1px;
+  color: #000;
+  display: block;
+  background: #ffffff;
+  width: 120px;
+  padding: 3px 0;
+  text-align: center;
+  padding: auto 0;
+  text-decoration: none;
+  transition: 250ms;
+  font-size: 18px;
+  border-radius: 1px;
+}
+
+
+.filter-link:hover {
+  background: #333333;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+  .filter-link {
+    width: 80px;
+    padding: 2px 0;
+    font-size: 12px;
+  }
+}
 /* ------------------------------------------------------ */
 /* ------------------------------------------------------ */
 /*----------------------- Catalogue ----------------------*/

@@ -1,19 +1,9 @@
 import React from 'react';
 import '../App.css';
-import ProductList from "../Components/ProductList";
-import TextBlock from "../Components/TextBlock";
-import MiniSlider from "../Components/MiniSlider";
-
-import 'bootstrap/dist/css/bootstrap.css'
-import { Row, Col, Container } from 'react-bootstrap';
-
-
 import Map from "../assets/images/AboutUs/Map.png";
 import Scene1 from "../assets/images/AboutUs/Scene1.png";
 import Scene2 from "../assets/images/AboutUs/Scene2.png";
 import Scene3 from "../assets/images/AboutUs/Scene3.png";
-
-
 
 
 function AboutUsItem(props) {

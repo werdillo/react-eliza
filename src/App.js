@@ -4,10 +4,16 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Home from "./Pages/Home";
 import Layout from './Components/Layout';
 // Production root page
-import Production from './Pages/Production';
 import Contacts from './Pages/Contacts';
 import Gallery from './Pages/Gallery';
+import Catalogs from './Pages/Catalogs';
+import Horeca from './Pages/Horeca';
+import FurnitureComponents from './Pages/FurnitureComponents';
+import NotFound from './Pages/NotFound';
+import AboutUs from './Pages/AboutUs';
 // Production-types pages
+import Production from './Pages/Production';
+
 import ProductionSofa from './Pages/Production-types/Production_sofa';
 import SofaDetails from './Pages/Production-types/SofaDetails';
 import ProductionChairs from './Pages/Production-types/Production_chairs';
@@ -21,13 +27,11 @@ import SofaBedsDetails from './Pages/Production-types/SofaBedsDetails';
 import ProductionPufs from './Pages/Production-types/Production_puffs';
 import PuffsDetails from './Pages/Production-types/PuffsDetails';
 
-// Production-types
-import Catalogs from './Pages/Catalogs';
-import Horeca from './Pages/Horeca';
-import FurnitureComponents from './Pages/FurnitureComponents';
-import NotFound from './Pages/NotFound';
-import AboutUs from './Pages/AboutUs';
+// Collection-types
 import Collection from './Pages/Collection';
+import Eliza from './Pages/Collections/Eliza';
+import Bebold from './Pages/Collections/Bebold';
+import SophisticatedLiving from './Pages/Collections/SophisticatedLiving';
 
 import { Routes, Route, Navigate } from "react-router-dom";
 
@@ -46,9 +50,13 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
 
           <Route path="/collection" element={<Collection />} />
-          <Route path="/collection/eliza" element={<Collection />} />
-          <Route path="/collection/bebold" element={<Collection />} />
-          <Route path="/collection/sophisticated-living" element={<Collection />} />
+          <Route path="/collection/eliza/*" element={<Eliza />} />
+          <Route path="/collection/eliza/" element={<Navigate to="/collection/eliza/products" replace />} />
+          <Route path="/collection/bebold/*" element={<Bebold />} />
+          {/* <Route path="/collection/bebold/" element={<Navigate to="/collection/bebold/products" replace />} /> */}
+          <Route path="/collection/sophisticated-living/*" element={<SophisticatedLiving />} />
+          <Route path="/collection/sophisticated-living/" element={<Navigate to="/collection/sophisticated-living/products" replace />} />
+
 
           <Route path="/Production" element={<Production /> } />
 
@@ -75,8 +83,6 @@ function App() {
           <Route path="/Production/puffs" element={<ProductionPufs />}/>
           <Route path="/Production/puffs/details/*" element={<PuffsDetails />} />
           <Route path="/Production/puffs/details/" element={<Navigate to="/Production/puffs" replace />} />
-
-
 
 
           <Route path="*" element={<NotFound /> }/>

@@ -3,7 +3,6 @@ import '../App.css';
 // components
 import SimpleSlider from "../Components/SimpleSlider";
 import Map from "../Components/Map";
-import ProductList from "../Components/ProductList";
 import TextBlock from "../Components/TextBlock";
 import MiniSlider from "../Components/MiniSlider";
 
