@@ -160,7 +160,7 @@
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 5px;
   align-content: flex-start;
 }
 
