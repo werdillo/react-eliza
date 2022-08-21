@@ -12,14 +12,14 @@ export default function FurnitureComponents() {
 			<Row>
 				<Col sm={12} lg={6}>
 					<div className='furniture-components-box'>
-						<img className='horeca-img' alt='' src={porolon}></img>				
+						<img className='horeca-img' alt='' loading='lazy'  src={porolon}></img>				
 						<p className='furniture-components-header'>Porolons</p>
 						<p className='furniture-components-text'>Mēs ražojam izstrādājumus no porolona. </p>
 					</div>
 				</Col>
 				<Col sm={12} lg={6}>
 					<div className='furniture-components-box'>
-						<img className='horeca-img' alt='' src={textile}></img>				
+						<img className='horeca-img' alt='' loading='lazy'  src={textile}></img>				
 						<p className='furniture-components-header'>Audumi</p>
 						<p className='furniture-components-text'>Piedāvājam lielu audumu un materiālu izvēli mīkstajām mēbelēm.</p>
 					</div>

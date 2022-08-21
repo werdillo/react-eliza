@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import Home from "./Pages/Home";
 import Layout from './Components/Layout';
-// Production root page
+import { Routes, Route, Navigate } from "react-router-dom";
+
+import Home from "./Pages/Home";
 import Contacts from './Pages/Contacts';
 import Gallery from './Pages/Gallery';
 import Catalogs from './Pages/Catalogs';
@@ -11,6 +12,7 @@ import Horeca from './Pages/Horeca';
 import FurnitureComponents from './Pages/FurnitureComponents';
 import NotFound from './Pages/NotFound';
 import AboutUs from './Pages/AboutUs';
+import ComingSoon from './Pages/ComingSoon';
 // Production-types pages
 import Production from './Pages/Production';
 
@@ -32,7 +34,6 @@ import Collection from './Pages/Collection';
 import Eliza from './Pages/Collections/Eliza';
 import SophisticatedLiving from './Pages/Collections/SophisticatedLiving';
 
-import { Routes, Route, Navigate } from "react-router-dom";
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/Catalogs" element={<Catalogs />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/coming-soon" element={<ComingSoon />} />
 
           <Route path="/collection" element={<Collection />} />
           <Route path="/collection/eliza/*" element={<Eliza />} />

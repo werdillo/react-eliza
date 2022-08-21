@@ -47,6 +47,7 @@ export default function Gallery() {
               className="img-fluid"
               key={ index }
               alt=""
+              loading='lazy'
               />
             </div>
 

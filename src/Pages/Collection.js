@@ -10,7 +10,7 @@ function ProductListItem(props) {
 		<Link to={props.link}>
 			<div className='grid-item'>
 				<div className='product-list-wrapper'>
-					<img className='product-list-img' alt='' src={props.img}></img>
+					<img className='product-list-img' alt='' loading='lazy' src={props.img}></img>
 					<span className="production-list-text">{props.text}</span>
 				</div>
 			</div>
@@ -21,9 +21,9 @@ function ProductListItem(props) {
 export default function Collection() {
 	return (
 		<div className='grid-container'>
-			<ProductListItem link='/collection/sophisticated-living' img={Pic2} text="Sophisticated Living" />
-			<ProductListItem link='/collection/sophisticated-living' img={Pic3} text="BBold " />
-			<ProductListItem link='/collection/eliza' img={Pic1} text="Eliza" />
+			<ProductListItem link='/coming-soon' img={Pic2} text="Sophisticated Living" />
+			<ProductListItem link='/coming-soon' img={Pic3} text="BBold " />
+			<ProductListItem link='/coming-soon' img={Pic1} text="Eliza" />
 		</div>
 	)
 }
