@@ -33,7 +33,7 @@ const Navbar = () => {
 				{open ? <FiX /> : <FiMenu />}
 			</div>
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
-				<NavItem link='/Production' title='Produkcija' />
+				{/* <NavItem link='/Production' title='Produkcija' /> */}
 				<NavItem link='/collection' title='Kolekcija' />
 				<NavItem link='/Components' title='Mēbeļu komponenti' />
 				<NavItem link='/Horeca' title='HoReCa' />

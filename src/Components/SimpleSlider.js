@@ -33,10 +33,6 @@ export default function SimpleSlider() {
       <SwiperSlide><img src={pic2} className='slider-img'></img></SwiperSlide>
       <SwiperSlide><img src={pic3} className='slider-img'></img></SwiperSlide>
       <SwiperSlide><img src={pic4} className='slider-img'></img></SwiperSlide>
-      {/* <SwiperSlide><div className='slider-img1'></div></SwiperSlide>
-      <SwiperSlide><div className='slider-img2'></div></SwiperSlide>
-      <SwiperSlide><div className='slider-img3'></div></SwiperSlide>
-      <SwiperSlide><div className='slider-img4'></div></SwiperSlide> */}
     </Swiper>
   );
 }

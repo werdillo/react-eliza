@@ -30,7 +30,6 @@ import PuffsDetails from './Pages/Production-types/PuffsDetails';
 // Collection-types
 import Collection from './Pages/Collection';
 import Eliza from './Pages/Collections/Eliza';
-import Bebold from './Pages/Collections/Bebold';
 import SophisticatedLiving from './Pages/Collections/SophisticatedLiving';
 
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -52,7 +51,6 @@ function App() {
           <Route path="/collection" element={<Collection />} />
           <Route path="/collection/eliza/*" element={<Eliza />} />
           <Route path="/collection/eliza/" element={<Navigate to="/collection/eliza/products" replace />} />
-          <Route path="/collection/bebold/*" element={<Bebold />} />
           {/* <Route path="/collection/bebold/" element={<Navigate to="/collection/bebold/products" replace />} /> */}
           <Route path="/collection/sophisticated-living/*" element={<SophisticatedLiving />} />
           <Route path="/collection/sophisticated-living/" element={<Navigate to="/collection/sophisticated-living/products" replace />} />

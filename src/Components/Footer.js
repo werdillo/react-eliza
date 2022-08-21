@@ -22,7 +22,7 @@ export default function Footer() {
 	return (
 		<Container fluid>
 			<Row className='footer-container'>
-				<Col sm={12} lg={1}>
+				<Col sm={12} lg={2}>
 					<div className='footer-left'>
 						<div className='footer-left-wrapper'>
 							<img src={logo} alt="" className='footer-logo'></img>
@@ -34,15 +34,15 @@ export default function Footer() {
 						</div>
 					</div>
 				</Col>
-				<Col sm={12} lg={11}>
+				<Col sm={12} lg={10}>
 					<div className='footer-awards'>
 						<img src={InteriorAwards2015} alt="" className='footer-img'></img>
 						<img src={DesignAwards2016} alt="" className='footer-img'></img>
 						<img src={IconicAwards2018} alt="" className='footer-img'></img>
 						<img src={Special2017} alt="" className='footer-img'></img>
 						<img src={Winner2018} alt="" className='footer-img'></img>
-						<img src={IfAward2018} alt="" className='footer-img'></img>
 						<img src={Winner2020} alt="" className='footer-img'></img>
+						<img src={IfAward2018} alt="" className='footer-img'></img>
 						<img src={IfAward2020} alt="" className='footer-img'></img>
 						<img src={InnovationAward} alt="" className='footer-img'></img>
 					</div>

@@ -30,8 +30,8 @@ export default function Contacts() {
 					<div className='contacts-wrapper'>
 						<p className='place-title'>Audumu noliktava</p>
 						<p className='place-text'>Rīga, А. Deglava iela 50, LV-1035</p>
-						<p className='place-text'>teika@eliza-k.lv</p>
-						<p className='place-text'>+371 29 112 49</p>
+						<p className='place-text'>audumi@eliza-k.lv</p>
+						<p className='place-text'>+371 26 599 422</p>
 					</div>
 				</Col>
 			</Row>
