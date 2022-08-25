@@ -48,10 +48,9 @@ export default function Gallery() {
               <img 
               src={ src }
               onClick={ () => openImageViewer(index) }
-              className="img-fluid lozad"
+              className="lozad img-fluid"
               key={ index }
               alt=""
-              loading='lazy'
               />
             </div>
 
