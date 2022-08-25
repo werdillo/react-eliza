@@ -7,6 +7,10 @@ import hotel from "../assets/images/hoReCa/Ho.png";
 import Cafe from "../assets/images/hoReCa/Ca.png";
 import restaraunt from "../assets/images/hoReCa/Re.png";
 
+import 'lazysizes';
+// import a plugin
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
+
 function HorecaItem(props) {
 	return (
 		<>
@@ -18,7 +22,7 @@ function HorecaItem(props) {
 					</Col>
 				</Row>
 			</Container>            
-			<img className='horeca-img' rel='' alt='' loading="lazy" src={props.img}></img>
+			<img className='horeca-img lazyload' rel='' alt='' src={props.img}></img>
 		</>
 	)
 }
