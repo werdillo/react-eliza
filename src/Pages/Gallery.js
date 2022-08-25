@@ -48,7 +48,7 @@ export default function Gallery() {
               <LazyLoadImage 
               src={ src }
               onClick={ () => openImageViewer(index) }
-              className="lazyload img-fluid"
+              className="img-fluid"
               key={ index }
               alt=""
                 effect='blur'
