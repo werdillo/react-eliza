@@ -3,9 +3,9 @@ import ImageViewer from 'react-simple-image-viewer';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import '../App.css';
-import 'lazysizes';
-// import a plugin
-import 'lazysizes/plugins/parent-fit/ls.parent-fit';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 export default function Gallery() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -45,12 +45,13 @@ export default function Gallery() {
         {images.map((src, index) => (
           <Col xs={6} md={4} lg={3}>
             <div className='production-type-wrapper'>
-              <img 
+              <LazyLoadImage 
               src={ src }
               onClick={ () => openImageViewer(index) }
               className="lazyload img-fluid"
               key={ index }
               alt=""
+                effect='blur'
               />
             </div>
 

@@ -1,8 +1,9 @@
-import React, { Suspense} from 'react';
+import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
-import ClipLoader from "react-spinners/ClipLoader";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import hotel from "../assets/images/hoReCa/Ho.png";
 import Cafe from "../assets/images/hoReCa/Ca.png";
@@ -19,9 +20,8 @@ function HorecaItem(props) {
 					</Col>
 				</Row>
 			</Container>
-			<Suspense fallback={<div>loading</div>}>
-				<img className='horeca-img' rel='' alt='' src={props.img}></img>
-			</Suspense>
+			
+			<LazyLoadImage className='horeca-img' placeholder={<div className='horeca-placeholder'></div>} rel='' alt='' src={props.img} />
 		</>
 	)
 }

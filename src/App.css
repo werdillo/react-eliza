@@ -849,9 +849,15 @@ a:visited {
   margin-bottom: 45px;
 }
 
-.horeca-img {
+.horeca-placeholder {
+  height: 100px;
   width: 100%;
-  height: auto;
+  background-color: #5A5A5A;
+}
+
+.horeca-img {
+  width: 100% !important;
+  height: auto !important;
   /* margin-bottom: 20px; */
 }
 
