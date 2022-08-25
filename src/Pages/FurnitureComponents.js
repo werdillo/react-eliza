@@ -18,14 +18,14 @@ export default function FurnitureComponents() {
 			<Row>
 				<Col sm={12} lg={6}>
 					<div className='furniture-components-box'>
-						<LazyLoadImage className='horeca-img' alt='' loading='lazy' src={porolon} placeholder={<ClipLoader />} />			
+						<LazyLoadImage className='furniture-components-img' alt='' src={porolon} placeholder={<ClipLoader />} />			
 						<p className='furniture-components-header'>Porolons</p>
 						<p className='furniture-components-text'>Mēs ražojam izstrādājumus no porolona. </p>
 					</div>
 				</Col>
 				<Col sm={12} lg={6}>
 					<div className='furniture-components-box'>
-						<LazyLoadImage className='horeca-img' alt='' loading='lazy' src={textile} placeholder={<ClipLoader />} />			
+						<LazyLoadImage className='furniture-components-img' alt='' src={textile} placeholder={<ClipLoader />} />			
 						<p className='furniture-components-header'>Audumi</p>
 						<p className='furniture-components-text'>Piedāvājam lielu audumu un materiālu izvēli mīkstajām mēbelēm.</p>
 					</div>

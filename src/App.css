@@ -480,7 +480,6 @@
 .product-list-img {
   width: 100%;
   height: 80vh;
-  min-height: 200px;
   opacity: 0.85; 
   filter: grayscale(.3);
   object-fit: cover;
@@ -502,6 +501,7 @@
   }
   .product-list-img {
     width: 100%;
+    min-height: 200px;
     height: auto;
   }
 }
@@ -935,6 +935,8 @@ a:visited {
 .furniture-components-img {
   width: 100%;
   height: auto;
+  min-height: 200px;
+  background-color: #f0f0f0;
 }
 
 .furniture-components-container{
