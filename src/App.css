@@ -977,6 +977,7 @@ a:visited {
 
 .img-fluid {
   width: 100%;
-  height: auto;
+  height: 480px;
+  object-fit: cover;
 }
 
