@@ -3,6 +3,7 @@ import ImageViewer from 'react-simple-image-viewer';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import '../App.css';
+import lozad from 'lozad'
 
 export default function Gallery() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -34,6 +35,9 @@ export default function Gallery() {
     setIsViewerOpen(false);
   };
 
+  const observer = lozad();
+  observer.observe();
+
   return (
     <Container fluid>
       <p className='production-type-title'>Galerija</p>
@@ -41,10 +45,10 @@ export default function Gallery() {
         {images.map((src, index) => (
           <Col xs={6} md={4} lg={3}>
             <div className='production-type-wrapper'>
-              <img
+              <img 
               src={ src }
               onClick={ () => openImageViewer(index) }
-              className="img-fluid"
+              className="img-fluid lozad"
               key={ index }
               alt=""
               loading='lazy'
