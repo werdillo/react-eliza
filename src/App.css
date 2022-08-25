@@ -480,6 +480,7 @@
 .product-list-img {
   width: 100%;
   height: 80vh;
+  min-height: 200px;
   opacity: 0.85; 
   filter: grayscale(.3);
   object-fit: cover;
