@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import hotel from "../assets/images/hoReCa/Ho.png";
 import Cafe from "../assets/images/hoReCa/Ca.png";
@@ -19,7 +21,7 @@ function HorecaItem(props) {
 				</Row>
 			</Container>
 			
-			<img className='horeca-img' rel='' alt='' src={props.img} />
+			<LazyLoadImage className='horeca-img' rel='' alt='' src={props.img} />
 		</>
 	)
 }
