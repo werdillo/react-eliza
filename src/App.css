@@ -790,6 +790,8 @@ a:visited {
 
 .catalog-image {
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+  min-height: 355px;
+  background-color: #f0f0f0;;
   height: 355px;
   display: flex;
   width: auto;
@@ -820,12 +822,16 @@ a:visited {
 @media screen and (max-width: 1500px) {
   .catalog-image { 
     height: 305px;
+    min-height: 305px;
+
   }
 }
 
 @media screen and (max-width: 1200px) {
   .catalog-image { 
     height: 260px;
+    min-height: 260px;
+
   }
 }
 
