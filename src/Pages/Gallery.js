@@ -61,6 +61,7 @@ export default function Gallery() {
             disableScroll={ true }
             closeOnClickOutside={ true }
             onClose={ closeImageViewer }
+            loading="lazy"
           />
         )}
     </Container>	   

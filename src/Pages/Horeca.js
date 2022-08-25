@@ -17,8 +17,8 @@ function HorecaItem(props) {
 						<p className='horeca-text'>{props.text}</p>
 					</Col>
 				</Row>
-			</Container>
-			<img className='horeca-img' rel='' alt='' src={props.img}></img>
+			</Container>            
+			<img className='horeca-img' rel='' alt='' loading="lazy" src={props.img}></img>
 		</>
 	)
 }
