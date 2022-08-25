@@ -10,7 +10,7 @@ function ProductListItem(props) {
 		<Link to={props.link}>
 			<div className='grid-item'>
 				<div className='product-list-wrapper'>
-					<img className='product-list-img' alt='' loading='lazy' src={props.img}></img>
+					<img className='product-list-img' alt='' src={props.img}></img>
 					<span className="production-list-text">{props.text}</span>
 				</div>
 			</div>
