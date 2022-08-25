@@ -1,15 +1,12 @@
-import React from 'react';
+import React, { Suspense} from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
+import ClipLoader from "react-spinners/ClipLoader";
 
 import hotel from "../assets/images/hoReCa/Ho.png";
 import Cafe from "../assets/images/hoReCa/Ca.png";
 import restaraunt from "../assets/images/hoReCa/Re.png";
-
-import 'lazysizes';
-// import a plugin
-import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 function HorecaItem(props) {
 	return (
@@ -21,8 +18,10 @@ function HorecaItem(props) {
 						<p className='horeca-text'>{props.text}</p>
 					</Col>
 				</Row>
-			</Container>            
-			<img className='horeca-img lazyload' rel='' alt='' src={props.img}></img>
+			</Container>
+			<Suspense fallback={<div>loading</div>}>
+				<img className='horeca-img' rel='' alt='' src={props.img}></img>
+			</Suspense>
 		</>
 	)
 }
