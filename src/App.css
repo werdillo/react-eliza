@@ -863,6 +863,8 @@ a:visited {
 .horeca-img {
   width: 100% !important;
   height: auto !important;
+  min-height: 150px;
+  background-color: #5A5A5A;
   /* margin-bottom: 20px; */
 }
 
