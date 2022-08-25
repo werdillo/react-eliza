@@ -29,10 +29,10 @@ export default function SimpleSlider() {
         navigation={true}
         modules={[Autoplay, Navigation]}
         >
-      <SwiperSlide><img src={pic1} className='slider-img'></img></SwiperSlide>
-      <SwiperSlide><img src={pic2} className='slider-img'></img></SwiperSlide>
-      <SwiperSlide><img src={pic3} className='slider-img'></img></SwiperSlide>
-      <SwiperSlide><img src={pic4} className='slider-img'></img></SwiperSlide>
+      <SwiperSlide><img src={pic1} alt='' className='slider-img'></img></SwiperSlide>
+      <SwiperSlide><img src={pic2} alt='' className='slider-img'></img></SwiperSlide>
+      <SwiperSlide><img src={pic3} alt='' className='slider-img'></img></SwiperSlide>
+      <SwiperSlide><img src={pic4} alt='' className='slider-img'></img></SwiperSlide>
     </Swiper>
   );
 }

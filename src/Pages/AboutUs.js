@@ -17,7 +17,7 @@ function AboutUsItem(props) {
 export default function AboutUs() {
 	return (
 		<>
-			<AboutUsItem img={Scene1} text="Mēs veiksmīgi un dinamiski attīstamies jau vairāk nekā 25 gadus." />
+			<img src={Scene1} alt='' className='map-image'></img>
 			<AboutUsItem img={Scene2} text="Eliza produkcija ik gadu saņem lielu atzinību starptautiskajās izstādēs, kā arī veiksmīgi eksportē savu produkciju uz Eiropas valstīm." />
 			<AboutUsItem img={Scene3} text="Piedāvājam saviem pircējiem iespēju veikt nestandarta pasūtījumus. Šādu pasūtījumu veikšanas termiņš ir 1 - 2 mēneši." />
 		</>

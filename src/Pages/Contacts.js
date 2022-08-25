@@ -29,7 +29,7 @@ export default function Contacts() {
 				<Col sm={12} lg={4}>
 					<div className='contacts-wrapper'>
 						<p className='place-title'>Audumu noliktava</p>
-						<p className='place-text'>Rīga, А. Deglava iela 50, LV-1035</p>
+						<p className='place-text'>Rīga, A. Deglava 50 iela K-1</p>
 						<p className='place-text'>audumi@eliza-k.lv</p>
 						<p className='place-text'>+371 26 599 422</p>
 					</div>

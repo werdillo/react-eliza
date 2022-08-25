@@ -18,7 +18,7 @@ function HorecaItem(props) {
 					</Col>
 				</Row>
 			</Container>
-			<img className='horeca-img' alt='' src={props.img}></img>
+			<img className='horeca-img' rel='' alt='' src={props.img}></img>
 		</>
 	)
 }

@@ -259,7 +259,7 @@
   bottom: 0;
   left: 0;
   object-fit: cover;
-  filter: grayscale(.7)
+  filter: grayscale(.1)
 }
 
 .mySwiper{
