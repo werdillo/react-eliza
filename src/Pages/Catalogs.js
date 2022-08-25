@@ -3,6 +3,10 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+
 import collection_2018 from "../assets/images/collection/collection_2018.jpg";
 import collection_2019 from "../assets/images/collection/collection_2019.jpg";
 import collection_2021 from "../assets/images/collection/collection_2021.jpg";
@@ -15,8 +19,8 @@ function Catalog(props) {
 	return (
 		<Col sm={12} lg={4}>
 			<div className='catalog-wraper'>
-				<a href={props.link} target='_blank' rel='noopener noreferrer'>
-					<img src={props.img} alt='' className="catalog-image"></img>
+				<a href={props.link} className='catalog-link-wraper' target='_blank' rel='noopener noreferrer'>
+					<LazyLoadImage src={props.img} effect="blur" alt='' className="catalog-image" />
 				</a>
 				<span className='catalog-text'>{props.title}</span>
 			</div>
