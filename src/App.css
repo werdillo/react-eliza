@@ -152,7 +152,7 @@
   justify-content: right;
   /* align-items: flex-end; */
   padding: 0px;
-  gap: 20px;
+  gap: 2px;
 }
 
 .footer-icons {
@@ -1028,19 +1028,19 @@ a:visited {
 .player-wrap {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
   /* padding-top: 56.25%; */
   /* padding: 20px auto; */
     /* Player ratio: 100 / (1280 / 720) */
 }
 
-.react-player {
-  width: 70%;
+.react-player-item {
+  width: 80%;
   height: auto;
 }
 
 @media only screen and (max-width: 1000px) {
-.react-player {
+.react-player-item {
     width: 100%;
     height: auto;
   }
