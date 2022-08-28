@@ -1016,3 +1016,32 @@ a:visited {
       min-height: 100px;
   }
 }
+
+
+/* About us */
+/* 
+.aboutUs-wrapper {
+  display: flex;
+  flex-direction: column;
+} */
+
+.player-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  /* padding-top: 56.25%; */
+  /* padding: 20px auto; */
+    /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  width: 70%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+.react-player {
+    width: 100%;
+    height: auto;
+  }
+}
