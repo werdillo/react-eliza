@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 import '../App.css';
 import NavLogo from "../assets/images/Eliza-logo-nav.svg";
 import 'bootstrap/dist/css/bootstrap.css'
+import DropdownLanguage from './DropdownLanguage';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
@@ -23,6 +25,8 @@ const Navbar = () => {
 			</li>
 		)
 	};
+
+	const { t } = useTranslation();
 	
 	return (
 		<nav className="navbar fixed-top">
@@ -34,13 +38,14 @@ const Navbar = () => {
 			</div>
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
 				{/* <NavItem link='/Production' title='Produkcija' /> */}
-				<NavItem link='/collection' title='Kolekcija' />
-				<NavItem link='/Components' title='Mēbeļu komponenti' />
-				<NavItem link='/Horeca' title='HoReCa' />
-				<NavItem link='/Catalogs' title='Katalogi' />
-				<NavItem link='/gallery' title='Galerija' />
-				<NavItem link='/about-us' title='Par mums' />
-				<NavItem link='/contacts' title='Kontakti' />
+				<NavItem link='/collection' title={t("Navigation.collection")} />
+				<NavItem link='/Components' title={t("Navigation.components")} />
+				<NavItem link='/Horeca' title={t("Navigation.horeca")} />
+				<NavItem link='/Catalogs' title={t("Navigation.catalogs")} />
+				<NavItem link='/gallery' title={t("Navigation.gallery")} />
+				<NavItem link='/about-us' title={t("Navigation.about-us")} />
+				<NavItem link='/contacts' title={t("Navigation.contacts")} />
+				<DropdownLanguage />
 			</ul>
 		</nav>
 	);

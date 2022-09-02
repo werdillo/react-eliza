@@ -8,6 +8,8 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import hotel from "../assets/images/hoReCa/Ho.png";
 import Cafe from "../assets/images/hoReCa/Ca.png";
 import restaraunt from "../assets/images/hoReCa/Re.png";
+import { useTranslation } from 'react-i18next';
+
 
 function HorecaItem(props) {
 	return (
@@ -27,13 +29,12 @@ function HorecaItem(props) {
 }
 
 export default function Horeca() {
+	const { t } = useTranslation();
 	return (
 		<>
-			<HorecaItem header="Viesnīcas" img={hotel} text="Mūsu uzņēmums nodarbojas ar augstākās kvalitātes mēbeļu izstrādi. Elīza mēbelēm piemīt ergonomika, ērtība, izturība, kā arī maksimāla atbilstība interjeram, kuram tās ir izveidotas."/>
-			<HorecaItem header="Restorāni" img={restaraunt} text="Konkrētam interjeram mēs palīdzēsim izvēlēties atbilstoša stila un materiāla mēbeles,
-				kas pēc formas, izmēra un tekstūras organiski iekļausies iestādes interjerā."/>			
-			<HorecaItem header="Kafejnīcas" img={Cafe} text="Pateicoties plašajam risinājumu klāstam,
-				katrs klients var izvēlēties mēbeļu komplektu, kas 100% apmierinās viņa redzējumu par telpu noformēšanu."/>
+			<HorecaItem header={t("Pages.horeca.hotel-title")} img={hotel} text={t("Pages.horeca.hotel-text")} />
+			<HorecaItem header={t("Pages.horeca.restaurant-title")} img={restaraunt} text={t("Pages.horeca.restaurant-text")} />			
+			<HorecaItem header={t("Pages.horeca.cafe-title")} img={Cafe} text={t("Pages.horeca.cafe-text")} />
 		</>
 	)
 }

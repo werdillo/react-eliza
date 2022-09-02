@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player'
+import { useTranslation } from 'react-i18next';
 
 import '../App.css';
 import Scene1 from "../assets/images/AboutUs/Scene1.png";
@@ -16,6 +17,7 @@ function AboutUsItem(props) {
 }
 
 export default function AboutUs() {
+	const { t } = useTranslation();
 	return (
 		<>
 			<div className='player-wrap'>
@@ -31,8 +33,8 @@ export default function AboutUs() {
 				</div>
 			</div>
 			<img src={Scene1} alt='' className='map-image'></img>
-			<AboutUsItem img={Scene2} text="Eliza produkcija ik gadu saņem lielu atzinību starptautiskajās izstādēs, kā arī veiksmīgi eksportē savu produkciju uz Eiropas valstīm." />
-			<AboutUsItem img={Scene3} text="Piedāvājam saviem pircējiem iespēju veikt nestandarta pasūtījumus. Šādu pasūtījumu veikšanas termiņš ir 1 - 2 mēneši." />
+			<AboutUsItem img={Scene2} text={t("Pages.about-us.scene1-text")} />
+			<AboutUsItem img={Scene3} text={t("Pages.about-us.scene2-text")} />
 		</>
 	)
 }

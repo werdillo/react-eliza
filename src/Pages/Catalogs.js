@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 import collection_2018 from "../assets/images/collection/collection_2018.jpg";
 import collection_2019 from "../assets/images/collection/collection_2019.jpg";
@@ -25,15 +26,16 @@ function Catalog(props) {
 }
 
 export default function Catalogs () {
+	const { t } = useTranslation();
 	return (		
 		<Container>
 			<Row>
 				<Col sm={12} >
-					<p className='production-type-title'>Katalogi</p>
+					<p className='production-type-title'>{t("Pages.catalogs.pageTitle")}</p>
 				</Col>
-				<Catalog link={catalog_2018} img={collection_2018} title="Katalogs 2018" />
-				<Catalog link={catalog_2019} img={collection_2019} title="Katalogs 2019" />
-				<Catalog link={catalog_2021} img={collection_2021} title="Katalogs 2021" />
+				<Catalog link={catalog_2018} img={collection_2018} title={t("Pages.catalogs.catalog") + " 2018"} />
+				<Catalog link={catalog_2019} img={collection_2019} title={t("Pages.catalogs.catalog") + " 2019"} />
+				<Catalog link={catalog_2021} img={collection_2021} title={t("Pages.catalogs.catalog") + " 2021"} />
 			</Row>
 		</Container>
 	);

@@ -5,6 +5,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import '../App.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import { useTranslation } from 'react-i18next';
 
 
 export default function Gallery() {
@@ -37,10 +38,11 @@ export default function Gallery() {
     setIsViewerOpen(false);
   };
 
+  const { t } = useTranslation();
 
   return (
     <Container fluid>
-      <p className='production-type-title'>Galerija</p>
+      <p className='production-type-title'>{t("Pages.gallery.pageTitle")}</p>
       <Row>
         {images.map((src, index) => (
           <Col xs={6} md={4} lg={3}>

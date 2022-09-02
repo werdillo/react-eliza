@@ -6,6 +6,28 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, useLocation } from 'react-router-dom';
 import { useEffect } from "react";
 
+import i18n from "i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+import { initReactI18next } from "react-i18next";
+import HttpApi from "i18next-http-backend";
+
+// Localisation
+i18n
+  .use(initReactI18next) // 18n => react i18nex
+  .use(LanguageDetector)
+  .use(HttpApi)
+  .init({
+    supportedLngs: ['en', 'ru', 'lv'],
+    fallbackLng: "en",
+    detection: {
+      order: ['cookie', 'localStorage', 'htmlTag', 'path', 'subdomain'],
+      caches: ['cookie']
+    },
+    backend: {
+      loadPath: '/locales/{{lng}}/translation.json',
+    },
+  });
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 

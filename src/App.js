@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import Layout from './Components/Layout';
 import { Routes, Route, Navigate } from "react-router-dom";
+import { Suspense } from 'react';
 
 import Home from "./Pages/Home";
 import Contacts from './Pages/Contacts';
@@ -38,7 +39,7 @@ import SophisticatedLiving from './Pages/Collections/SophisticatedLiving';
 
 function App() {
   return (
-    <>
+    <Suspense fallback="...is loading">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home /> }/>
@@ -88,7 +89,7 @@ function App() {
           <Route path="*" element={<NotFound /> }/>
         </Route>
       </Routes>
-    </>
+    </Suspense>
   );
 }
 

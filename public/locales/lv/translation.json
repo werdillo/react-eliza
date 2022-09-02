@@ -1,0 +1,50 @@
+{
+	"Navigation": {
+		"collection": "Kolekcija",
+		"components": "Mēbeļu komponenti",
+		"horeca": "HoReCa",
+		"catalogs": "Katalogi",
+		"gallery": "Galerija",
+		"about-us": "Par mums",
+		"contacts": "Kontakti"
+	},
+	"Pages": {
+		"collection": {},
+		"components": {
+			"porolon-title": "Porolons",
+			"porolon-text": "Mēs ražojam izstrādājumus no porolona.",
+			"textile-title": "Audumi",
+			"textile-text": "Piedāvājam lielu audumu un materiālu izvēli mīkstajām mēbelēm."
+		},
+		"horeca": {
+			"hotel-title": "Viesnīcas",
+			"hotel-text": "Mūsu uzņēmums nodarbojas ar augstākās kvalitātes mēbeļu izstrādi. Elīza mēbelēm piemīt ergonomika, ērtība, izturība, kā arī maksimāla atbilstība interjeram, kuram tās ir izveidotas.",
+			"restaurant-title": "Restorāni",
+			"restaurant-text": "Konkrētam interjeram mēs palīdzēsim izvēlēties atbilstoša stila un materiāla mēbeles, kas pēc formas, izmēra un tekstūras organiski iekļausies iestādes interjerā.",
+			"cafe-title": "Kafejnīcas",
+			"cafe-text": "Pateicoties plašajam risinājumu klāstam, katrs klients var izvēlēties mēbeļu komplektu, kas 100% apmierinās viņa redzējumu par telpu noformēšanu."
+		},
+		"catalogs": {
+			"pageTitle": "Katalogi",
+			"catalog": "Katalogs "
+		},
+		"gallery": {
+			"pageTitle": "Galerija"
+		},
+		"about-us": {
+			"scene1-text": "Eliza produkcija ik gadu saņem lielu atzinību starptautiskajās izstādēs, kā arī veiksmīgi eksportē savu produkciju uz Eiropas valstīm.",
+			"scene2-text": "Piedāvājam saviem pircējiem iespēju veikt nestandarta pasūtījumus. Šādu pasūtījumu veikšanas termiņš ir 1 - 2 mēneši."
+		},
+		"contacts": {
+			"pageTitle": "Kontakti",
+			"salon": "Mēbeļu salons ELIZA",
+			"porolon": "Porolona ražotne",
+			"textile": "Audumu noliktava"
+		},
+		"coming-soon": {
+			"title": "Gaidāms drīzumā"
+		}
+
+	},
+	"test" : "Gulēšanas funkcija"
+}
