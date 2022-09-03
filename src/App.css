@@ -1,5 +1,5 @@
 select{
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.85);
   border: none;
   border-radius: 2px;
   padding: 1px 3px;
@@ -867,14 +867,33 @@ a:visited {
 /* ------------------------------------------------------ */
 /* ------------------------------------------------------ */
 
+.horeca-wrapper {
+  position: relative;
+  text-align: center;
+  transition: 250ms;
+  overflow: hidden;
+  object-fit: contain;
+  background-color: rgba(0, 0, 0, 9);
+  margin-bottom: 10px;
+}
+
 .horeca-header {
   font-family: 'Avenir', sans-serif;
   font-weight: 700;
   font-size: 32px;
   align-items: center;
   text-align: center;
-  margin-top: 45px;
+  color: #ffffff;
 
+}
+
+.horeca-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  color: #ffffff;
 }
 
 .horeca-text {
@@ -883,45 +902,34 @@ a:visited {
   font-size: 24px;
   text-align: center;
   align-items: center;
-  margin-bottom: 45px;
-}
-
-.horeca-placeholder {
-  height: 100px;
-  width: 100%;
-  background-color: #5A5A5A;
+  color: #ffffff;
 }
 
 .horeca-img {
   width: 100% !important;
   height: auto !important;
   min-height: 400px;
-  background-color: #f0f0f0;
-  /* margin-bottom: 20px; */
+  background-color: #ffffff;
+  width: 100%;
+  opacity: 0.65;
+  filter: grayscale(.3);
+  object-fit: cover;
 }
 
-@media screen and (max-width: 500px) {
-  .horeca-text {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 25px;
-    
-  }
+@media screen and (max-width: 768px) {
   .horeca-img {
-      min-height: 150px;
-      background-color: #f0f0f0;
-      /* margin-bottom: 20px; */
-    }
+    min-height: 150px;
+    background-color: #f0f0f0;
+  }
 
   .horeca-header {
     font-size: 18px;  
-    margin-top: 20px;
     margin-bottom: 5px;
 
   }
 
   .horeca-text {
-    font-size: 14px;  
+    font-size: 12px;  
   }
 }
 

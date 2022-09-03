@@ -1,7 +1,5 @@
 import React from 'react';
 import '../App.css';
-import 'bootstrap/dist/css/bootstrap.css'
-import { Row, Col, Container } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
@@ -13,18 +11,14 @@ import { useTranslation } from 'react-i18next';
 
 function HorecaItem(props) {
 	return (
-		<>
-			<Container>
-				<Row>
-					<Col>
-						<p className='horeca-header'>{props.header}</p>
-						<p className='horeca-text'>{props.text}</p>
-					</Col>
-				</Row>
-			</Container>
-			
+		<div className='horeca-wrapper'>
 			<LazyLoadImage className='horeca-img' rel='' alt='' src={props.img} />
-		</>
+			<div className='horeca-block'>
+				<p className='horeca-header'>{props.header}</p>
+				<p className='horeca-text'>{props.text}</p>
+
+			</div>
+		</div>
 	)
 }
 
@@ -33,8 +27,8 @@ export default function Horeca() {
 	return (
 		<>
 			<HorecaItem header={t("Pages.horeca.hotel-title")} img={hotel} text={t("Pages.horeca.hotel-text")} />
-			<HorecaItem header={t("Pages.horeca.restaurant-title")} img={restaraunt} text={t("Pages.horeca.restaurant-text")} />			
-			<HorecaItem header={t("Pages.horeca.cafe-title")} img={Cafe} text={t("Pages.horeca.cafe-text")} />
+			<HorecaItem header={t("Pages.horeca.restaurant-title")} img={restaraunt} text={t("Pages.horeca.hotel-text")} />			
+			<HorecaItem header={t("Pages.horeca.cafe-title")} img={Cafe} text={t("Pages.horeca.hotel-text")}/>
 		</>
 	)
 }
