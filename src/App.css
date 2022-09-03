@@ -1021,6 +1021,18 @@ a:visited {
   font-family: 'Avenir', sans-serif;
 }
 
+@media only screen and (max-width: 1000px) {
+  .contacts-title {
+    font-size: 36px;
+  }
+  .place-title {
+    font-size: 24px;
+  }
+  .place-text {
+    font-size: 16px;
+  }
+}
+
 
 /* Gallery */
 
