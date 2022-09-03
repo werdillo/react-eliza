@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
+import Spinner from 'react-bootstrap/Spinner';
 import Layout from './Components/Layout';
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Suspense } from 'react';
@@ -39,7 +40,7 @@ import SophisticatedLiving from './Pages/Collections/SophisticatedLiving';
 
 function App() {
   return (
-    <Suspense fallback="...is loading">
+    <Suspense fallback={<Spinner animation="border" />}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home /> }/>
