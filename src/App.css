@@ -1,8 +1,9 @@
-select{
+select {
   background: rgba(255, 255, 255, 0.85);
   border: none;
   border-radius: 2px;
   padding: 1px 3px;
+  text-align: center;
 }
 
 select option {
@@ -10,7 +11,7 @@ select option {
   color: #fff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
 }
-
+  
 
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
@@ -77,6 +78,7 @@ select option {
     top: 80px;
     left: -100%;
     transition: 0.5s all;
+    padding-bottom: 10px;
   }
 
   .nav-links.active {

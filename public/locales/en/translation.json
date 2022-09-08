@@ -1,9 +1,9 @@
 {
 	"Navigation": {
 		"collection": "Collection",
-		"components": "Furniture components",
+		"components": "For Furniture",
 		"horeca": "HoReCa",
-		"catalogs": "Catalogs",
+		"catalogs": "Catalogue",
 		"gallery": "Gallery",
 		"about-us": "About us",
 		"contacts": "Contacts"
@@ -37,8 +37,8 @@
 		},
 		"contacts":{
 			"pageTitle": "Contacts",
-			"salon": "Furniture salon ELIZA",
-			"porolon": "Foam rubber manufacture",
+			"salon": "Furniture showroom ELIZA",
+			"porolon": "Foam details manufacture",
 			"textile": "Textile warehouse"
 		},
 		"coming-soon": {
