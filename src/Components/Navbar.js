@@ -21,7 +21,7 @@ const Navbar = () => {
 	const NavItem = (props) => {
 		return(
 			<li className="nav-item">
-				<NavLink to={props.link} onClick={closeMenu} className="nav-link" style={({ isActive }) => ({ color: isActive ? 'white' : '#d9d9d9' })}>{props.title}</NavLink>
+				<NavLink to={props.link} onClick={closeMenu} className={({ isActive }) => (isActive ? 'active' : 'inactive')} >{props.title}</NavLink>
 			</li>
 		)
 	};

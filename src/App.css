@@ -18,6 +18,29 @@ select option {
 /* ------------------------ Navbar ----------------------- */
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
+
+.active{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s all;
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.35);
+}
+
+.inactive {
+  color: rgb(235, 235, 235);
+  text-decoration: none !important;
+  transition: 0.3s all;
+  
+}
+
+.active:hover {
+  color: #fff;
+}
+
+.inactive:hover {
+  color: #fff;
+}
+
 .navbar {
   margin: 0;
   height: 80px;
