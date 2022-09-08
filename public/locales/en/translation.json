@@ -12,7 +12,7 @@
 		"collection":{},
 		"components":{
 			"porolon-title": "Foam rubber",
-			"porolon-text":  "Our company goods from foam rubber of any complexity.",
+			"porolon-text":  "Our company creates goods from foam rubber of any complexity.",
 			"textile-title": "Textile",
 			"textile-text":  "A wide selection of fabrics from any type of fiber for upholstered furniture is available."
 		},
@@ -25,8 +25,8 @@
 			"cafe-text": "With the highly qualified employees and the newest equipment, our company can embody an idea of any complexity. All our products are handmade. we adapt products to the individual requirements to satisfy clients."
 		},
 		"catalogs":{
-			"pageTitle": "Catalogs",
-			"catalog": "Catalog "
+			"pageTitle": "Catalogue",
+			"catalog": "Catalogue "
 		},
 		"gallery": {
 			"pageTitle": "Gallery"
