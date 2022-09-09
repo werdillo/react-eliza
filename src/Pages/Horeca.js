@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import '../App.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -6,7 +7,6 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import hotel from "../assets/images/hoReCa/Ho.png";
 import Cafe from "../assets/images/hoReCa/Ca.png";
 import restaraunt from "../assets/images/hoReCa/Re.png";
-import { useTranslation } from 'react-i18next';
 
 
 function HorecaItem(props) {
