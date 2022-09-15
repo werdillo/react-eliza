@@ -6,7 +6,7 @@ import logo from "../assets/images/footer/Logo.svg";
 
 import facebook from "../assets/images/footer/facebook-icon.svg";
 import instagram from "../assets/images/footer/instagram-icon.svg";
-import youtube from "../assets/images/footer/youtube-icon.svg";
+// import youtube from "../assets/images/footer/youtube-icon.svg";
 
 import Special2017 from "../assets/images/footer/Special2017.svg";
 import Winner2018 from "../assets/images/footer/Winner2018.svg";
