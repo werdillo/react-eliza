@@ -194,6 +194,7 @@ select option {
 }
 
 .footer-icons {
+  margin-left: 35px;
   margin-top: 10px;
   /* justify-content: space-between; */
   display: flex;

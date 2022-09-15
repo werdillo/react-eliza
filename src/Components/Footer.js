@@ -29,7 +29,7 @@ export default function Footer() {
 							<div className='footer-icons'>
 								<a href='https://www.facebook.com/profile.php?id=100084477053693' target='_blank' rel="noopener noreferrer"> <img src={facebook} alt="" className='footer-icon' /> </a>
 								<a href='https://www.instagram.com/elizafurnituresalon/' target='_blank' rel="noopener noreferrer"> <img src={instagram} alt="" className='footer-icon' /> </a>
-								<img src={youtube} alt="" className='footer-icon' />
+								{/* <img src={youtube} alt="" className='footer-icon' /> */}
 							</div>
 						</div>
 					</div>
