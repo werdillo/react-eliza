@@ -3,11 +3,11 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import logo from "../assets/images/footer/Logo.svg";
-
+// social media
 import facebook from "../assets/images/footer/facebook-icon.svg";
 import instagram from "../assets/images/footer/instagram-icon.svg";
 // import youtube from "../assets/images/footer/youtube-icon.svg";
-
+// awards
 import Special2017 from "../assets/images/footer/Special2017.svg";
 import Winner2018 from "../assets/images/footer/Winner2018.svg";
 import Winner2020 from "../assets/images/footer/Winner2020.svg";

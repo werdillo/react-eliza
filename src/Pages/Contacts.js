@@ -17,7 +17,7 @@ export default function Contacts() {
 						<p className='place-title'>{t("Pages.contacts.salon")}</p>
 						<p className='place-text'>Rīga, А. Deglava iela 50, LV-1035</p>
 						<p className='place-text'>teika@eliza-k.lv</p>
-						<p className='place-text'>+371 29 112 49</p>
+						<p className='place-text'>+371 29 112 499</p>
 					</div>
 				</Col>
 				<Col sm={12} lg={4}>

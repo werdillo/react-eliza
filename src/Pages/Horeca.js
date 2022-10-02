@@ -1,13 +1,12 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import '../App.css';
+import { useTranslation } from 'react-i18next';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import hotel from "../assets/images/hoReCa/Ho.png";
 import Cafe from "../assets/images/hoReCa/Ca.png";
 import restaraunt from "../assets/images/hoReCa/Re.png";
-
 
 function HorecaItem(props) {
 	return (
@@ -16,7 +15,6 @@ function HorecaItem(props) {
 			<div className='horeca-block'>
 				<p className='horeca-header'>{props.header}</p>
 				<p className='horeca-text'>{props.text}</p>
-
 			</div>
 		</div>
 	)
