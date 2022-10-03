@@ -32,11 +32,7 @@ export default function ProductionItem(props) {
 				modules={[Autoplay, Navigation, Pagination]}
 			>
 				{props.images.map((img) => {
-					return (
-						<>
-							<SwiperSlide><img src={img.src} alt="" className="product-slider"></img></SwiperSlide>
-						</>
-					);
+					return (<SwiperSlide><img src={img.src} alt="" className="product-slider"></img></SwiperSlide>);
 				})}				
 			</Swiper>
 			
@@ -54,7 +50,7 @@ export default function ProductionItem(props) {
 										<span className='item-text-bold'> - </span>
 										<span className='item-text'>{spec.content}</span>
 										<br></br>
-									</div >
+									</div>
 								);
 							})}				
 						</div>
