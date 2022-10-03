@@ -39,7 +39,11 @@
 			"pageTitle": "Contacts",
 			"salon": "Furniture showroom ELIZA",
 			"porolon": "Foam details manufacture",
-			"textile": "Textile warehouse"
+			"textile": "Textile warehouse",
+			"working-time": "Working time",
+			"working-days": "Mon-Fri",
+			"sat": "Sat",
+			"sun": "Sun closed"
 		},
 		"coming-soon": {
 			"title": "Coming soon"

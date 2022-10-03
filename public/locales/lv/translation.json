@@ -39,7 +39,11 @@
 			"pageTitle": "Kontakti",
 			"salon": "Mēbeļu salons ELIZA",
 			"porolon": "Izstrādājumu ražošana no porolona",
-			"textile": "Audumu noliktava"
+			"textile": "Audumu noliktava",
+			"working-time": "Darba laiks",
+			"working-days": "Pirmd-Piekt",
+			"sat": "Sestd",
+			"sun": "Svētd - brīvdiena"
 		},
 		"coming-soon": {
 			"title": "Gaidāms drīzumā"
