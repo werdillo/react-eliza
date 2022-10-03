@@ -8,7 +8,7 @@ export default function Contacts() {
 	const { t } = useTranslation();
 	return (
 		// <div className="contacts-container">
-		<Container fluid>
+		<Container>
 			<Row>
 				<Col sm={12} lg={12}>
 					<p className='contacts-title'>{t("Pages.contacts.pageTitle")}</p>
