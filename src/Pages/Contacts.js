@@ -7,7 +7,6 @@ import { useTranslation } from 'react-i18next';
 export default function Contacts() {
 	const { t } = useTranslation();
 	return (
-		// <div className="contacts-container">
 		<Container>
 			<Row>
 				<Col sm={12} lg={12}>
@@ -22,7 +21,7 @@ export default function Contacts() {
 						<p className='place-text'></p>
 						<p className='place-text'></p>
 						<p className='place-title work-time'>{t("Pages.contacts.working-time")}</p>
-						<p className='place-text'>{t("Pages.contacts.working-days")} 10:00 - 18:00</p>
+						<p className='place-text'>{t("Pages.contacts.working-days")} 10:00 - 19:00</p>
 						<p className='place-text'>{t("Pages.contacts.sat")} 10:00 - 17:00</p>
 						<p className='place-text contacts-bottom'>{t("Pages.contacts.sun")}</p>
 					</div>
@@ -32,14 +31,14 @@ export default function Contacts() {
 						<p className='place-title special'>{t("Pages.contacts.porolon")}</p>
 						<p className='place-text'>Rīga, A. Deglava iela 52A,</p>
 						<p className='place-text'>LV-1035 order@eliza-k.lv</p>
-						<p className='place-text'>+371 28 363 860</p>
+						<p className='place-text'> 67570331 27862121 28363860</p> 
 						<p className='place-text'></p>
 						<p className='place-text'></p>
 						<p className='place-title work-time'>{t("Pages.contacts.working-time")}</p>
-						<p className='place-text'>{t("Pages.contacts.working-days")} 10:00 - 18:00</p>
+						<p className='place-text'>{t("Pages.contacts.working-days")} 8:30 - 16:00</p>
 						<p className='place-text'>{t("Pages.contacts.sat")} 10:00 - 17:00</p>
 						<p className='place-text contacts-bottom'>{t("Pages.contacts.sun")}</p>
-
+						{/* +37128363860 */}
 					</div>
 				</Col>
 				<Col sm={12} lg={4}>
@@ -49,10 +48,9 @@ export default function Contacts() {
 						<p className='place-text'>audumi@eliza-k.lv</p>
 						<p className='place-text'>+371 26 599 422</p>
 						<p className='place-title work-time'>{t("Pages.contacts.working-time")}</p>
-						<p className='place-text'>{t("Pages.contacts.working-days")} 10:00 - 18:00</p>
+						<p className='place-text'>{t("Pages.contacts.working-days")} 9:00 - 16:30</p>
 						<p className='place-text'>{t("Pages.contacts.sat")} 10:00 - 17:00</p>
 						<p className='place-text contacts-bottom'>{t("Pages.contacts.sun")}</p>
-
 					</div>
 				</Col>
 			</Row>
