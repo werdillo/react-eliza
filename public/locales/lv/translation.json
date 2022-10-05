@@ -43,7 +43,9 @@
 			"working-time": "Darba laiks",
 			"working-days": "Pirmd-Piekt",
 			"sat": "Sestd",
-			"sun": "Svētd - brīvdiena"
+			"sun": "Svētd - brīvdiena",
+			"sat-sun": "Sestd, Svētd - brīvdiena",
+			"breaktime": "Pārtraukums"
 		},
 		"coming-soon": {
 			"title": "Gaidāms drīzumā"
