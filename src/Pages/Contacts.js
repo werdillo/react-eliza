@@ -36,8 +36,8 @@ export default function Contacts() {
 						<p className='place-text'></p>
 						<p className='place-title work-time'>{t("Pages.contacts.working-time")}</p>
 						<p className='place-text'>{t("Pages.contacts.working-days")} 8:30 - 16:00</p>
-						<p className='place-text'>{t("Pages.contacts.sat")} 10:00 - 17:00</p>
-						<p className='place-text contacts-bottom'>{t("Pages.contacts.sun")}</p>
+						<p className='place-text'>{t("Pages.contacts.breaktime")} 12:00 - 13:00</p>
+						<p className='place-text contacts-bottom'>{t("Pages.contacts.sat-sun")}</p>
 						{/* +37128363860 */}
 					</div>
 				</Col>
@@ -49,8 +49,8 @@ export default function Contacts() {
 						<p className='place-text'>+371 26 599 422</p>
 						<p className='place-title work-time'>{t("Pages.contacts.working-time")}</p>
 						<p className='place-text'>{t("Pages.contacts.working-days")} 9:00 - 16:30</p>
-						<p className='place-text'>{t("Pages.contacts.sat")} 10:00 - 17:00</p>
-						<p className='place-text contacts-bottom'>{t("Pages.contacts.sun")}</p>
+						<p className='place-text'>{t("Pages.contacts.breaktime")} 12:30 - 13:00</p>
+						<p className='place-text contacts-bottom'>{t("Pages.contacts.sat-sun")}</p>
 					</div>
 				</Col>
 			</Row>
