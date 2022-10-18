@@ -1058,13 +1058,6 @@ a:visited {
   height: 78px;
 }
 
-@media only screen and (max-width: 1700px) {
-  .special {
-    height: 78px;
-  }
-
-}
-
 @media only screen and (max-width: 1000px) {
   .special {
     height: auto;
