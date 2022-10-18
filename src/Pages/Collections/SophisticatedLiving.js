@@ -23,7 +23,7 @@ export default function SophisticatedLiving() {
       </div>
       <Outlet />
       <Routes>
-        <Route path="products" element={<SophisticatedLivingAll />} />
+        <Route index element={<SophisticatedLivingAll />} />
         <Route path="beds" element={<SophisticatedLivingBeds />} />
         <Route path="chairs" element={<SophisticatedLivingChairs />} />
         <Route path="sofas" element={<SophisticatedLivingSofas />} />
