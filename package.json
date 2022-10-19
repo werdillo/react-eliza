@@ -26,6 +26,7 @@
     "react-simple-image-viewer": "^1.2.2",
     "react-spinners": "^0.13.4",
     "scss": "^0.2.4",
+    "serve": "^14.0.1",
     "swiper": "^8.1.4",
     "web-vitals": "^2.1.4"
   },
