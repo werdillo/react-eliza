@@ -17,9 +17,7 @@ export default function Contacts() {
 						<p className='place-title special'>{t("Pages.contacts.salon")}</p>
 						<p className='place-text'>Rīga, А. Deglava iela 50, LV-1035</p>
 						<p className='place-text'>teika@eliza-k.lv</p>
-						<p className='place-text'>+371 29 112 499</p>
-						<p className='place-text'></p>
-						<p className='place-text'></p>
+						<p className='place-text'>+37129112499, 67802343</p>
 						<p className='place-title work-time'>{t("Pages.contacts.working-time")}</p>
 						<p className='place-text'>{t("Pages.contacts.working-days")} 10:00 - 19:00</p>
 						<p className='place-text'>{t("Pages.contacts.sat")} 10:00 - 17:00</p>
@@ -31,9 +29,7 @@ export default function Contacts() {
 						<p className='place-title special'>{t("Pages.contacts.porolon")}</p>
 						<p className='place-text'>Rīga, A. Deglava iela 52A,</p>
 						<p className='place-text'>LV-1035 order@eliza-k.lv</p>
-						<p className='place-text'> 67570331 27862121 28363860</p> 
-						<p className='place-text'></p>
-						<p className='place-text'></p>
+						<p className='place-text'>67570331, 27862121, 28363860</p> 
 						<p className='place-title work-time'>{t("Pages.contacts.working-time")}</p>
 						<p className='place-text'>{t("Pages.contacts.working-days")} 8:30 - 16:00</p>
 						<p className='place-text'>{t("Pages.contacts.breaktime")} 12:00 - 13:00</p>
