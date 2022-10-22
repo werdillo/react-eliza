@@ -44,7 +44,7 @@ function SophisticatedLivingLinks() {
           { (filter === "beds" || filter === "all") &&
             <>
               <Col sm={12} lg={12}>
-                <p className='collection-type-title'>Gultas</p>
+                <p className='collection-type-title'>{t("Pages.collection.beds")}</p>
               </Col>
               <ProductLinks data={SophisticatedLiving_beds} />
             </>
@@ -52,7 +52,7 @@ function SophisticatedLivingLinks() {
           { (filter === "chair" || filter === "all") &&
             <>
               <Col sm={12} lg={12}>
-                <p className='collection-type-title'>Kresli</p>
+                <p className='collection-type-title'>{t("Pages.collection.chairs")}</p>
               </Col>
               <ProductLinks data={SophisticatedLiving_chair} />
             </>
@@ -60,7 +60,7 @@ function SophisticatedLivingLinks() {
           { (filter === "sofa" || filter === "all") &&
             <>
               <Col sm={12} lg={12}>
-                <p className='collection-type-title'>Divani</p>
+               <p className='collection-type-title'>{t("Pages.collection.sofas")}</p>
               </Col>
               <ProductLinks data={SophisticatedLiving_sofa} />
             </>
