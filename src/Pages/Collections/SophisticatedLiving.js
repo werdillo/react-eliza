@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react';
 import '../../App.css';
 import { Route, Routes, Outlet } from 'react-router-dom';
 import ProductionItem from '../../Components/ProductionItem';
@@ -29,21 +29,43 @@ function SophisticatedLivingLinks() {
      }
     ))
   } 
+
+  const [filter, setFilter] = useState("all");
   return (
       <Container fluid >
 				<Row>
-          <Col sm={12} lg={12}>
-            <p className='collection-type-title'>Gultas</p>
-          </Col>
-          <ProductLinks data={SophisticatedLiving_beds} />
-          <Col sm={12} lg={12}>
-            <p className='collection-type-title'>Kresli</p>
-          </Col>
-          <ProductLinks data={SophisticatedLiving_chair} />
-          <Col sm={12} lg={12}>
-            <p className='collection-type-title'>Divani</p>
-          </Col>
-          <ProductLinks data={SophisticatedLiving_sofa} />
+          <div className='products-container'>
+            <div className='filter-wrapper'>
+              <button className='filter-link' onClick={() => setFilter("all")}>all</button>
+              <button className='filter-link' onClick={() => setFilter("sofa")}>sofa</button>
+              <button className='filter-link' onClick={() => setFilter("beds")}>beds</button>
+              <button className='filter-link' onClick={() => setFilter("chair")}>chairs</button>
+            </div>
+          </div>
+          { (filter === "beds" || filter === "all") &&
+            <>
+              <Col sm={12} lg={12}>
+                <p className='collection-type-title'>Gultas</p>
+              </Col>
+              <ProductLinks data={SophisticatedLiving_beds} />
+            </>
+           }
+          { (filter === "chair" || filter === "all") &&
+            <>
+              <Col sm={12} lg={12}>
+                <p className='collection-type-title'>Kresli</p>
+              </Col>
+              <ProductLinks data={SophisticatedLiving_chair} />
+            </>
+          } 
+          { (filter === "sofa" || filter === "all") &&
+            <>
+              <Col sm={12} lg={12}>
+                <p className='collection-type-title'>Divani</p>
+              </Col>
+              <ProductLinks data={SophisticatedLiving_sofa} />
+            </>
+         }
        </Row>
       </Container>
   )
