@@ -44,11 +44,11 @@ export default function SofaBedsDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons" },
 	];
 	const alberts_img = [
-		{ src: require("../../assets/images/production/sofa-beds/alberts/alberts_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/alberts/alberts_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/alberts/alberts_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/alberts/alberts_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/alberts/alberts_5.png"), title: "img5" },
+		require("../../assets/images/production/sofa-beds/alberts/alberts_1.png"),
+		require("../../assets/images/production/sofa-beds/alberts/alberts_2.png"),
+		require("../../assets/images/production/sofa-beds/alberts/alberts_3.png"),
+		require("../../assets/images/production/sofa-beds/alberts/alberts_4.png"),
+		require("../../assets/images/production/sofa-beds/alberts/alberts_5.png"),
 	];
 
 	const alegro_specs = [
@@ -61,13 +61,13 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas ", content: "plastmasas" },
 	];
 	const alegro_img = [
-		{ src: require("../../assets/images/production/sofa-beds/alegro/alegro_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/alegro/alegro_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/alegro/alegro_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/alegro/alegro_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/alegro/alegro_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/alegro/alegro_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/alegro/alegro_7.png"), title: "img7" },
+		require("../../assets/images/production/sofa-beds/alegro/alegro_1.png"),
+		require("../../assets/images/production/sofa-beds/alegro/alegro_2.png"),
+		require("../../assets/images/production/sofa-beds/alegro/alegro_3.png"),
+		require("../../assets/images/production/sofa-beds/alegro/alegro_4.png"),
+		require("../../assets/images/production/sofa-beds/alegro/alegro_5.png"),
+		require("../../assets/images/production/sofa-beds/alegro/alegro_6.png"),
+		require("../../assets/images/production/sofa-beds/alegro/alegro_7.png"),
 	];
 
 	const argo_specs = [
@@ -78,10 +78,10 @@ export default function SofaBedsDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons" },
 	];
 	const argo_img = [
-		{ src: require("../../assets/images/production/sofa-beds/argo/argo_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/argo/argo_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/argo/argo_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/argo/argo_4.png"), title: "img4" },
+		require("../../assets/images/production/sofa-beds/argo/argo_1.png"),
+		require("../../assets/images/production/sofa-beds/argo/argo_2.png"),
+		require("../../assets/images/production/sofa-beds/argo/argo_3.png"),
+		require("../../assets/images/production/sofa-beds/argo/argo_4.png"),
 	];
 
 	const astoria_specs = [
@@ -92,14 +92,14 @@ export default function SofaBedsDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons" },
 	];
 	const astoria_img = [
-		{ src: require("../../assets/images/production/sofa-beds/astoria/astoria_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/astoria/astoria_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/astoria/astoria_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/astoria/astoria_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/astoria/astoria_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/astoria/astoria_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/astoria/astoria_7.png"), title: "img7" },
-		{ src: require("../../assets/images/production/sofa-beds/astoria/astoria_8.png"), title: "img8" },
+		require("../../assets/images/production/sofa-beds/astoria/astoria_1.png"),
+		require("../../assets/images/production/sofa-beds/astoria/astoria_2.png"),
+		require("../../assets/images/production/sofa-beds/astoria/astoria_3.png"),
+		require("../../assets/images/production/sofa-beds/astoria/astoria_4.png"),
+		require("../../assets/images/production/sofa-beds/astoria/astoria_5.png"),
+		require("../../assets/images/production/sofa-beds/astoria/astoria_6.png"),
+		require("../../assets/images/production/sofa-beds/astoria/astoria_7.png"),
+		require("../../assets/images/production/sofa-beds/astoria/astoria_8.png"),
 	];
 
 	const barbara_specs = [
@@ -110,15 +110,15 @@ export default function SofaBedsDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons" },
 	];
 	const barbara_img = [
-		{ src: require("../../assets/images/production/sofa-beds/barbara/barbara_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/barbara/barbara_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/barbara/barbara_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/barbara/barbara_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/barbara/barbara_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/barbara/barbara_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/barbara/barbara_7.png"), title: "img7" },
-		{ src: require("../../assets/images/production/sofa-beds/barbara/barbara_8.png"), title: "img8" },
-		{ src: require("../../assets/images/production/sofa-beds/barbara/barbara_9.png"), title: "img9" },
+		require("../../assets/images/production/sofa-beds/barbara/barbara_1.png"),
+		require("../../assets/images/production/sofa-beds/barbara/barbara_2.png"),
+		require("../../assets/images/production/sofa-beds/barbara/barbara_3.png"),
+		require("../../assets/images/production/sofa-beds/barbara/barbara_4.png"),
+		require("../../assets/images/production/sofa-beds/barbara/barbara_5.png"),
+		require("../../assets/images/production/sofa-beds/barbara/barbara_6.png"),
+		require("../../assets/images/production/sofa-beds/barbara/barbara_7.png"),
+		require("../../assets/images/production/sofa-beds/barbara/barbara_8.png"),
+		require("../../assets/images/production/sofa-beds/barbara/barbara_9.png"),
 	]
 
 	const boston_specs = [
@@ -129,14 +129,14 @@ export default function SofaBedsDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons" },
 	];
 	const boston_img = [
-		{ src: require("../../assets/images/production/sofa-beds/boston/boston_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/boston/boston_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/boston/boston_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/boston/boston_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/boston/boston_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/boston/boston_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/boston/boston_7.png"), title: "img7" },
-		{ src: require("../../assets/images/production/sofa-beds/boston/boston_8.png"), title: "img8" },
+		require("../../assets/images/production/sofa-beds/boston/boston_1.png"),
+		require("../../assets/images/production/sofa-beds/boston/boston_2.png"),
+		require("../../assets/images/production/sofa-beds/boston/boston_3.png"),
+		require("../../assets/images/production/sofa-beds/boston/boston_4.png"),
+		require("../../assets/images/production/sofa-beds/boston/boston_5.png"),
+		require("../../assets/images/production/sofa-beds/boston/boston_6.png"),
+		require("../../assets/images/production/sofa-beds/boston/boston_7.png"),
+		require("../../assets/images/production/sofa-beds/boston/boston_8.png"),
 	];
 
 
@@ -150,12 +150,12 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas ", content: "koka" },
 	];
 	const elefantMN_img = [
-		{ src: require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_6.png"), title: "img6" },
+		require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_1.png"),
+		require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_2.png"),
+		require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_3.png"),
+		require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_4.png"),
+		require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_5.png"),
+		require("../../assets/images/production/sofa-beds/elefantMN/elefantMN_6.png"),
 		
 	];
 
@@ -170,13 +170,13 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas ", content: "plastmasas" },
 	];
 	const dora_img = [
-		{ src: require("../../assets/images/production/sofa-beds/dora/dora_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/dora/dora_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/dora/dora_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/dora/dora_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/dora/dora_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/dora/dora_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/dora/dora_7.png"), title: "img7" },
+		require("../../assets/images/production/sofa-beds/dora/dora_1.png"),
+		require("../../assets/images/production/sofa-beds/dora/dora_2.png"),
+		require("../../assets/images/production/sofa-beds/dora/dora_3.png"),
+		require("../../assets/images/production/sofa-beds/dora/dora_4.png"),
+		require("../../assets/images/production/sofa-beds/dora/dora_5.png"),
+		require("../../assets/images/production/sofa-beds/dora/dora_6.png"),
+		require("../../assets/images/production/sofa-beds/dora/dora_7.png"),
 	];
 
 
@@ -188,10 +188,10 @@ export default function SofaBedsDetails() {
 		{ title: "Dīvāna apdare ", content: "iespējami dažādu audumu un krāsu varianti" },
 	];
 	const favorits_img = [
-		{ src: require("../../assets/images/production/sofa-beds/favorits/favorits_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/favorits/favorits_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/favorits/favorits_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/favorits/favorits_4.png"), title: "img4" },
+		require("../../assets/images/production/sofa-beds/favorits/favorits_1.png"),
+		require("../../assets/images/production/sofa-beds/favorits/favorits_2.png"),
+		require("../../assets/images/production/sofa-beds/favorits/favorits_3.png"),
+		require("../../assets/images/production/sofa-beds/favorits/favorits_4.png"),
 		
 	];
 
@@ -202,12 +202,12 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const filippa_img = [
-		{ src: require("../../assets/images/production/sofa-beds/filippa/filippa_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/filippa/filippa_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/filippa/filippa_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/filippa/filippa_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/filippa/filippa_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/filippa/filippa_6.png"), title: "img6" },
+		require("../../assets/images/production/sofa-beds/filippa/filippa_1.png"),
+		require("../../assets/images/production/sofa-beds/filippa/filippa_2.png"),
+		require("../../assets/images/production/sofa-beds/filippa/filippa_3.png"),
+		require("../../assets/images/production/sofa-beds/filippa/filippa_4.png"),
+		require("../../assets/images/production/sofa-beds/filippa/filippa_5.png"),
+		require("../../assets/images/production/sofa-beds/filippa/filippa_6.png"),
 		
 	];
 
@@ -221,9 +221,9 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas ", content: "plastmasas" },
 	];
 	const flamingo_img = [
-		{ src: require("../../assets/images/production/sofa-beds/flamingo/flamingo_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/flamingo/flamingo_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/flamingo/flamingo_3.png"), title: "img3" },
+		require("../../assets/images/production/sofa-beds/flamingo/flamingo_1.png"),
+		require("../../assets/images/production/sofa-beds/flamingo/flamingo_2.png"),
+		require("../../assets/images/production/sofa-beds/flamingo/flamingo_3.png"),
 		
 	];
 
@@ -235,10 +235,10 @@ export default function SofaBedsDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons" },
 	];
 	const florida_img = [
-		{ src: require("../../assets/images/production/sofa-beds/florida/florida_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/florida/florida_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/florida/florida_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/florida/florida_4.png"), title: "img4" },
+		require("../../assets/images/production/sofa-beds/florida/florida_1.png"),
+		require("../../assets/images/production/sofa-beds/florida/florida_2.png"),
+		require("../../assets/images/production/sofa-beds/florida/florida_3.png"),
+		require("../../assets/images/production/sofa-beds/florida/florida_4.png"),
 		
 	];
 
@@ -251,10 +251,10 @@ export default function SofaBedsDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons" },
 	];
 	const graffiti_img = [
-		{ src: require("../../assets/images/production/sofa-beds/graffiti/graffiti_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/graffiti/graffiti_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/graffiti/graffiti_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/graffiti/graffiti_4.png"), title: "img4" },
+		require("../../assets/images/production/sofa-beds/graffiti/graffiti_1.png"),
+		require("../../assets/images/production/sofa-beds/graffiti/graffiti_2.png"),
+		require("../../assets/images/production/sofa-beds/graffiti/graffiti_3.png"),
+		require("../../assets/images/production/sofa-beds/graffiti/graffiti_4.png"),
 		
 	];
 
@@ -267,11 +267,11 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const hilton_img = [
-		{ src: require("../../assets/images/production/sofa-beds/hilton/hilton_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/hilton/hilton_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/hilton/hilton_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/hilton/hilton_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/hilton/hilton_5.png"), title: "img5" },
+		require("../../assets/images/production/sofa-beds/hilton/hilton_1.png"),
+		require("../../assets/images/production/sofa-beds/hilton/hilton_2.png"),
+		require("../../assets/images/production/sofa-beds/hilton/hilton_3.png"),
+		require("../../assets/images/production/sofa-beds/hilton/hilton_4.png"),
+		require("../../assets/images/production/sofa-beds/hilton/hilton_5.png"),
 		
 	];
 
@@ -284,11 +284,11 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const lionNT_img = [
-		{ src: require("../../assets/images/production/sofa-beds/lionNT/lionNT_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNT/lionNT_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNT/lionNT_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNT/lionNT_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNT/lionNT_5.png"), title: "img5" },
+		require("../../assets/images/production/sofa-beds/lionNT/lionNT_1.png"),
+		require("../../assets/images/production/sofa-beds/lionNT/lionNT_2.png"),
+		require("../../assets/images/production/sofa-beds/lionNT/lionNT_3.png"),
+		require("../../assets/images/production/sofa-beds/lionNT/lionNT_4.png"),
+		require("../../assets/images/production/sofa-beds/lionNT/lionNT_5.png"),
 	];
 
 	const lionNTplus_specs = [
@@ -301,13 +301,13 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const lionNTplus_img = [
-		{ src: require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_7.png"), title: "img7" },
+		require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_1.png"),
+		require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_2.png"),
+		require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_3.png"),
+		require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_4.png"),
+		require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_5.png"),
+		require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_6.png"),
+		require("../../assets/images/production/sofa-beds/lionNTplus/lionNTplus_7.png"),
 	];
 
 	const lusso_specs = [
@@ -320,13 +320,13 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const lusso_img = [
-		{ src: require("../../assets/images/production/sofa-beds/lusso/lusso_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/lusso/lusso_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/lusso/lusso_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/lusso/lusso_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/lusso/lusso_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/lusso/lusso_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/lusso/lusso_7.png"), title: "img7" },
+		require("../../assets/images/production/sofa-beds/lusso/lusso_1.png"),
+		require("../../assets/images/production/sofa-beds/lusso/lusso_2.png"),
+		require("../../assets/images/production/sofa-beds/lusso/lusso_3.png"),
+		require("../../assets/images/production/sofa-beds/lusso/lusso_4.png"),
+		require("../../assets/images/production/sofa-beds/lusso/lusso_5.png"),
+		require("../../assets/images/production/sofa-beds/lusso/lusso_6.png"),
+		require("../../assets/images/production/sofa-beds/lusso/lusso_7.png"),
 	];
 
 	const malta_specs = [
@@ -338,10 +338,10 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const malta_img = [
-		{ src: require("../../assets/images/production/sofa-beds/malta/malta_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/malta/malta_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/malta/malta_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/malta/malta_4.png"), title: "img4" },
+		require("../../assets/images/production/sofa-beds/malta/malta_1.png"),
+		require("../../assets/images/production/sofa-beds/malta/malta_2.png"),
+		require("../../assets/images/production/sofa-beds/malta/malta_3.png"),
+		require("../../assets/images/production/sofa-beds/malta/malta_4.png"),
 	];
 
 	const michelle_specs = [
@@ -353,11 +353,11 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "plastmasas" },
 	];
 	const michelle_img = [
-		{ src: require("../../assets/images/production/sofa-beds/michelle/michelle_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/michelle/michelle_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/michelle/michelle_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/michelle/michelle_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/michelle/michelle_5.png"), title: "img5" },
+		require("../../assets/images/production/sofa-beds/michelle/michelle_1.png"),
+		require("../../assets/images/production/sofa-beds/michelle/michelle_2.png"),
+		require("../../assets/images/production/sofa-beds/michelle/michelle_3.png"),
+		require("../../assets/images/production/sofa-beds/michelle/michelle_4.png"),
+		require("../../assets/images/production/sofa-beds/michelle/michelle_5.png"),
 	];
 
 	const milan_specs = [
@@ -370,12 +370,12 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const milan_img = [
-		{ src: require("../../assets/images/production/sofa-beds/milan/milan_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/milan/milan_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/milan/milan_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/milan/milan_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/milan/milan_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/milan/milan_6.png"), title: "img6" },
+		require("../../assets/images/production/sofa-beds/milan/milan_1.png"),
+		require("../../assets/images/production/sofa-beds/milan/milan_2.png"),
+		require("../../assets/images/production/sofa-beds/milan/milan_3.png"),
+		require("../../assets/images/production/sofa-beds/milan/milan_4.png"),
+		require("../../assets/images/production/sofa-beds/milan/milan_5.png"),
+		require("../../assets/images/production/sofa-beds/milan/milan_6.png"),
 	];
 
 
@@ -389,13 +389,13 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const nica_img = [
-		{ src: require("../../assets/images/production/sofa-beds/nica/nica_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/nica/nica_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/nica/nica_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/nica/nica_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/nica/nica_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/nica/nica_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/nica/nica_7.png"), title: "img7" },
+		require("../../assets/images/production/sofa-beds/nica/nica_1.png"),
+		require("../../assets/images/production/sofa-beds/nica/nica_2.png"),
+		require("../../assets/images/production/sofa-beds/nica/nica_3.png"),
+		require("../../assets/images/production/sofa-beds/nica/nica_4.png"),
+		require("../../assets/images/production/sofa-beds/nica/nica_5.png"),
+		require("../../assets/images/production/sofa-beds/nica/nica_6.png"),
+		require("../../assets/images/production/sofa-beds/nica/nica_7.png"),
 	];
 
 
@@ -407,12 +407,12 @@ export default function SofaBedsDetails() {
 		{ title: "Dīvāna apdare", content: "audums" },
 	];
 	const nord_img = [
-		{ src: require("../../assets/images/production/sofa-beds/nord/nord_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/nord/nord_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/nord/nord_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/nord/nord_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/nord/nord_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/nord/nord_6.png"), title: "img6" },
+		require("../../assets/images/production/sofa-beds/nord/nord_1.png"),
+		require("../../assets/images/production/sofa-beds/nord/nord_2.png"),
+		require("../../assets/images/production/sofa-beds/nord/nord_3.png"),
+		require("../../assets/images/production/sofa-beds/nord/nord_4.png"),
+		require("../../assets/images/production/sofa-beds/nord/nord_5.png"),
+		require("../../assets/images/production/sofa-beds/nord/nord_6.png"),
 	];
 
 	const ricards_specs = [
@@ -425,13 +425,13 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const ricards_img = [
-		{ src: require("../../assets/images/production/sofa-beds/ricards/ricards_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/ricards/ricards_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/ricards/ricards_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/ricards/ricards_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/ricards/ricards_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/ricards/ricards_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/ricards/ricards_7.png"), title: "img7" },
+		require("../../assets/images/production/sofa-beds/ricards/ricards_1.png"),
+		require("../../assets/images/production/sofa-beds/ricards/ricards_2.png"),
+		require("../../assets/images/production/sofa-beds/ricards/ricards_3.png"),
+		require("../../assets/images/production/sofa-beds/ricards/ricards_4.png"),
+		require("../../assets/images/production/sofa-beds/ricards/ricards_5.png"),
+		require("../../assets/images/production/sofa-beds/ricards/ricards_6.png"),
+		require("../../assets/images/production/sofa-beds/ricards/ricards_7.png"),
 	];
 
 	const roma_specs = [
@@ -444,20 +444,20 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const roma_img = [
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_7.png"), title: "img7" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_8.png"), title: "img8" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_9.png"), title: "img9" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_10.png"), title: "img10" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_11.png"), title: "img11" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_12.png"), title: "img12" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_13.png"), title: "img13" },
-		{ src: require("../../assets/images/production/sofa-beds/roma/roma_14.png"), title: "img14" },
+		require("../../assets/images/production/sofa-beds/roma/roma_1.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_2.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_3.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_4.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_5.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_6.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_7.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_8.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_9.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_10.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_11.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_12.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_13.png"),
+		require("../../assets/images/production/sofa-beds/roma/roma_14.png"),
 		
 	];
 
@@ -472,12 +472,12 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const spriditis_img = [
-		{ src: require("../../assets/images/production/sofa-beds/spriditis/spriditis_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/spriditis/spriditis_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/spriditis/spriditis_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/spriditis/spriditis_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/spriditis/spriditis_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/spriditis/spriditis_6.png"), title: "img6" },
+		require("../../assets/images/production/sofa-beds/spriditis/spriditis_1.png"),
+		require("../../assets/images/production/sofa-beds/spriditis/spriditis_2.png"),
+		require("../../assets/images/production/sofa-beds/spriditis/spriditis_3.png"),
+		require("../../assets/images/production/sofa-beds/spriditis/spriditis_4.png"),
+		require("../../assets/images/production/sofa-beds/spriditis/spriditis_5.png"),
+		require("../../assets/images/production/sofa-beds/spriditis/spriditis_6.png"),
 	];
 
 	const turin_specs = [
@@ -490,13 +490,13 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const turin_img = [
-		{ src: require("../../assets/images/production/sofa-beds/turin/turin_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/turin/turin_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/turin/turin_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/turin/turin_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/turin/turin_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/turin/turin_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/turin/turin_7.png"), title: "img7" },
+		require("../../assets/images/production/sofa-beds/turin/turin_1.png"),
+		require("../../assets/images/production/sofa-beds/turin/turin_2.png"),
+		require("../../assets/images/production/sofa-beds/turin/turin_3.png"),
+		require("../../assets/images/production/sofa-beds/turin/turin_4.png"),
+		require("../../assets/images/production/sofa-beds/turin/turin_5.png"),
+		require("../../assets/images/production/sofa-beds/turin/turin_6.png"),
+		require("../../assets/images/production/sofa-beds/turin/turin_7.png"),
 	];
 
 
@@ -510,12 +510,12 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const vena_img = [
-		{ src: require("../../assets/images/production/sofa-beds/vena/vena_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/vena/vena_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/vena/vena_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/vena/vena_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/vena/vena_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/vena/vena_6.png"), title: "img6" },
+		require("../../assets/images/production/sofa-beds/vena/vena_1.png"),
+		require("../../assets/images/production/sofa-beds/vena/vena_2.png"),
+		require("../../assets/images/production/sofa-beds/vena/vena_3.png"),
+		require("../../assets/images/production/sofa-beds/vena/vena_4.png"),
+		require("../../assets/images/production/sofa-beds/vena/vena_5.png"),
+		require("../../assets/images/production/sofa-beds/vena/vena_6.png"),
 	];
 
 
@@ -529,13 +529,13 @@ export default function SofaBedsDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const verona_img = [
-		{ src: require("../../assets/images/production/sofa-beds/verona/verona_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofa-beds/verona/verona_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofa-beds/verona/verona_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofa-beds/verona/verona_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofa-beds/verona/verona_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/sofa-beds/verona/verona_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/sofa-beds/verona/verona_7.png"), title: "img7" },
+		require("../../assets/images/production/sofa-beds/verona/verona_1.png"),
+		require("../../assets/images/production/sofa-beds/verona/verona_2.png"),
+		require("../../assets/images/production/sofa-beds/verona/verona_3.png"),
+		require("../../assets/images/production/sofa-beds/verona/verona_4.png"),
+		require("../../assets/images/production/sofa-beds/verona/verona_5.png"),
+		require("../../assets/images/production/sofa-beds/verona/verona_6.png"),
+		require("../../assets/images/production/sofa-beds/verona/verona_7.png"),
 	];
 
 

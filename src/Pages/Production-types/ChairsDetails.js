@@ -15,8 +15,8 @@ export default function SofaDetails() {
 		{},
 	];
 	const altitude_img = [
-		{ src: require("../../assets/images/production/chairs/altitude/altitude_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/altitude/altitude_2.png"), title: "img2" },
+		require("../../assets/images/production/chairs/altitude/altitude_1.png"),
+		require("../../assets/images/production/chairs/altitude/altitude_2.png"),
 	];
 
 	const elefant_specs = [
@@ -27,11 +27,11 @@ export default function SofaDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons", },
 	];
 	const elefant_img = [
-		{ src: require("../../assets/images/production/chairs/elefant/elefant_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/elefant/elefant_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/chairs/elefant/elefant_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/chairs/elefant/elefant_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/chairs/elefant/elefant_5.png"), title: "img5" },
+		require("../../assets/images/production/chairs/elefant/elefant_1.png"),
+		require("../../assets/images/production/chairs/elefant/elefant_2.png"),
+		require("../../assets/images/production/chairs/elefant/elefant_3.png"),
+		require("../../assets/images/production/chairs/elefant/elefant_4.png"),
+		require("../../assets/images/production/chairs/elefant/elefant_5.png"),
 	];
 
 	const flamingo_specs = [
@@ -42,9 +42,9 @@ export default function SofaDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons", },
 	];
 	const flamingo_img = [
-		{ src: require("../../assets/images/production/chairs/flamingo/flamingo_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/flamingo/flamingo_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/chairs/flamingo/flamingo_3.png"), title: "img3" },
+		require("../../assets/images/production/chairs/flamingo/flamingo_1.png"),
+		require("../../assets/images/production/chairs/flamingo/flamingo_2.png"),
+		require("../../assets/images/production/chairs/flamingo/flamingo_3.png"),
 	];
 
 
@@ -56,9 +56,9 @@ export default function SofaDetails() {
 		{ title: "Muguras spilveni", content: "Sintipons", },
 	];
 	const haleiwa_img = [
-		{ src: require("../../assets/images/production/chairs/haleiwa/haleiwa_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/haleiwa/haleiwa_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/chairs/haleiwa/haleiwa_3.png"), title: "img3" },
+		require("../../assets/images/production/chairs/haleiwa/haleiwa_1.png"),
+		require("../../assets/images/production/chairs/haleiwa/haleiwa_2.png"),
+		require("../../assets/images/production/chairs/haleiwa/haleiwa_3.png"),
 	];
 
 	const hilton_specs = [
@@ -68,8 +68,8 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Atsperes bloks", },
 	];
 	const hilton_img = [
-		{ src: require("../../assets/images/production/chairs/hilton/hilton_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/hilton/hilton_2.png"), title: "img2" },
+		require("../../assets/images/production/chairs/hilton/hilton_1.png"),
+		require("../../assets/images/production/chairs/hilton/hilton_2.png"),
 	];
 
 	const local_specs = [
@@ -79,9 +79,9 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Atsperes bloks", },
 	];
 	const local_img = [
-		{ src: require("../../assets/images/production/chairs/local/local_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/local/local_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/chairs/local/local_3.png"), title: "img3" },
+		require("../../assets/images/production/chairs/local/local_1.png"),
+		require("../../assets/images/production/chairs/local/local_2.png"),
+		require("../../assets/images/production/chairs/local/local_3.png"),
 	];
 
 	const mirre_specs = [
@@ -91,10 +91,10 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Atsperes bloks", },
 	];
 	const mirre_img = [
-		{ src: require("../../assets/images/production/chairs/mirre/mirre_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/mirre/mirre_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/chairs/mirre/mirre_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/chairs/mirre/mirre_4.png"), title: "img4" },
+		require("../../assets/images/production/chairs/mirre/mirre_1.png"),
+		require("../../assets/images/production/chairs/mirre/mirre_2.png"),
+		require("../../assets/images/production/chairs/mirre/mirre_3.png"),
+		require("../../assets/images/production/chairs/mirre/mirre_4.png"),
 	];
 
 	const nord_specs = [
@@ -104,12 +104,12 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Porolons", },
 	];
 	const nord_img = [
-		{ src: require("../../assets/images/production/chairs/nord/nord_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/nord/nord_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/chairs/nord/nord_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/chairs/nord/nord_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/chairs/nord/nord_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/chairs/nord/nord_6.png"), title: "img6" },
+		require("../../assets/images/production/chairs/nord/nord_1.png"), 
+		require("../../assets/images/production/chairs/nord/nord_2.png"), 
+		require("../../assets/images/production/chairs/nord/nord_3.png"), 
+		require("../../assets/images/production/chairs/nord/nord_4.png"), 
+		require("../../assets/images/production/chairs/nord/nord_5.png"), 
+		require("../../assets/images/production/chairs/nord/nord_6.png"), 
 	];
 
 	const polo_specs = [
@@ -119,16 +119,16 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Porolons", },
 	];
 	const polo_img = [
-		{ src: require("../../assets/images/production/chairs/polo/polo_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/polo/polo_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/chairs/polo/polo_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/chairs/polo/polo_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/chairs/polo/polo_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/chairs/polo/polo_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/chairs/polo/polo_7.png"), title: "img7" },
-		{ src: require("../../assets/images/production/chairs/polo/polo_8.png"), title: "img8" },
-		{ src: require("../../assets/images/production/chairs/polo/polo_9.png"), title: "img9" },
-		{ src: require("../../assets/images/production/chairs/polo/polo_10.png"), title: "img10" },
+		require("../../assets/images/production/chairs/polo/polo_1.png"),
+		require("../../assets/images/production/chairs/polo/polo_2.png"),
+		require("../../assets/images/production/chairs/polo/polo_3.png"),
+		require("../../assets/images/production/chairs/polo/polo_4.png"),
+		require("../../assets/images/production/chairs/polo/polo_5.png"),
+		require("../../assets/images/production/chairs/polo/polo_6.png"),
+		require("../../assets/images/production/chairs/polo/polo_7.png"),
+		require("../../assets/images/production/chairs/polo/polo_8.png"),
+		require("../../assets/images/production/chairs/polo/polo_9.png"),
+		require("../../assets/images/production/chairs/polo/polo_10.png"),
 	];
 
 	const serenity_specs = [
@@ -138,15 +138,15 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Porolons, sintepons", },
 	];
 	const serenity_img = [
-		{ src: require("../../assets/images/production/chairs/serenity/serenity_1.png"), title: "img1" },
+		require("../../assets/images/production/chairs/serenity/serenity_1.png")
 	];
 
 	const spencer_specs = [
 		{ title: "Gulēšanas funkcija", content: "nav" },
 	];
 	const spencer_img = [
-		{ src: require("../../assets/images/production/chairs/spencer/spencer_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/chairs/spencer/spencer_2.png"), title: "img1" },
+		require("../../assets/images/production/chairs/spencer/spencer_1.png"),
+		require("../../assets/images/production/chairs/spencer/spencer_2.png"),
 	];
 
 

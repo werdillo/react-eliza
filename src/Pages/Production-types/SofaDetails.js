@@ -24,8 +24,8 @@ export default function SofaDetails() {
 		{title: "Kājas", content: "koka / hromētas"}
 	];
 	const aerial_img = [
-		{ src: require("../../assets/images/production/sofas/aerial/aerial_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/aerial/aerial_2.png"), title: "img2" },
+		require("../../assets/images/production/sofas/aerial/aerial_1.png"),
+		require("../../assets/images/production/sofas/aerial/aerial_2.png"),
 	];
 
 	const altitude_specs = [
@@ -38,7 +38,7 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "hromētas"}
 	];
 	const altitude_img = [
-		{ src: require("../../assets/images/production/sofas/altitude/altitude_1.png"), title: "img1" },
+		require("../../assets/images/production/sofas/altitude/altitude_1.png"),
 	];
 
 	const backton_specs = [
@@ -51,10 +51,10 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "hromētas"}
 	];
 	const backton_img = [
-		{ src: require("../../assets/images/production/sofas/backton/backton_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/backton/backton_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofas/backton/backton_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofas/backton/backton_4.png"), title: "img4" },
+		require("../../assets/images/production/sofas/backton/backton_1.png"),
+		require("../../assets/images/production/sofas/backton/backton_2.png"),
+		require("../../assets/images/production/sofas/backton/backton_3.png"),
+		require("../../assets/images/production/sofas/backton/backton_4.png"),
 	];
 
 	const baja_specs = [
@@ -67,9 +67,9 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "koka / hromētas"}
 	];
 	const baja_img = [
-		{ src: require("../../assets/images/production/sofas/baja/baja_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/baja/baja_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofas/baja/baja_3.png"), title: "img3" },
+		require("../../assets/images/production/sofas/baja/baja_1.png"),
+		require("../../assets/images/production/sofas/baja/baja_2.png"),
+		require("../../assets/images/production/sofas/baja/baja_3.png"),
 	];
 	
 	const channel_specs = [
@@ -82,8 +82,8 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "koka / hromētas"}
 	];
 	const channel_img = [
-		{ src: require("../../assets/images/production/sofas/channel/channel_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/channel/channel_2.png"), title: "img2" },
+		require("../../assets/images/production/sofas/channel/channel_1.png"),
+		require("../../assets/images/production/sofas/channel/channel_2.png"),
 	];
 	
 	const duke_specs = [
@@ -93,8 +93,8 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Atmiņas putu porolons, porolons, sintepons"},
 	];
 	const duke_img = [
-		{ src: require("../../assets/images/production/sofas/duke/duke_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/duke/duke_2.png"), title: "img2" },
+		require("../../assets/images/production/sofas/duke/duke_1.png"),
+		require("../../assets/images/production/sofas/duke/duke_2.png"),
 	];
 
 	const frontSide_specs = [
@@ -107,7 +107,7 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "koka / hromētas" }
 	];
 	const frontSide_img = [
-		{ src: require("../../assets/images/production/sofas/frontSide/frontSide_1.png"), title: "img1" },
+		require("../../assets/images/production/sofas/frontSide/frontSide_1.png"),
 	];
 
 
@@ -121,10 +121,10 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "koka / hromētas" }
 	];
 	const hanapepe_img = [
-		{ src: require("../../assets/images/production/sofas/hanapepe/hanapepe_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/hanapepe/hanapepe_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofas/hanapepe/hanapepe_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofas/hanapepe/hanapepe_4.png"), title: "img4" },
+		require("../../assets/images/production/sofas/hanapepe/hanapepe_1.png"),
+		require("../../assets/images/production/sofas/hanapepe/hanapepe_2.png"),
+		require("../../assets/images/production/sofas/hanapepe/hanapepe_3.png"),
+		require("../../assets/images/production/sofas/hanapepe/hanapepe_4.png"),
 	];
 
 	const keala_specs = [
@@ -136,10 +136,10 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "koka / hromētas" }
 	];
 	const keala_img = [
-		{ src: require("../../assets/images/production/sofas/keala/keala_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/keala/keala_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofas/keala/keala_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofas/keala/keala_4.png"), title: "img4" },
+		require("../../assets/images/production/sofas/keala/keala_1.png"),
+		require("../../assets/images/production/sofas/keala/keala_2.png"),
+		require("../../assets/images/production/sofas/keala/keala_3.png"),
+		require("../../assets/images/production/sofas/keala/keala_4.png"),
 	];
 
 	const maverick_specs = [
@@ -152,7 +152,7 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "koka / hromētas" }
 	];
 	const maverick_img = [
-		{ src: require("../../assets/images/production/sofas/maverick/maverick_1.png"), title: "img1" },
+		require("../../assets/images/production/sofas/maverick/maverick_1.png"),
 	];
 
 
@@ -166,11 +166,11 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "koka / hromētas" }
 	];
 	const padington_img = [
-		{ src: require("../../assets/images/production/sofas/padington/padington_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/padington/padington_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofas/padington/padington_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/sofas/padington/padington_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/sofas/padington/padington_5.png"), title: "img5" },
+		require("../../assets/images/production/sofas/padington/padington_1.png"),
+		require("../../assets/images/production/sofas/padington/padington_2.png"),
+		require("../../assets/images/production/sofas/padington/padington_3.png"),
+		require("../../assets/images/production/sofas/padington/padington_4.png"),
+		require("../../assets/images/production/sofas/padington/padington_5.png"),
 	];
 
 
@@ -182,9 +182,9 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Porolons" },
 	];
 	const polo_img = [
-		{ src: require("../../assets/images/production/sofas/polo/polo_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/polo/polo_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofas/polo/polo_3.png"), title: "img3" },
+		require("../../assets/images/production/sofas/polo/polo_1.png"),
+		require("../../assets/images/production/sofas/polo/polo_2.png"),
+		require("../../assets/images/production/sofas/polo/polo_3.png"),
 	];
 	const spencer_specs = [
 		{ title: "Gulēšanas funkcija", content: "nav" },
@@ -193,9 +193,9 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Porolons" },
 	];
 	const spencer_img = [
-		{ src: require("../../assets/images/production/sofas/spencer/spencer_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/sofas/spencer/spencer_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/sofas/spencer/spencer_3.png"), title: "img3" },
+		require("../../assets/images/production/sofas/spencer/spencer_1.png"),
+		require("../../assets/images/production/sofas/spencer/spencer_2.png"),
+		require("../../assets/images/production/sofas/spencer/spencer_3.png"),
 	];
 
 
@@ -209,7 +209,7 @@ export default function SofaDetails() {
 		{ title: "Kājas", content: "koka / hromētas / koka rāmis" }
 	];
 	const summerSwell_img = [
-		{ src: require("../../assets/images/production/sofas/summerSwell/summerSwell_1.png"), title: "img1" },
+		require("../../assets/images/production/sofas/summerSwell/summerSwell_1.png"),
 	];
 
 

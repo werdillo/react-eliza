@@ -11,8 +11,8 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Porolons, sintepons" },
 	];
 	const president_img = [
-		{ src: require("../../assets/images/production/puffs/president/president_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/puffs/president/president_2.png"), title: "img2" },
+		require("../../assets/images/production/puffs/president/president_1.png"), 
+		require("../../assets/images/production/puffs/president/president_2.png"), 
 	];
 
 	const round_specs = [
@@ -22,8 +22,8 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Porolons, sintepons" },
 	];
 	const round_img = [
-		{ src: require("../../assets/images/production/puffs/round/round_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/puffs/round/round_2.png"), title: "img2" },
+		require("../../assets/images/production/puffs/round/round_1.png"), 
+		require("../../assets/images/production/puffs/round/round_2.png"), 
 	];
 
 	const royal_specs = [
@@ -33,11 +33,11 @@ export default function SofaDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Porolons, sintepons" },
 	];
 	const royal_img = [
-		{ src: require("../../assets/images/production/puffs/royal/royal_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/puffs/royal/royal_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/puffs/royal/royal_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/puffs/royal/royal_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/puffs/royal/royal_5.png"), title: "img5" },
+		require("../../assets/images/production/puffs/royal/royal_1.png"),
+		require("../../assets/images/production/puffs/royal/royal_2.png"),
+		require("../../assets/images/production/puffs/royal/royal_3.png"),
+		require("../../assets/images/production/puffs/royal/royal_4.png"),
+		require("../../assets/images/production/puffs/royal/royal_5.png"),
 	];
 
 	

@@ -17,8 +17,8 @@ export default function TahtasDetails() {
 		{ title: "Sēde/sēdes pilveni", content: "Atsperes bloks" },
 	];
 	const kelly_img = [
-		{ src: require("../../assets/images/production/tahtas/kelly/kelly_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/tahtas/kelly/kelly_2.png"), title: "img2" },
+		require("../../assets/images/production/tahtas/kelly/kelly_1.png"),
+		require("../../assets/images/production/tahtas/kelly/kelly_2.png"),
 	];	
 
 	const lama_specs = [
@@ -30,12 +30,12 @@ export default function TahtasDetails() {
 		{ title: "Kājas", content: "koka" },
 	];
 	const lama_img = [
-		{ src: require("../../assets/images/production/tahtas/lama/lama_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/tahtas/lama/lama_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/tahtas/lama/lama_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/tahtas/lama/lama_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/tahtas/lama/lama_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/tahtas/lama/lama_6.png"), title: "img6" },
+		require("../../assets/images/production/tahtas/lama/lama_1.png"),
+		require("../../assets/images/production/tahtas/lama/lama_2.png"),
+		require("../../assets/images/production/tahtas/lama/lama_3.png"),
+		require("../../assets/images/production/tahtas/lama/lama_4.png"),
+		require("../../assets/images/production/tahtas/lama/lama_5.png"),
+		require("../../assets/images/production/tahtas/lama/lama_6.png"),
 	];
 
 	const selga_specs = [
@@ -47,10 +47,10 @@ export default function TahtasDetails() {
 		{ title: "Kājas", content: "plastmasas" },
 	];
 	const selga_img = [
-		{ src: require("../../assets/images/production/tahtas/selga/selga_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/tahtas/selga/selga_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/tahtas/selga/selga_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/tahtas/selga/selga_4.png"), title: "img4" },
+		require("../../assets/images/production/tahtas/selga/selga_1.png"),
+		require("../../assets/images/production/tahtas/selga/selga_2.png"),
+		require("../../assets/images/production/tahtas/selga/selga_3.png"),
+		require("../../assets/images/production/tahtas/selga/selga_4.png"),
 	];
 
 	const tahta1_specs = [
@@ -62,9 +62,9 @@ export default function TahtasDetails() {
 		{ title: "Kājas", content: "plastmasas" },
 	];
 	const tahta1_img = [
-		{ src: require("../../assets/images/production/tahtas/tahta1/tahta1_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/tahtas/tahta1/tahta1_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/tahtas/tahta1/tahta1_3.png"), title: "img3" },
+		require("../../assets/images/production/tahtas/tahta1/tahta1_1.png"),
+		require("../../assets/images/production/tahtas/tahta1/tahta1_2.png"),
+		require("../../assets/images/production/tahtas/tahta1/tahta1_3.png"),
 	];
 
 	return (

@@ -32,7 +32,7 @@ export default function ProductionItem(props) {
 				modules={[Autoplay, Navigation, Pagination]}
 			>
 				{props.images.map((img) => {
-					return (<SwiperSlide><img src={img.src} alt="" className="product-slider"></img></SwiperSlide>);
+					return (<SwiperSlide><img src={img} alt="" className="product-slider"></img></SwiperSlide>);
 				})}				
 			</Swiper>
 			
@@ -41,19 +41,21 @@ export default function ProductionItem(props) {
 					<Col sm={12} lg={12}>
 						<p className='item-title'>{props.title}</p>
 						<p className='item-text'>{props.description}</p>
-						<div className='item-specs-block'>
-							{/* return spec */}
-							{props.specs.map((spec) =>{
-								return (
-									<div className='item-spec'>
-										<span className='item-text-bold'>{spec.title}</span>
-										<span className='item-text-bold'> - </span>
-										<span className='item-text'>{spec.content}</span>
-										<br></br>
-									</div>
-								);
-							})}				
-						</div>
+						{props.spec ?
+							<div className='item-specs-block'>
+								{/* return spec */}
+								{props.specs.map((spec) =>{
+									return (
+										<div className='item-spec'>
+											<span className='item-text-bold'>{spec.title}</span>
+											<span className='item-text-bold'> - </span>
+											<span className='item-text'>{spec.content}</span>
+											<br></br>
+										</div>
+									);
+								})}				
+							</div>
+						: null}
 						{props.file ?
 							<a href={props.file} target='_blank' rel='noopener noreferrer'>
 								<img src={size} alt="" className="item-document-link" />

@@ -17,9 +17,9 @@ export default function BedsDetails() {
 		
 	];
 	const daniela_img = [
-		{ src: require("../../assets/images/production/beds/daniela/daniela_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/beds/daniela/daniela_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/beds/daniela/daniela_3.png"), title: "img3" },
+		require("../../assets/images/production/beds/daniela/daniela_1.png"),
+		require("../../assets/images/production/beds/daniela/daniela_2.png"),
+		require("../../assets/images/production/beds/daniela/daniela_3.png"),
 	];
 
 	const gala_specs = [
@@ -28,11 +28,11 @@ export default function BedsDetails() {
 		{ title: "Korpuss", content: "Laminēta kokskaidu plātne, dabīgskoks, porolons, sintepons, lameles gultai", },
 	];
 	const gala_img = [
-		{ src: require("../../assets/images/production/beds/gala/gala_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/beds/gala/gala_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/beds/gala/gala_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/beds/gala/gala_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/beds/gala/gala_5.png"), title: "img5" },
+		require("../../assets/images/production/beds/gala/gala_1.png"),
+		require("../../assets/images/production/beds/gala/gala_2.png"),
+		require("../../assets/images/production/beds/gala/gala_3.png"),
+		require("../../assets/images/production/beds/gala/gala_4.png"),
+		require("../../assets/images/production/beds/gala/gala_5.png"),
 	];
 
 	const kvest_specs = [
@@ -42,9 +42,9 @@ export default function BedsDetails() {
 		
 	];
 	const kvest_img = [
-		{ src: require("../../assets/images/production/beds/kvest/kvest_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/beds/kvest/kvest_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/beds/kvest/kvest_3.png"), title: "img3" },
+		require("../../assets/images/production/beds/kvest/kvest_1.png"),
+		require("../../assets/images/production/beds/kvest/kvest_2.png"),
+		require("../../assets/images/production/beds/kvest/kvest_3.png"),
 	];
 
 	const lanai_specs = [
@@ -60,13 +60,13 @@ export default function BedsDetails() {
 		
 	];
 	const lanai_img = [
-		{ src: require("../../assets/images/production/beds/lanai/lanai_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/beds/lanai/lanai_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/beds/lanai/lanai_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/beds/lanai/lanai_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/beds/lanai/lanai_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/beds/lanai/lanai_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/beds/lanai/lanai_7.png"), title: "img7" },
+		require("../../assets/images/production/beds/lanai/lanai_1.png"),
+		require("../../assets/images/production/beds/lanai/lanai_2.png"),
+		require("../../assets/images/production/beds/lanai/lanai_3.png"),
+		require("../../assets/images/production/beds/lanai/lanai_4.png"),
+		require("../../assets/images/production/beds/lanai/lanai_5.png"),
+		require("../../assets/images/production/beds/lanai/lanai_6.png"),
+		require("../../assets/images/production/beds/lanai/lanai_7.png"),
 	];
 
 	const lissi_specs = [
@@ -75,10 +75,10 @@ export default function BedsDetails() {
 		{ title: "Korpuss", content: "Laminēta kokskaidu plātne, dabīgskoks, porolons, sintepons, lameles gultai", },
 	];
 	const lissi_img = [
-		{ src: require("../../assets/images/production/beds/lissi/lissi_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/beds/lissi/lissi_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/beds/lissi/lissi_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/beds/lissi/lissi_4.png"), title: "img4" },
+		require("../../assets/images/production/beds/lissi/lissi_1.png"),
+		require("../../assets/images/production/beds/lissi/lissi_2.png"),
+		require("../../assets/images/production/beds/lissi/lissi_3.png"),
+		require("../../assets/images/production/beds/lissi/lissi_4.png"),
 	];
 
 	const melene_specs = [
@@ -87,9 +87,9 @@ export default function BedsDetails() {
 		{ title: "Korpuss", content: "Laminēta kokskaidu plātne, dabīgskoks, porolons, sintepons, lameles gultai", },
 	];
 	const melene_img = [
-		{ src: require("../../assets/images/production/beds/melene/melene_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/beds/melene/melene_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/beds/melene/melene_3.png"), title: "img3" },
+		require("../../assets/images/production/beds/melene/melene_1.png"),
+		require("../../assets/images/production/beds/melene/melene_2.png"),
+		require("../../assets/images/production/beds/melene/melene_3.png"),
 	];
 
 
@@ -106,11 +106,11 @@ export default function BedsDetails() {
 
 	];
 	const pointbreak_img = [
-		{ src: require("../../assets/images/production/beds/pointbreak/pointbreak_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/beds/pointbreak/pointbreak_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/beds/pointbreak/pointbreak_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/beds/pointbreak/pointbreak_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/beds/pointbreak/pointbreak_5.png"), title: "img5" },
+		require("../../assets/images/production/beds/pointbreak/pointbreak_1.png"),
+		require("../../assets/images/production/beds/pointbreak/pointbreak_2.png"),
+		require("../../assets/images/production/beds/pointbreak/pointbreak_3.png"),
+		require("../../assets/images/production/beds/pointbreak/pointbreak_4.png"),
+		require("../../assets/images/production/beds/pointbreak/pointbreak_5.png"),
 	];
 
 
@@ -120,13 +120,13 @@ export default function BedsDetails() {
 		{ title: "Korpuss", content: "Dabīgskoks, saplāksnis, kokšķiedru plātne, porolons, sintepons", },
 	];
 	const tossa_img = [
-		{ src: require("../../assets/images/production/beds/tossa/tossa_1.png"), title: "img1" },
-		{ src: require("../../assets/images/production/beds/tossa/tossa_2.png"), title: "img2" },
-		{ src: require("../../assets/images/production/beds/tossa/tossa_3.png"), title: "img3" },
-		{ src: require("../../assets/images/production/beds/tossa/tossa_4.png"), title: "img4" },
-		{ src: require("../../assets/images/production/beds/tossa/tossa_5.png"), title: "img5" },
-		{ src: require("../../assets/images/production/beds/tossa/tossa_6.png"), title: "img6" },
-		{ src: require("../../assets/images/production/beds/tossa/tossa_7.png"), title: "img7" },
+		require("../../assets/images/production/beds/tossa/tossa_1.png"),
+		require("../../assets/images/production/beds/tossa/tossa_2.png"),
+		require("../../assets/images/production/beds/tossa/tossa_3.png"),
+		require("../../assets/images/production/beds/tossa/tossa_4.png"),
+		require("../../assets/images/production/beds/tossa/tossa_5.png"),
+		require("../../assets/images/production/beds/tossa/tossa_6.png"),
+		require("../../assets/images/production/beds/tossa/tossa_7.png"),
 	];
 
 	return (

@@ -21,7 +21,7 @@ function ProductListItem(props) {
 export default function Collection() {
 	return (
 		<div className='grid-container'>
-			<ProductListItem link='/coming-soon' img={Pic2} text="Sophisticated Living" />
+			<ProductListItem link='/collection/sophisticated-living/' img={Pic2} text="Sophisticated Living" />
 			<ProductListItem link='/coming-soon' img={Pic3} text="BBold " />
 			<ProductListItem link='/coming-soon' img={Pic1} text="Eliza" />
 		</div>

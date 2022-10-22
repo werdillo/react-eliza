@@ -1,41 +1,102 @@
-import React from 'react'
-
-import '../../../App.css';
-import 'bootstrap/dist/css/bootstrap.css'
-import { Row, Col, Container } from 'react-bootstrap';
-import ProductLanding from '../../../Components/ProductLanding';
-import { Link } from 'react-router-dom';
-
-import Altitude from "../../../assets/images/production/chairs/altitude/altitude_1.png";
-import Haleiwa from "../../../assets/images/production/chairs/haleiwa/haleiwa_1.png";
-import Local from "../../../assets/images/production/chairs/local/local_1.png";
-import Serenity from "../../../assets/images/production/chairs/serenity/serenity_1.png";
-
-
-function ProductLink(props) {
-  return (
-    <Col sm={12} lg={4}>
-      <Link to={props.link}>
-        <ProductLanding img={props.img} text={props.text} />
-      </Link>
-    </Col>
-  );
-}
-
-export default function  SophisticatedLivingChairs() {
-  return (
-    <div className='products-container'>
-      <Container fluid>
-        <Row>
-          <Col sm={12} lg={12}>
-            <p className='collection-type-title'>Krēsli</p>
-          </Col>
-          <ProductLink link='/Production/chairs/details/altitude' img={Altitude} text="ALTITUDE" />
-          <ProductLink link='/Production/chairs/details/haleiwa' img={Haleiwa} text="HALEIWA" />
-          <ProductLink link='/Production/chairs/details/local' img={Local} text="LOCAL" />
-          <ProductLink link='/Production/chairs/details/serenity' img={Serenity} text="SERENITY" />
-        </Row>
-      </Container>
-    </div>
-  )
-}
+const SophisticatedLiving_chair = [
+	{
+	  id: 1,
+	  path: "chair/barrel",
+	  title: "Barrel",
+	  photo: [
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Barrel/barrel_1.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Barrel/barrel_2.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Barrel/barrel_3.png")
+	  ]
+	},
+	{
+	  id: 2,
+	  path: "chair/drop-in",
+	  title: "Drop-in",
+	  photo: [
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Drop-in/drop-in_1.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Drop-in/drop-in_2.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Drop-in/drop-in_3.png")
+	  ]
+	},
+	{
+	  id: 3,
+	  path: "chair/infinity",
+	  title: "Infinity",
+	  photo: [
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Infinity/infinity_1.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Infinity/infinity_2.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Infinity/infinity_3.png")
+	  ]
+	},
+	{
+	  id: 4,
+	  path: "chair/keala",
+	  title: "Keala",
+	  photo: [
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Keala/keala_1.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Keala/keala_2.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Keala/keala_3.png")
+	  ]
+	},
+	{
+	  id: 5,
+	  path: "chair/lio",
+	  title: "Lio",
+	  photo: [
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Lio/lio_1.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Lio/lio_2.png")
+	  ]
+	},
+  {
+	  id: 6,
+	  path: "chair/malia",
+	  title: "Malia",
+	  photo: [
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Malia/malia_1.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Malia/malia_2.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Malia/malia_3.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Malia/malia_4.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Malia/malia_5.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Malia/malia_6.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Malia/malia_7.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Malia/malia_8.png"),
+	  ]
+	},
+  {
+	  id: 7,
+	  path: "chair/mamMalia",
+	  title: "Mam'Malia",
+	  photo: [
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/MamMalia/mamMalia_1.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/MamMalia/mamMalia_2.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/MamMalia/mamMalia_3.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/MamMalia/mamMalia_4.png")
+	  ]
+	},
+  {
+	  id: 8,
+	  path: "chair/neyla",
+	  title: "Neyla",
+	  photo: [
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Neyla/neyla_1.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Neyla/neyla_2.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Neyla/neyla_3.png")
+	  ]
+	},
+  {
+	  id: 9,
+	  path: "chair/serenity",
+	  title: "Serenity",
+	  photo: [
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Serenity/serenity_1.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Serenity/serenity_2.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Serenity/serenity_3.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Serenity/serenity_4.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Serenity/serenity_5.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Serenity/serenity_6.png"),
+      require("../../../assets/images/collection/sophisticatedLiving/Chair/Serenity/serenity_7.png")
+	  ]
+	},
+  ]
+export default SophisticatedLiving_chair

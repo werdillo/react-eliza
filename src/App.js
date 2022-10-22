@@ -57,7 +57,7 @@ function App() {
           <Route path="/collection/eliza/" element={<Navigate to="/collection/eliza/products" replace />} />
           {/* <Route path="/collection/bebold/" element={<Navigate to="/collection/bebold/products" replace />} /> */}
           <Route path="/collection/sophisticated-living/*" element={<SophisticatedLiving />} />
-          <Route path="/collection/sophisticated-living/" element={<Navigate to="/collection/sophisticated-living/products" replace />} />
+          {/* <Route path="/collection/sophisticated-living/" element={<Navigate to="/collection/sophisticated-living/products" replace />} /> */}
 
 
           <Route path="/Production" element={<Production /> } />
