@@ -9,7 +9,12 @@
 		"contacts": "Контакты"
 	},
 	"Pages": {
-		"collection": {},
+		"collection": {
+			"all": "Все",
+			"beds": "Кровати",
+			"chairs": "Кресла",
+			"sofas": "Диваны"
+		},
 		"components": {
 			"porolon-title": "Поролон",
 			"porolon-text": "Изготавливаем из поролона изделия любой сложности.",

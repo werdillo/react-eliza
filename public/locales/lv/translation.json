@@ -9,7 +9,12 @@
 		"contacts": "Kontakti"
 	},
 	"Pages": {
-		"collection": {},
+		"collection": {
+			"all": "Visi",
+			"beds": "Gultas",
+			"chairs": "Krēsli",
+			"sofas": "Dīvāni"
+		},
 		"components": {
 			"porolon-title": "Porolons",
 			"porolon-text": "Mēs ražojam izstrādājumus no porolona.",

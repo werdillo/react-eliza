@@ -9,7 +9,12 @@
 		"contacts": "Contacts"
 	},
 	"Pages": {
-		"collection":{},
+		"collection":{
+			"all": "All",
+			"beds": "Beds",
+			"chairs": "Chairs",
+			"sofas": "Sofas"
+		},
 		"components":{
 			"porolon-title": "Foam rubber",
 			"porolon-text":  "Our company creates goods from foam rubber of any complexity.",

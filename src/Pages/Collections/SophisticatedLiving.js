@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import '../../App.css';
 import { Route, Routes, Outlet } from 'react-router-dom';
 import ProductionItem from '../../Components/ProductionItem';
+import { useTranslation } from 'react-i18next';
 
 import SophisticatedLiving_beds from './SophisticatedLivingItems/SophisticatedLivingBeds';
 import SophisticatedLiving_chair from './SophisticatedLivingItems/SophisticatedLivingChairs';
@@ -29,19 +30,17 @@ function SophisticatedLivingLinks() {
      }
     ))
   } 
-
+  const { t } = useTranslation();
   const [filter, setFilter] = useState("all");
   return (
       <Container fluid >
 				<Row>
-          <div className='products-container'>
             <div className='filter-wrapper'>
-              <button className='filter-link' onClick={() => setFilter("all")}>all</button>
-              <button className='filter-link' onClick={() => setFilter("sofa")}>sofa</button>
-              <button className='filter-link' onClick={() => setFilter("beds")}>beds</button>
-              <button className='filter-link' onClick={() => setFilter("chair")}>chairs</button>
+              <button className={filter === "all" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("all")}>{t("Pages.collection.all")}</button>
+              <button className={filter === "beds" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("beds")}>{t("Pages.collection.beds")}</button>
+            <button className={filter === "chair" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("chair")}>{t("Pages.collection.chairs")}</button>
+              <button className={filter === "sofa" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("sofa")}>{t("Pages.collection.sofas")}</button>
             </div>
-          </div>
           { (filter === "beds" || filter === "all") &&
             <>
               <Col sm={12} lg={12}>

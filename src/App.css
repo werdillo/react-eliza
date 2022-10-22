@@ -695,7 +695,7 @@ select option {
 
 @media screen and (max-width: 600px) {
   .product-slider {
-    height: 40vh;
+    height: auto;
   }
   .item-text-bold {
     font-size: 18px;
@@ -743,7 +743,7 @@ a:visited {
 }
 
 .product-main-text {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 10px;
   font-family: 'Avenir', sans-serif;  
   text-align: center;
@@ -789,6 +789,7 @@ a:visited {
 }
 
 .filter-wrapper {
+  padding: 20px 25px;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
@@ -814,15 +815,29 @@ a:visited {
   border-radius: 1px;
 }
 
+.filter-link-active {
+  border: #333333 solid 1px;
+  color: #fff;
+  display: block;
+  background: #333333;
+  width: 120px;
+  padding: 3px 0;
+  text-align: center;
+  padding: auto 0;
+  text-decoration: none;
+  transition: 250ms;
+  font-size: 18px;
+  border-radius: 1px;
+}
 
-.filter-link:hover {
+.filter-link:hover  {
   background: #333333;
   color: #fff;
 }
 
 
 @media screen and (max-width: 768px) {
-  .filter-link {
+  .filter-link .filter-link-active {
     width: 80px;
     padding: 2px 0;
     font-size: 12px;

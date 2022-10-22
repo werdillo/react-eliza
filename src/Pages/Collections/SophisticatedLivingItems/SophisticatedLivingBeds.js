@@ -22,8 +22,7 @@ const SophisticatedLiving_beds = [
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_2.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_3.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_4.png"),
-		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_5.png"),
-		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_6.png")
+		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_5.png")
 	  ]
 	},
 	{
