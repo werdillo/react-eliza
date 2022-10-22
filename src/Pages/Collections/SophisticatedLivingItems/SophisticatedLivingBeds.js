@@ -3,6 +3,7 @@ const SophisticatedLiving_beds = [
 	  id: 1,
 	  path: "beds/copper",
 	  title: "Copper",
+	  file: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
 	  photo: [
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Copper/copper_1.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Copper/copper_2.png"),
@@ -17,6 +18,7 @@ const SophisticatedLiving_beds = [
 	  id: 2,
 	  path: "beds/lanai",
 	  title: "Lanai",
+	  file: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
 	  photo: [
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_1.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_2.png"),
@@ -29,6 +31,7 @@ const SophisticatedLiving_beds = [
 	  id: 3,
 	  path: "beds/shaka",
 	  title: "Shaka",
+	  file: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
 	  photo: [
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Shaka/shaka_1.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Shaka/shaka_2.png"),
@@ -43,6 +46,7 @@ const SophisticatedLiving_beds = [
 	  id: 4,
 	  path: "beds/zamba",
 	  title: "Zamba",
+	  file: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
 	  photo: [
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Zamba/zamba_1.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Zamba/zamba_2.png"),

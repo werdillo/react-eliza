@@ -21,7 +21,7 @@ function SophisticatedLivingLinks() {
     return (
       data.map((item) => {
         return (
-          <Col sm={12} lg={4}>
+          <Col sm={12} md={6} lg={4}>
             <Link to={item.path}>
               <ProductLanding img={item.photo[0]} text={item.title} />
             </Link>
@@ -83,28 +83,34 @@ export default function SophisticatedLiving() {
              element={<ProductionItem
               title={item.title}
               description=""
-              images={item.photo} key={item} />}
+              images={item.photo}
+              file={item.file}
+              key={item.key} />}
           />
           );
         })}
         {SophisticatedLiving_chair.map((item) => {
           return (
             <Route path={item.path}
-             element={<ProductionItem
-              title={item.title}
-              description=""
-              images={item.photo} key={item} />}
-          />
+              element={<ProductionItem
+                title={item.title}
+                description=""
+                images={item.photo}
+                file={item.file}
+                key={item.key} />}
+            />
           );
         })}
         {SophisticatedLiving_sofa.map((item) => {
           return (
             <Route path={item.path}
-             element={<ProductionItem
-              title={item.title}
-              description=""
-              images={item.photo} key={item} />}
-          />
+              element={<ProductionItem
+                title={item.title}
+                description=""
+                images={item.photo}
+                file={item.file}
+                key={item.key} />}
+            />
           );
         })}
       </Routes>
