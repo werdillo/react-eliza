@@ -38,7 +38,7 @@ function SophisticatedLivingLinks() {
             <div className='filter-wrapper'>
               <button className={filter === "all" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("all")}>{t("Pages.collection.all")}</button>
               <button className={filter === "beds" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("beds")}>{t("Pages.collection.beds")}</button>
-            <button className={filter === "chair" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("chair")}>{t("Pages.collection.chairs")}</button>
+              <button className={filter === "chair" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("chair")}>{t("Pages.collection.chairs")}</button>
               <button className={filter === "sofa" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("sofa")}>{t("Pages.collection.sofas")}</button>
             </div>
           { (filter === "beds" || filter === "all") &&

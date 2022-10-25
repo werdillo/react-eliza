@@ -23,7 +23,7 @@ export default function Collection() {
 		<div className='grid-container'>
 			<ProductListItem link='/collection/sophisticated-living/' img={Pic2} text="Sophisticated Living" />
 			<ProductListItem link='/coming-soon' img={Pic3} text="BBold " />
-			<ProductListItem link='/coming-soon' img={Pic1} text="Eliza" />
+			<ProductListItem link='/coming-soon' img={Pic1} text="Basic" />
 		</div>
 	)
 }
