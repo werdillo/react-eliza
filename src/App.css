@@ -939,7 +939,7 @@ a:visited {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 75%;
+  width: 80%;
   color: #ffffff;
 }
 
@@ -950,6 +950,7 @@ a:visited {
   text-align: center;
   align-items: center;
   color: #ffffff;
+  margin-bottom: 2px;
 }
 
 .horeca-img {
