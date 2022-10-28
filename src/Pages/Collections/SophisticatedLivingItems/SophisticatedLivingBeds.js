@@ -19,7 +19,8 @@ const SophisticatedLiving_beds = [
 	  id: 2,
 	  path: "beds/lanai",
 	  title: "Lanai",
-	  file: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
+		file_headboard: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
+		file_options: require("../../../assets/Files/collection/sophisticatedLiving/Beds/modular-beds.pdf"),
 	  photo: [
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_1.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Lanai/lanai_2.png"),
