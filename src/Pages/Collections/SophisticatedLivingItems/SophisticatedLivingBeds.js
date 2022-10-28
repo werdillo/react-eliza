@@ -32,7 +32,7 @@ const SophisticatedLiving_beds = [
 	  id: 3,
 	  path: "beds/shaka",
 	  title: "Shaka",
-	  file: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
+		file: require("../../../assets/Files/collection/sophisticatedLiving/Beds/Shaka.pdf"),
 	  photo: [
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Shaka/shaka_1.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Shaka/shaka_2.png"),
