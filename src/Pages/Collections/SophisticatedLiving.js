@@ -85,6 +85,8 @@ export default function SophisticatedLiving() {
               description=""
               images={item.photo}
               file={item.file}
+              file_headboard={item.file_headboard} 
+              file_options={item.file_options} 
               key={item.key} />}
           />
           );

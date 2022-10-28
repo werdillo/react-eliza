@@ -3,7 +3,8 @@ const SophisticatedLiving_beds = [
 	  id: 1,
 	  path: "beds/copper",
 	  title: "Copper",
-	  file: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
+		file_headboard: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
+		file_options: require("../../../assets/Files/collection/sophisticatedLiving/Beds/modular-beds.pdf"),
 	  photo: [
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Copper/copper_1.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Copper/copper_2.png"),
@@ -46,7 +47,8 @@ const SophisticatedLiving_beds = [
 	  id: 4,
 	  path: "beds/zamba",
 	  title: "Zamba",
-	  file: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
+		file_headboard: require("../../../assets/Files/collection/sophisticatedLiving/Beds/headboards.pdf"),
+		file_options: require("../../../assets/Files/collection/sophisticatedLiving/Beds/modular-beds.pdf"),
 	  photo: [
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Zamba/zamba_1.png"),
 		require("../../../assets/images/collection/sophisticatedLiving/Beds/Zamba/zamba_2.png"),

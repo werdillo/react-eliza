@@ -1,7 +1,9 @@
 import React from 'react';
 import '../App.css';
-import size from "../assets/images/production/size.png";
-import cleaning from "../assets/images/production/cleaning.png";
+import size from "../assets/images/production/size.svg";
+import headboard from "../assets/images/production/headboard.svg";
+import options from "../assets/images/production/options.svg";
+import cleaning from "../assets/images/production/cleaning.svg";
 import cleaningFile from "../assets/Files/Products/cleaning.pdf";
 
 import 'bootstrap/dist/css/bootstrap.css'
@@ -59,6 +61,18 @@ export default function ProductionItem(props) {
 						{props.file ?
 							<a href={props.file} target='_blank' rel='noopener noreferrer'>
 								<img src={size} alt="" className="item-document-link" />
+							</a>
+
+							: null}
+						{props.file_headboard ?
+							<a href={props.file_headboard} target='_blank' rel='noopener noreferrer'>
+								<img src={headboard} alt="" className="item-document-link" />
+							</a>
+
+							: null}
+						{props.file_options ?
+							<a href={props.file_options} target='_blank' rel='noopener noreferrer'>
+								<img src={options} alt="" className="item-document-link" />
 							</a>
 
 							: null}

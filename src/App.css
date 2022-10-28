@@ -706,6 +706,11 @@ select option {
   .item-title {
     font-size: 48px;
   }
+  .item-document-link {
+    margin-right: 10px;
+    width: 150px;
+    height: auto;
+  }
 
 }
 
