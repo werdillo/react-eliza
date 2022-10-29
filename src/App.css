@@ -672,6 +672,17 @@ select option {
   font-size: 22px;
 }
 
+.item-back-button {
+  width: 200px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+  /* color: white; */
+  /* border: 1px solid transparent; */
+  border-radius: 5px;
+
+}
+
 .item-text-bold {
   font-family: 'Avenir', sans-serif;
   font-weight: 400;
@@ -681,7 +692,7 @@ select option {
 
 .item-document-link {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-right: 20px;
 }
 

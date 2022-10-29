@@ -1,13 +1,17 @@
 import React from 'react';
+
+import { useNavigate } from 'react-router-dom';
+
 import '../App.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import { Row, Col, Container } from 'react-bootstrap';
+
+
 import size from "../assets/images/production/size.svg";
 import headboard from "../assets/images/production/headboard.svg";
 import options from "../assets/images/production/options.svg";
 import cleaning from "../assets/images/production/cleaning.svg";
 import cleaningFile from "../assets/Files/Products/cleaning.pdf";
-
-import 'bootstrap/dist/css/bootstrap.css'
-import { Row, Col, Container } from 'react-bootstrap';
 
 // swiper
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
@@ -17,6 +21,7 @@ import 'swiper/modules/pagination/pagination.min.css'
 import 'swiper/modules/navigation/navigation.min.css'
 
 export default function ProductionItem(props) {
+	const navigate = useNavigate();
 	return (
 		<>
 			<Swiper
@@ -79,7 +84,13 @@ export default function ProductionItem(props) {
 						<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
 							<img src={cleaning} alt="" className="item-document-link" />
 						</a>
+						
 					</Col>
+					<Col sm={12} lg={12}>
+						<div className="item-back-button" onClick={() => navigate(-1)}>Back</div>
+					</Col>
+
+
 				</Row>
 			</Container>
 		</>
