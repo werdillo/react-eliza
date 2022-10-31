@@ -164,7 +164,9 @@ const SophisticatedLiving_sofa = [
 			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Maverick/maverick_2.png"),
 			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Maverick/maverick_3.png"),
 			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Maverick/maverick_4.png"),
-			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Maverick/maverick_5.png")
+			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Maverick/maverick_5.png"),
+			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Maverick/maverick_6.png"),
+			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Maverick/maverick_7.png")
 	  ]
 	},
   {
