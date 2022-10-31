@@ -86,9 +86,9 @@ export default function ProductionItem(props) {
 						</a>
 						
 					</Col>
-					<Col sm={12} lg={12}>
+					{/* <Col sm={12} lg={12}>
 						<div className="item-back-button" onClick={() => navigate(-1)}>Back</div>
-					</Col>
+					</Col> */}
 
 
 				</Row>
