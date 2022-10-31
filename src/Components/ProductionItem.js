@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
@@ -21,7 +21,7 @@ import 'swiper/modules/pagination/pagination.min.css'
 import 'swiper/modules/navigation/navigation.min.css'
 
 export default function ProductionItem(props) {
-	const navigate = useNavigate();
+	// const navigate = useNavigate();
 	return (
 		<>
 			<Swiper

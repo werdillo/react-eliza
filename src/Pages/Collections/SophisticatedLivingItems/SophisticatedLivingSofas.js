@@ -214,8 +214,7 @@ const SophisticatedLiving_sofa = [
 	  photo: [
 			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Peak/peak_1.png"),
 			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Peak/peak_2.png"),
-			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Peak/peak_3.png"),
-			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Peak/peak_4.png")
+			require("../../../assets/images/collection/sophisticatedLiving/Sofas/Peak/peak_3.png")
 	  ]
 	},
   {
