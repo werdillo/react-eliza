@@ -21,7 +21,15 @@ function ProductListItem(props) {
 export default function Collection() {
 	return (
 		<div className='grid-container'>
-			<ProductListItem link='/collection/sophisticated-living/' img={Pic2} text="Sophisticated Living" />
+			{/* <ProductListItem link='/collection/sophisticated-living/' img={Pic2} text="Sophisticated Living" /> */}
+			<a href="https://www.sophisticated-living.de/" rel="noopener noreferrer" target="_blank">
+				<div className='grid-item'>
+					<div className='product-list-wrapper'>
+						<img className='product-list-img' alt='' src={Pic2}></img>
+						<span className="production-list-text">Sophisticated Living</span>
+					</div>
+				</div>
+			</a>
 			<ProductListItem link='/coming-soon' img={Pic3} text="BBold " />
 			<ProductListItem link='/coming-soon' img={Pic1} text="Basic" />
 		</div>

@@ -29,7 +29,7 @@ export default function Contacts() {
 						<p className='place-title special'>{t("Pages.contacts.porolon")}</p>
 						<p className='place-text'>Rīga, A. Deglava iela 52A,</p>
 						<p className='place-text'>LV-1035 order@eliza-k.lv</p>
-						<p className='place-text'>67570331, 27862121, 28363860</p> 
+						<p className='place-text'>67570331, 27862121, 26653510</p> 
 						<p className='place-title work-time'>{t("Pages.contacts.working-time")}</p>
 						<p className='place-text'>{t("Pages.contacts.working-days")} 8:30 - 16:00</p>
 						<p className='place-text'>{t("Pages.contacts.breaktime")} 12:00 - 13:00</p>
@@ -42,7 +42,7 @@ export default function Contacts() {
 						<p className='place-title special'>{t("Pages.contacts.textile")}</p>
 						<p className='place-text'>Rīga, A. Deglava 50 iela K-1</p>
 						<p className='place-text'>audumi@eliza-k.lv</p>
-						<p className='place-text'>+371 26 599 422</p>
+						<p className='place-text'>+37126599422</p>
 						<p className='place-title work-time'>{t("Pages.contacts.working-time")}</p>
 						<p className='place-text'>{t("Pages.contacts.working-days")} 9:00 - 16:30</p>
 						<p className='place-text'>{t("Pages.contacts.breaktime")} 12:30 - 13:00</p>
