@@ -20,7 +20,9 @@ export default function FurnitureComponents() {
 			<Row>
 				<Col sm={12} lg={6}>
 					<div className='furniture-components-box'>
-						<LazyLoadImage className='furniture-components-img' alt='' src={porolon} placeholder={<ClipLoader />} />			
+						<a href="http://porolons.lv/" target="_blank" rel="noopener noreferrer">
+							<LazyLoadImage className='furniture-components-img' alt='' src={porolon} placeholder={<ClipLoader />} />	
+						</a>		
 						<p className='furniture-components-header'>{t("Pages.components.porolon-title")}</p>
 						<p className='furniture-components-text'>{t("Pages.components.porolon-text")}</p>
 					</div>
