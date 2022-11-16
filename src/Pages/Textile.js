@@ -47,16 +47,6 @@ export default function Textile() {
 	<>
 		<Container fluid>
 			<Row>
-				<p className='textile-title'>Eco leather</p>
-				<TextileItem img={Cayenne} text="Cayenne" />
-				<TextileItem img={Sioux} text="Sioux" />
-				<TextileItem img={Torres} text="Torres" />
-				<TextileItem img={Wave} text="Wave" />
-				<p className='textile-title'>Leather imitation fabric</p>
-				<TextileItem img={bison} text="Bison" />
-				<TextileItem img={ranger} text="Ranger" />
-				<TextileItem img={salvador} text="Salvador" />
-				<TextileItem img={tobago} text="Tobago" />
 				<p className='textile-title'>Microfiber</p>
 				<TextileItem img={bloom} text="Bloom" />
 				<TextileItem img={matrix} text="Matrix" />
@@ -67,11 +57,21 @@ export default function Textile() {
 				<TextileItem img={fusion} text="Fusion" />
 				<TextileItem img={luna} text="Luna" />
 				<TextileItem img={Magnum} text="Magnum" />
+				<p className='textile-title'>Leather imitation fabric</p>
+				<TextileItem img={bison} text="Bison" />
+				<TextileItem img={ranger} text="Ranger" />
+				<TextileItem img={salvador} text="Salvador" />
+				<TextileItem img={tobago} text="Tobago" />
 				<p className='textile-title'>Velour</p>
 				<TextileItem img={amore} text="Amore" />
 				<TextileItem img={gordon} text="Gordon" />
 				<TextileItem img={Tiffany} text="Tiffany" />
 				<TextileItem img={vogue} text="Vogue" />
+				<p className='textile-title'>Eco leather</p>
+				<TextileItem img={Cayenne} text="Cayenne" />
+				<TextileItem img={Sioux} text="Sioux" />
+				<TextileItem img={Torres} text="Torres" />
+				<TextileItem img={Wave} text="Wave" />
 				<p className='textile-title'>Flock</p>
 				<TextileItem img={Pia} text="Pia" />
 

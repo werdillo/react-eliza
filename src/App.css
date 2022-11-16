@@ -1202,8 +1202,20 @@ a:visited {
 
 .textile-title {
   display: inline-block;
-  font-weight: 700;
+  /* font-weight: 400; */
   font-size: 48px;
   margin-bottom: 25px;
   margin-top: 40px !important;
+}
+
+@media only screen and (max-width: 550px) {
+  .textile-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 25px !important;
+  }
+  .textile-text {
+    font-family: 'Avenir', sans-serif;
+    font-size: 16px;
+  }
 }
