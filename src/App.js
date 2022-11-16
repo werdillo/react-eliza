@@ -12,8 +12,9 @@ import Gallery from './Pages/Gallery';
 import Catalogs from './Pages/Catalogs';
 import Horeca from './Pages/Horeca';
 import FurnitureComponents from './Pages/FurnitureComponents';
-import NotFound from './Pages/NotFound';
 import AboutUs from './Pages/AboutUs';
+import Textile from './Pages/Textile';
+import NotFound from './Pages/NotFound';
 import ComingSoon from './Pages/ComingSoon';
 // Production-types pages
 import Production from './Pages/Production';
@@ -51,6 +52,7 @@ function App() {
           <Route path="/Catalogs" element={<Catalogs />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/coming-soon" element={<ComingSoon />} />
+          <Route path="/textile" element={<Textile />} />
 
           <Route path="/collection" element={<Collection />} />
           <Route path="/collection/eliza/*" element={<Eliza />} />

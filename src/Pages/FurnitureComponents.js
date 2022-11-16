@@ -12,6 +12,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export default function FurnitureComponents() {
 	const { t } = useTranslation();
@@ -29,7 +30,9 @@ export default function FurnitureComponents() {
 				</Col>
 				<Col sm={12} lg={6}>
 					<div className='furniture-components-box'>
-						<LazyLoadImage className='furniture-components-img' alt='' src={textile} placeholder={<ClipLoader />} />			
+						<Link to="/textile">
+							<LazyLoadImage className='furniture-components-img' alt='' src={textile} placeholder={<ClipLoader />} />			
+						</Link>
 						<p className='furniture-components-header'>{t("Pages.components.textile-title")}</p>
 						<p className='furniture-components-text'>{t("Pages.components.textile-text")}</p>
 					</div>
