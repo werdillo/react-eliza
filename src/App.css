@@ -298,7 +298,7 @@ select option {
   bottom: 0;
   left: 0;
   object-fit: cover;
-  filter: grayscale(.1)
+  /* filter: grayscale(.05) */
 }
 
 .mySwiper{
