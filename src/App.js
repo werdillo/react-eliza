@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import Spinner from 'react-bootstrap/Spinner';
 import Layout from './Components/Layout';
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Suspense } from 'react';
 
 import Home from "./Pages/Home";

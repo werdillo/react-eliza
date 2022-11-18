@@ -40,6 +40,7 @@ function SophisticatedLivingLinks() {
               <div className={filter === "beds" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("beds")}>{t("Pages.collection.beds")}</div>
               <div className={filter === "chair" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("chair")}>{t("Pages.collection.chairs")}</div>
               <div className={filter === "sofa" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("sofa")}>{t("Pages.collection.sofas")}</div>
+              <div className={filter === "mattresses" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("mattresses")}>Mattresses</div>
             </div>
           { (filter === "beds" || filter === "all") &&
             <>
@@ -63,6 +64,14 @@ function SophisticatedLivingLinks() {
                <p className='collection-type-title'>{t("Pages.collection.sofas")}</p>
               </Col>
               <ProductLinks data={SophisticatedLiving_sofa} />
+            </>
+         }
+         {(filter === "mattresses" || filter === "all") &&
+            <>
+              <Col sm={12} lg={12}>
+                <p className='collection-type-title'>Mattresses</p>
+              </Col>
+          <ProductLinks data={SophisticatedLiving_beds} />
             </>
          }
        </Row>
@@ -104,6 +113,18 @@ export default function SophisticatedLiving() {
           );
         })}
         {SophisticatedLiving_sofa.map((item) => {
+          return (
+            <Route path={item.path}
+              element={<ProductionItem
+                title={item.title}
+                description=""
+                images={item.photo}
+                file={item.file}
+                key={item.key} />}
+            />
+          );
+        })}
+        {SophisticatedLiving_beds.map((item) => {
           return (
             <Route path={item.path}
               element={<ProductionItem
