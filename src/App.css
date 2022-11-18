@@ -810,46 +810,42 @@ a:visited {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
   /* margin-left: 50px; */
 
 }
 
 .filter-link {
-  border: #333333 solid 1px;
-  color: #000;
+  /* border: #333333 solid 1px; */
+  color: #363636;
   display: block;
-  background: #ffffff;
-  width: 120px;
-  padding: 3px 0;
-  text-align: center;
+  /* width: 150px; */
+  padding: 3px 30px;
+  text-align: left;
   padding: auto 0;
   text-decoration: none;
   transition: 250ms;
-  font-size: 18px;
+  font-size: 36px;
   border-radius: 1px;
+  cursor: pointer;
 }
 
 .filter-link-active {
-  border: #333333 solid 1px;
-  color: #fff;
+  color: #363636;
   display: block;
-  background: #333333;
-  width: 120px;
-  padding: 3px 0;
-  text-align: center;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.47);
+  /* width: 150px; */
+  padding: 3px 30px;
+  text-align: left;
   padding: auto 0;
   text-decoration: none;
   transition: 250ms;
-  font-size: 18px;
+  font-size: 36px;
   border-radius: 1px;
+  cursor: pointer;
 }
 
-.filter-link:hover  {
-  background: #333333;
-  color: #fff;
-}
 
 
 @media screen and (max-width: 768px) {
