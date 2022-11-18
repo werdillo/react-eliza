@@ -71,7 +71,7 @@ function SophisticatedLivingLinks() {
               <Col sm={12} lg={12}>
                 <p className='collection-type-title'>Mattresses</p>
               </Col>
-          <ProductLinks data={SophisticatedLiving_beds} />
+              <ProductLinks data={SophisticatedLiving_beds} />
             </>
          }
        </Row>

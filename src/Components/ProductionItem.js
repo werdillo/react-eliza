@@ -63,27 +63,34 @@ export default function ProductionItem(props) {
 								})}				
 							</div>
 						: null}
-						{props.file ?
-							<a href={props.file} target='_blank' rel='noopener noreferrer'>
-								<img src={size} alt="" className="item-document-link" />
-							</a>
+						<div className='item-links-wrapper'>
+							{props.file ?
+								<a href={props.file} target='_blank' rel='noopener noreferrer'>
+									<div className='item-link'>Specification</div>
+									{/* <img src={size} alt="" className="item-document-link" /> */}
+								</a>
 
-							: null}
-						{props.file_headboard ?
-							<a href={props.file_headboard} target='_blank' rel='noopener noreferrer'>
-								<img src={headboard} alt="" className="item-document-link" />
-							</a>
+								: null}
+							{props.file_headboard ?
+								<a href={props.file_headboard} target='_blank' rel='noopener noreferrer'>
+									<div className='item-link'>Headboard</div>
+									{/* <img src={headboard} alt="" className="item-document-link" /> */}
+								</a>
 
-							: null}
-						{props.file_options ?
-							<a href={props.file_options} target='_blank' rel='noopener noreferrer'>
-								<img src={options} alt="" className="item-document-link" />
-							</a>
+								: null}
+							{props.file_options ?
+								<a href={props.file_options} target='_blank' rel='noopener noreferrer'>
+									<div className='item-link'>Options</div>
+									{/* <img src={options} alt="" className="item-document-link" /> */}
+								</a>
 
-							: null}
-						<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
-							<img src={cleaning} alt="" className="item-document-link" />
-						</a>
+								: null}
+							<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
+								<div className='item-link'>Cleaning</div>
+
+								{/* <img src={cleaning} alt="" className="item-document-link" /> */}
+							</a>
+						</div>
 						
 					</Col>
 					{/* <Col sm={12} lg={12}>
