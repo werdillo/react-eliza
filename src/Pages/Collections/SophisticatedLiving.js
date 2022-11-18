@@ -21,7 +21,7 @@ function SophisticatedLivingLinks() {
     return (
       data.map((item) => {
         return (
-          <Col sm={12} md={6} lg={4}>
+          <Col sm={12} md={6} lg={3}>
             <Link to={item.path}>
               <ProductLanding img={item.photo[0]} text={item.title} />
             </Link>
