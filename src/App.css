@@ -841,7 +841,7 @@ a:visited {
 
 .filter-wrapper {
   background: #363636;
-  padding: 10px 25px;
+  padding: 10px 36px !important;
   display: flex;
   flex-direction: row;
   gap: 50px;
@@ -890,7 +890,6 @@ a:visited {
   }
   .filter-wrapper {
     gap: 20px;
-    justify-content: center;
   }
 }
 /* ------------------------------------------------------ */
