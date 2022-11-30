@@ -839,6 +839,13 @@ a:visited {
   /* width: 33.3%; */
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+  z-index: 5;
+}
+
 .filter-wrapper {
   background: #363636;
   padding: 10px 36px !important;
