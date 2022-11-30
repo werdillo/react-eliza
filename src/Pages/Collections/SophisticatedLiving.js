@@ -14,68 +14,44 @@ import { Link } from 'react-router-dom';
 // products images
 import ProductLanding from '../../Components/ProductLanding';
 
-
-
 function SophisticatedLivingLinks() {
-  function ProductLinks({data}) {
+
+  function ProductLinks({data, title}) {
     return (
-      data.map((item) => {
-        return (
-          <Col sm={12} md={6} lg={3}>
-            <Link to={item.path}>
-              <ProductLanding img={item.photo[0]} text={item.title} />
-            </Link>
-          </Col>
-        );
-     }
-    ))
+      <>
+        <Col sm={12} lg={12}>
+          <p className='collection-type-title'>{title}</p>
+        </Col>
+        {data.map((item) => {
+            return (
+              <Col sm={12} md={6} lg={3}>
+                <Link to={item.path}>
+                  <ProductLanding img={item.photo[0]} text={item.title} />
+                </Link>
+              </Col>
+          );})}
+      </>
+    )
   } 
+
   const { t } = useTranslation();
   const [filter, setFilter] = useState("all");
   return (
-      <Container fluid >
-				<Row>
-            <div className='filter-wrapper'>
-              <div className={filter === "all" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("all")}>{t("Pages.collection.all")}</div>
-              <div className={filter === "beds" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("beds")}>{t("Pages.collection.beds")}</div>
-              <div className={filter === "chair" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("chair")}>{t("Pages.collection.chairs")}</div>
-              <div className={filter === "sofa" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("sofa")}>{t("Pages.collection.sofas")}</div>
-              <div className={filter === "mattresses" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("mattresses")}>Mattresses</div>
-            </div>
-          { (filter === "beds" || filter === "all") &&
-            <>
-              <Col sm={12} lg={12}>
-                <p className='collection-type-title'>{t("Pages.collection.beds")}</p>
-              </Col>
-              <ProductLinks data={SophisticatedLiving_beds} />
-            </>
-           }
-          { (filter === "chair" || filter === "all") &&
-            <>
-              <Col sm={12} lg={12}>
-                <p className='collection-type-title'>{t("Pages.collection.chairs")}</p>
-              </Col>
-              <ProductLinks data={SophisticatedLiving_chair} />
-            </>
-          } 
-          { (filter === "sofa" || filter === "all") &&
-            <>
-              <Col sm={12} lg={12}>
-               <p className='collection-type-title'>{t("Pages.collection.sofas")}</p>
-              </Col>
-              <ProductLinks data={SophisticatedLiving_sofa} />
-            </>
-         }
-         {(filter === "mattresses" || filter === "all") &&
-            <>
-              <Col sm={12} lg={12}>
-                <p className='collection-type-title'>Mattresses</p>
-              </Col>
-              <ProductLinks data={SophisticatedLiving_beds} />
-            </>
-         }
-       </Row>
-      </Container>
+    <Container fluid >
+      <Row>
+          <div className='filter-wrapper'>
+            <div className={filter === "all" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("all")}>{t("Pages.collection.all")}</div>
+            <div className={filter === "beds" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("beds")}>{t("Pages.collection.beds")}</div>
+            <div className={filter === "chair" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("chair")}>{t("Pages.collection.chairs")}</div>
+            <div className={filter === "sofa" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("sofa")}>{t("Pages.collection.sofas")}</div>
+            <div className={filter === "mattresses" ? 'filter-link-active' : 'filter-link'} onClick={() => setFilter("mattresses")}>Mattresses</div>
+          </div>
+          { (filter === "beds" || filter === "all") && <ProductLinks data={SophisticatedLiving_beds} title={t("Pages.collection.beds")} />}
+          { (filter === "chair" || filter === "all") && <ProductLinks data={SophisticatedLiving_chair} title={t("Pages.collection.chairs")} /> }
+          { (filter === "sofa" || filter === "all") && <ProductLinks data={SophisticatedLiving_sofa} title={t("Pages.collection.sofas")} /> }
+          { (filter === "mattresses" || filter === "all") && <ProductLinks data={SophisticatedLiving_beds} title='Mattresses' /> }
+      </Row>
+    </Container>
   )
 }
 
@@ -86,6 +62,7 @@ export default function SophisticatedLiving() {
       <Outlet />
       <Routes>
         <Route index element={<SophisticatedLivingLinks />} />
+
         {SophisticatedLiving_beds.map((item) => {
           return (
             <Route path={item.path}
