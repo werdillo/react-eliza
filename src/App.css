@@ -727,7 +727,7 @@ select option {
 
 /* product item */
 .product-slider {
-  margin-top: 5px;
+  margin-top: 10px;
   height: 80vh;
   width: 100%;
   object-fit: contain;
@@ -843,7 +843,6 @@ a:visited {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  border-top: 1px solid #fff;
   top: 80px;
   z-index: 5;
 }
