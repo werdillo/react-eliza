@@ -15,10 +15,6 @@ import { Link } from 'react-router-dom';
 import ProductLanding from '../../Components/ProductLanding';
 
 
-
-
-
-
 export default function SophisticatedLiving() {
   const { t } = useTranslation();
   const [filter, setFilter] = useState("all");
