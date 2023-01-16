@@ -18,8 +18,9 @@ import NotFound from './Pages/NotFound';
 import ComingSoon from './Pages/ComingSoon';
 // Collection-types
 import Collection from './Pages/Collection';
-import Eliza from './Pages/Collections/Eliza';
+import Basic from './Pages/Collections/Basic';
 import SophisticatedLiving from './Pages/Collections/SophisticatedLiving';
+import Bbold from './Pages/Collections/Bbold';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
           <Route path="/textile" element={<Textile />} />
 
           <Route path="/collection" element={<Collection />} />
-          <Route path="/collection/eliza/*" element={<Eliza />} />
+          <Route path="/collection/bbold/*" element={<Bbold />} />
+          <Route path="/collection/basic/*" element={<Basic />} />
           <Route path="/collection/sophisticated-living/*" element={<SophisticatedLiving />} />
           {/* <Route path="/collection/sophisticated-living/" element={<Navigate to="/collection/sophisticated-living/products" replace />} /> */}
 

@@ -22,7 +22,7 @@ export default function Collection() {
 	return (
 		<div className='grid-container'>
 			{/* <ProductListItem link='/collection/sophisticated-living/' img={Pic2} text="Sophisticated Living" /> */}
-			<a href="https://www.sophisticated-living.de/" rel="noopener noreferrer" target="_blank">
+			<a href="https://www.sophisticated-living.com/" rel="noopener noreferrer" target="_blank">
 				<div className='grid-item'>
 					<div className='product-list-wrapper'>
 						<img className='product-list-img' alt='' src={Pic2}></img>
@@ -30,8 +30,8 @@ export default function Collection() {
 					</div>
 				</div>
 			</a>
-			<ProductListItem link='/coming-soon' img={Pic3} text="BBold " />
-			<ProductListItem link='/coming-soon' img={Pic1} text="Basic" />
+			<ProductListItem link='/collection/bbold' img={Pic3} text="BBold " />
+			<ProductListItem link='/collection/basic' img={Pic1} text="Basic" />
 		</div>
 	)
 }

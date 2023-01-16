@@ -25,7 +25,7 @@ export default function SophisticatedLiving() {
   function Filter() {
     
     const handleSetFilter = (event, item) => {
-      setFilter(item)
+      setFilter(item);
       if (location.pathname !== "/collection/sophisticated-living/") {
         navigate('/collection/sophisticated-living/')
       }
