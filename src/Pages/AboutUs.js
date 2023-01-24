@@ -2,19 +2,11 @@ import React from 'react';
 import ReactPlayer from 'react-player'
 import { useTranslation } from 'react-i18next';
 
-import '../App.css';
+import '../assets/scss/_about-us.css';
 import Scene1 from "../assets/images/AboutUs/Scene1.png";
 import Scene2 from "../assets/images/AboutUs/Scene2.png";
 import Scene3 from "../assets/images/AboutUs/Scene3.png";
 
-function AboutUsItem(props) {
-	return (
-		<>
-			<p className='TextBlock-text'>{props.text}</p>
-			<img src={props.img} alt='' className='map-image'></img>
-		</>
-	);
-}
 
 export default function AboutUs() {
 	const { t } = useTranslation();
@@ -32,9 +24,13 @@ export default function AboutUs() {
 					/>
 				</div>
 			</div>
-			<img src={Scene1} alt='' className='map-image'></img>
-			<AboutUsItem img={Scene2} text={t("Pages.about-us.scene1-text")} />
-			<AboutUsItem img={Scene3} text={t("Pages.about-us.scene2-text")} />
+			<img src={Scene1} alt='' className='map-image' />
+
+			<p className='TextBlock-text'>{t("Pages.about-us.scene1-text")}</p>
+			<img src={Scene2} alt='' className='map-image' />
+
+			<p className='TextBlock-text'>{t("Pages.about-us.scene2-text")}</p>
+			<img src={Scene3} alt='' className='map-image' />
 		</>
 	)
 }

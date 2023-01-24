@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../assets/scss/_contacts.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';

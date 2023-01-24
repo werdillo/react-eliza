@@ -17,7 +17,7 @@ import Textile from './Pages/Textile';
 import NotFound from './Pages/NotFound';
 import ComingSoon from './Pages/ComingSoon';
 // Collection-types
-import Collection from './Pages/Collection';
+import Collections from './Pages/Collections';
 import Basic from './Pages/Collections/Basic';
 import Bbold from './Pages/Collections/Bbold';
 // import SophisticatedLiving from './Pages/Collections/SophisticatedLiving';
@@ -37,7 +37,7 @@ function App() {
           <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/textile" element={<Textile />} />
 
-          <Route path="/collection" element={<Collection />} />
+          <Route path="/collection" element={<Collections />} />
           <Route path="/collection/bbold/*" element={<Bbold />} />
           <Route path="/collection/basic/*" element={<Basic />} />
           {/* <Route path="/collection/sophisticated-living/*" element={<SophisticatedLiving />} /> */}

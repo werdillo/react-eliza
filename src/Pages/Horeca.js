@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../assets/scss/_horeca.css';
 import { useTranslation } from 'react-i18next';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';

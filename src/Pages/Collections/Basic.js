@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../App.css';
+import '../../assets/scss/_collection.css';
 import { Route, Routes, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import ProductionItem from '../../Components/ProductionItem';
 import { useTranslation } from 'react-i18next';

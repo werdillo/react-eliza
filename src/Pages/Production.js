@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../assets/scss/_production.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';

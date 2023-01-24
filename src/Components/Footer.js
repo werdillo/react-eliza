@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../assets/scss/layout/_footer.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import logo from "../assets/images/footer/Logo.svg";

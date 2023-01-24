@@ -1,0 +1,87 @@
+
+.footer {
+	height: auto;
+	width: 100%;
+	display: flex;
+	background-color: #333333;
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+
+
+
+.footer-awards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: right;
+	/* align-items: flex-end; */
+	padding: 0px;
+	gap: 2px;
+}
+
+.footer-icons {
+	margin-left: 35px;
+	margin-top: 10px;
+	/* justify-content: space-between; */
+	display: flex;
+	flex-direction: row;
+	gap: 45px;
+	align-content: flex-start;
+}
+
+/* .footer-icon {
+  margin-left: 15px;
+} */
+
+.footer-text {
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
+	text-align: right;
+	font-size: 12px;
+}
+
+.footer-container {
+	padding: 0 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.footer-text {
+		text-align: center;
+	}
+
+	.footer-awards {
+		justify-content: center;
+		margin: 20px 0px;
+	}
+
+	.footer-left {
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer-container {
+		padding: 0;
+	}
+}
+
+
+
+.footer-year-box {
+	background-color: 333333;
+	align-items: center;
+	padding: 5px 0px;
+
+}
+
+.footer-year {
+	color: aliceblue;
+	font-size: 14px;
+	font-family: 'Avenir', sans-serif;
+	text-align: center;
+	margin-bottom: 0px;
+
+}

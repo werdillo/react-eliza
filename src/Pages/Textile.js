@@ -1,5 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import '../assets/scss/_textile.css';
+
 // eco-leather
 import Cayenne from "../assets/images/textile/eco-leather/cayenne.jpeg"
 import Sioux from "../assets/images/textile/eco-leather/sioux.jpeg"

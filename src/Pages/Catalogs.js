@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../assets/scss/_catalogs.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
@@ -31,7 +31,7 @@ export default function Catalogs () {
 		<Container>
 			<Row>
 				<Col sm={12} >
-					<p className='production-type-title'>{t("Pages.catalogs.pageTitle")}</p>
+					<p className='catalog-title'>{t("Pages.catalogs.pageTitle")}</p>
 				</Col>
 				<Catalog link={catalog_2018} img={collection_2018} title={t("Pages.catalogs.catalog") + " 2018"} />
 				<Catalog link={catalog_2019} img={collection_2019} title={t("Pages.catalogs.catalog") + " 2019"} />

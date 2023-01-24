@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../assets/scss/_collections.css';
 import { Link } from "react-router-dom";
 import Pic1 from "../assets/images/miniSlider/pic1.jpg";
 import Pic2 from "../assets/images/miniSlider/pic2.jpg";
@@ -18,7 +18,7 @@ function ProductListItem(props) {
 	);
 }
 
-export default function Collection() {
+export default function Collections() {
 	return (
 		<div className='grid-container'>
 			{/* <ProductListItem link='/collection/sophisticated-living/' img={Pic2} text="Sophisticated Living" /> */}

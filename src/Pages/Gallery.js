@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import ImageViewer from 'react-simple-image-viewer';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
-import '../App.css';
+import '../assets/scss/_gallery.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { useTranslation } from 'react-i18next';
@@ -42,11 +42,11 @@ export default function Gallery() {
 
   return (
     <Container fluid>
-      <p className='production-type-title'>{t("Pages.gallery.pageTitle")}</p>
+      <p className='gallery-title'>{t("Pages.gallery.pageTitle")}</p>
       <Row>
         {images.map((src, index) => (
           <Col xs={6} md={4} lg={3}>
-            <div className='production-type-wrapper'>
+            <div className='gallery-wrapper'>
               <LazyLoadImage 
               src={ src }
               onClick={ () => openImageViewer(index) }

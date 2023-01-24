@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../assets/scss/_product-landing.css';
 
 export default function ProductLanding(props) {
 	return (

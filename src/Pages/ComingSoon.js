@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../assets/scss/_not-found.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import back from '../assets/images/comingSoon/comingSoon.jpeg'
 import { useTranslation } from 'react-i18next';

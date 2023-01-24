@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../App.css';
+import '../assets/scss/_product-item.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Row, Col, Container } from 'react-bootstrap';
 
@@ -59,26 +59,22 @@ export default function ProductionItem(props) {
 								<a href={props.file} target='_blank' rel='noopener noreferrer'>
 									<div className='item-link'>Specification</div>
 								</a>
-
 								: null}
 							{props.file_headboard ?
 								<a href={props.file_headboard} target='_blank' rel='noopener noreferrer'>
 									<div className='item-link'>Headboard</div>
 								</a>
-
 								: null}
 							{props.file_options ?
 								<a href={props.file_options} target='_blank' rel='noopener noreferrer'>
 									<div className='item-link'>Options</div>
 								</a>
-
 								: null}
 							<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
 								<div className='item-link'>Cleaning</div>
 							</a>
 						</div>
 					</Col>
-
 				</Row>
 			</Container>
 		</>

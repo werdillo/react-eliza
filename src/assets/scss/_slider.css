@@ -1,0 +1,37 @@
+.swiper-button-next:after {
+	color: #b4b4b4;
+}
+
+.swiper-button-prev:after {
+	color: #b4b4b4;
+}
+
+.slider-img {
+	width: 100%;
+	height: calc(100vh - 180px);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	object-fit: cover;
+	/* filter: grayscale(.05) */
+}
+
+.mySwiper {
+	height: 360px;
+}
+
+.slider-mini {
+	height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.slider-img {
+		width: 100%;
+		height: calc(85vh - 180px);
+		top: 0;
+		bottom: 0;
+		left: 0;
+		object-fit: cover;
+		filter: grayscale(.1)
+	}
+}

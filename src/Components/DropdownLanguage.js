@@ -7,7 +7,6 @@ const DropdownLanguage = () => {
 	const [language, setLanguage] = useState(cookies.get('i18next'));
 	const handleLangChange = evt => {
 		const lang = evt.target.value;
-		console.log(lang);
 		setLanguage(lang);
 		i18n.changeLanguage(lang);
 	};
