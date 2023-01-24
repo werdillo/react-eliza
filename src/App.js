@@ -19,8 +19,8 @@ import ComingSoon from './Pages/ComingSoon';
 // Collection-types
 import Collection from './Pages/Collection';
 import Basic from './Pages/Collections/Basic';
-import SophisticatedLiving from './Pages/Collections/SophisticatedLiving';
 import Bbold from './Pages/Collections/Bbold';
+// import SophisticatedLiving from './Pages/Collections/SophisticatedLiving';
 
 function App() {
   return (
@@ -40,7 +40,7 @@ function App() {
           <Route path="/collection" element={<Collection />} />
           <Route path="/collection/bbold/*" element={<Bbold />} />
           <Route path="/collection/basic/*" element={<Basic />} />
-          <Route path="/collection/sophisticated-living/*" element={<SophisticatedLiving />} />
+          {/* <Route path="/collection/sophisticated-living/*" element={<SophisticatedLiving />} /> */}
           {/* <Route path="/collection/sophisticated-living/" element={<Navigate to="/collection/sophisticated-living/products" replace />} /> */}
 
 
