@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import '../assets/scss/_textile.css';
+import '../assets/scss/_textile.scss';
 
 // eco-leather
 import Cayenne from "../assets/images/textile/eco-leather/cayenne.jpeg"
@@ -32,53 +32,50 @@ import vogue from "../assets/images/textile/velour/vogue.jpeg"
 // flock
 import Pia from "../assets/images/textile/flock/pia.jpeg"
 
-
 function TextileItem(props) {
 	return (
 		<Col xs={6} sm={6} lg={3}>
-			<div className='textile-wrapper'>
-				<img className='textile-img' alt='' src={props.img}></img>
-				<span className="textile-text">{props.text}</span>
+			<div className='-item'>
+				<img className='-img' alt='' src={props.img}></img>
+				<span className="-text">{props.text}</span>
 			</div>
 		</Col>
-	);
+	)
 }
 
 export default function Textile() {
+  
   return (
-	<>
-		<Container fluid>
+	  <Container fluid className="textile">
 			<Row>
-				<p className='textile-title'>Microfiber</p>
+				<p className='-title'>Microfiber</p>
 				<TextileItem img={bloom} text="Bloom" />
 				<TextileItem img={matrix} text="Matrix" />
 				<TextileItem img={suedine} text="Suedine" />
 				<TextileItem img={trend} text="Trend" />
-				<p className='textile-title'>Structural fabric</p>
+				<p className='-title'>Structural fabric</p>
 				<TextileItem img={falcone} text="Falcone" />
 				<TextileItem img={fusion} text="Fusion" />
 				<TextileItem img={luna} text="Luna" />
 				<TextileItem img={Magnum} text="Magnum" />
-				<p className='textile-title'>Leather imitation fabric</p>
+				<p className='-title'>Leather imitation fabric</p>
 				<TextileItem img={bison} text="Bison" />
 				<TextileItem img={ranger} text="Ranger" />
 				<TextileItem img={salvador} text="Salvador" />
 				<TextileItem img={tobago} text="Tobago" />
-				<p className='textile-title'>Velour</p>
+				<p className='-title'>Velour</p>
 				<TextileItem img={amore} text="Amore" />
 				<TextileItem img={gordon} text="Gordon" />
 				<TextileItem img={Tiffany} text="Tiffany" />
 				<TextileItem img={vogue} text="Vogue" />
-				<p className='textile-title'>Eco leather</p>
+				<p className='-title'>Eco leather</p>
 				<TextileItem img={Cayenne} text="Cayenne" />
 				<TextileItem img={Sioux} text="Sioux" />
 				<TextileItem img={Torres} text="Torres" />
 				<TextileItem img={Wave} text="Wave" />
-				<p className='textile-title'>Flock</p>
+				<p className='-title'>Flock</p>
 				<TextileItem img={Pia} text="Pia" />
-
 			</Row>
 		</Container>
-	</>
   )
 }

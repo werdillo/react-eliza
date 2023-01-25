@@ -12,7 +12,6 @@
     "i18next-browser-languagedetector": "^6.1.5",
     "i18next-http-backend": "^1.4.1",
     "js-cookie": "^3.0.1",
-    "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.2.3",
     "react-dom": "^18.0.0",
@@ -22,12 +21,12 @@
     "react-player": "^2.10.1",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.4.1",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^5.0.1",
     "react-simple-image-viewer": "^1.2.2",
     "react-spinners": "^0.13.4",
-    "scss": "^0.2.4",
+    "sass": "^1.57.1",
     "serve": "^14.0.1",
-    "swiper": "^8.1.4",
+    "swiper": "^8.4.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -53,8 +52,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "sass": "^1.53.0"
   }
 }

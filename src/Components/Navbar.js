@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
-import '../assets/scss/layout/_navbar.css';
+import '../assets/scss/layout/_navbar.scss';
 import NavLogo from "../assets/images/Eliza-logo-nav.svg";
 import 'bootstrap/dist/css/bootstrap.css'
 import DropdownLanguage from './DropdownLanguage';
@@ -15,7 +15,7 @@ const Navbar = () => {
 
 	const NavItem = (props) => {
 		return(
-			<li className="nav-item">
+			<li className="-item">
 				<NavLink to={props.link} onClick={closeMenu} className={({ isActive }) => (isActive ? 'current' : 'inactive')} >{props.title}</NavLink>
 			</li>
 		)
@@ -25,13 +25,13 @@ const Navbar = () => {
 	
 	return (
 		<nav className="navbar fixed-top">
-			<NavLink to="/" className="nav-logo" onClick={closeMenu}>
+			<NavLink to="/" className="-logo" onClick={closeMenu}>
 				<img src={NavLogo} alt="" className=''></img>
 			</NavLink>
-			<div onClick={handleClick} className="nav-icon">
+			<div onClick={handleClick} className="-icon">
 				{open ? <FiX /> : <FiMenu />}
 			</div>
-			<ul className={open ? 'nav-links active' : 'nav-links'}>
+			<ul className={open ? '-links active' : '-links'}>
 				<NavItem link='/collection' title={t("Navigation.collection")} />
 				<NavItem link='/Components' title={t("Navigation.components")} />
 				<NavItem link='/Horeca' title={t("Navigation.horeca")} />

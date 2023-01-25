@@ -1,0 +1,37 @@
+.about-us {
+	.-player {
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+		/* padding-top: 56.25%; */
+		/* padding: 20px auto; */
+		/* Player ratio: 100 / (1280 / 720) */
+		.-item {
+			width: 80%;
+			height: auto;
+			@media only screen and (max-width: 1000px) {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+	.-text {
+		font-size: 36px;
+		width: 80%;
+		margin: 100px auto;
+		text-align: center;
+		font-family: 'Avenir', sans-serif;
+		font-weight: 500;
+		@media screen and (max-width: 768px) {
+			font-size: 16px;
+			margin: 20px auto;
+			width: 90%;
+		}
+	}
+	.-image {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		height: auto;
+	}
+}

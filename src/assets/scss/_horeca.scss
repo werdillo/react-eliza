@@ -1,0 +1,49 @@
+
+.horeca {
+	position: relative;
+	text-align: center;
+	transition: 250ms;
+	overflow: hidden;
+	object-fit: contain;
+	background-color: rgba(0, 0, 0, 9);
+	margin-bottom: 3px;
+	.-img {
+		width: 100% !important;
+		height: auto !important;
+		min-height: 400px;
+		background-color: #ffffff;
+		width: 100%;
+		opacity: 0.5;
+		filter: grayscale(.25);
+		object-fit: cover;
+		@media screen and (max-width: 768px) {
+			min-height: 150px;
+			background-color: #f0f0f0;
+		}
+	}
+	.-block {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 80%;
+		color: #ffffff;
+		.-text {
+			font-family: 'Avenir', sans-serif;
+			font-weight: 400;
+			font-size: 24px;
+			align-items: center;
+			text-align: center;
+			color: #ffffff;
+			@media screen and (max-width: 768px) {
+					font-size: 12px;
+				}
+			&.xl {
+				font-weight: 700;
+				font-size: 48px;
+				@media screen and (max-width: 768px) {font-size: 24px;}
+			}
+		}
+	}
+
+}

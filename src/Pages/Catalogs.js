@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/scss/_catalogs.css';
+import '../assets/scss/_catalogs.scss';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
@@ -15,11 +15,11 @@ import catalog_2021 from "../assets/Files/Catalogs/catalog_2021.pdf";
 function Catalog(props) {
 	return (
 		<Col sm={12} lg={4}>
-			<div className='catalog-wraper'>
-				<a href={props.link} className="catalog-link-wraper" target='_blank' rel='noopener noreferrer'>
-					<img src={props.img} alt='' className="catalog-image"></img>
+			<div className='catalog'>
+				<a href={props.link} className="-link" target='_blank' rel='noopener noreferrer'>
+					<img src={props.img} alt='' className="-img"></img>
 				</a>
-				<span className='catalog-text'>{props.title}</span>
+				<span className='-text'>{props.title}</span>
 			</div>
 		</Col>
 	);
@@ -31,7 +31,7 @@ export default function Catalogs () {
 		<Container>
 			<Row>
 				<Col sm={12} >
-					<p className='catalog-title'>{t("Pages.catalogs.pageTitle")}</p>
+					<p className='catalogs-title'>{t("Pages.catalogs.pageTitle")}</p>
 				</Col>
 				<Catalog link={catalog_2018} img={collection_2018} title={t("Pages.catalogs.catalog") + " 2018"} />
 				<Catalog link={catalog_2019} img={collection_2019} title={t("Pages.catalogs.catalog") + " 2019"} />

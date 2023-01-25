@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../assets/scss/_collection.css';
+import '../../assets/scss/_collection.scss';
 import { Route, Routes, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import ProductionItem from '../../Components/ProductionItem';
 import { useTranslation } from 'react-i18next';
@@ -32,8 +32,8 @@ export default function Basic() {
     return (
       <div className="sticky">
         <div className='filter-wrapper'>
-          <div className={filter === "all" ? 'filter-link-active' : 'filter-link'} onClick={() => handleSetFilter("all")}>{t("Pages.collection.all")}</div>
-          <div className={filter === "sofa" ? 'filter-link-active' : 'filter-link'} onClick={() => handleSetFilter("sofa")}>{t("Pages.collection.sofas")}</div>
+          <div className={filter === "all" ? 'filter-link active' : 'filter-link'} onClick={() => handleSetFilter("all")}>{t("Pages.collection.all")}</div>
+          <div className={filter === "sofa" ? 'filter-link active' : 'filter-link'} onClick={() => handleSetFilter("sofa")}>{t("Pages.collection.sofas")}</div>
         </div>
       </div>
     )

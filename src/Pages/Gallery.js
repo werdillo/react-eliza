@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from 'react';
+import '../assets/scss/_gallery.scss';
 import ImageViewer from 'react-simple-image-viewer';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
-import '../assets/scss/_gallery.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { useTranslation } from 'react-i18next';
@@ -48,15 +48,14 @@ export default function Gallery() {
           <Col xs={6} md={4} lg={3}>
             <div className='gallery-wrapper'>
               <LazyLoadImage 
-              src={ src }
-              onClick={ () => openImageViewer(index) }
-              className="img-fluid"
-              key={ index }
-              alt=""
+                src={ src }
+                onClick={ () => openImageViewer(index) }
+                className="img-fluid"
+                key={ index }
+                alt=""
                 effect='blur'
               />
             </div>
-
           </Col>
         ))}
       </Row>

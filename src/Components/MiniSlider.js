@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/scss/_slider.css';
+import '../assets/scss/_slider.scss';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
 import { Pagination } from "swiper";
@@ -18,7 +18,7 @@ import Pic5 from "../assets/images/miniSlider/pic5.jpg";
 export default function MiniSlider() {
   return (
     <>
-        <Swiper
+      <Swiper
         slidesPerView={1}
         spaceBetween={10}
         autoplay={{
@@ -40,13 +40,13 @@ export default function MiniSlider() {
           },
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="slider-mini"
       >
-        <SwiperSlide><img src={Pic2} alt='' className='slider-mini'></img></SwiperSlide>
-        <SwiperSlide><img src={Pic3} alt='' className='slider-mini'></img></SwiperSlide>
-        <SwiperSlide><img src={Pic1} alt='' className='slider-mini'></img></SwiperSlide>
-        <SwiperSlide><img src={Pic4} alt='' className='slider-mini'></img></SwiperSlide>
-        <SwiperSlide><img src={Pic5} alt='' className='slider-mini'></img></SwiperSlide>
+        <SwiperSlide><img src={Pic2} alt='' className='-item'></img></SwiperSlide>
+        <SwiperSlide><img src={Pic3} alt='' className='-item'></img></SwiperSlide>
+        <SwiperSlide><img src={Pic1} alt='' className='-item'></img></SwiperSlide>
+        <SwiperSlide><img src={Pic4} alt='' className='-item'></img></SwiperSlide>
+        <SwiperSlide><img src={Pic5} alt='' className='-item'></img></SwiperSlide>
       </Swiper>
     </>
   );

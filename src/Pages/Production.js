@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/scss/_production.css';
+import '../assets/scss/_production.scss';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -15,9 +15,9 @@ function ProductionLink(props) {
 	return (
 		<Col sm={12} md={6} lg={4}>
 			<Link to={props.link}>
-				<div className='production-type-wrapper'>
-					<img src={props.img} alt='' className='production-type-image'></img>
-					<div className="production-type-text">{props.text}</div>
+				<div className='production'>
+					<img src={props.img} alt='' className='-image'></img>
+					<div className="-text">{props.text}</div>
 				</div>
 			</Link>
 		</Col>
@@ -29,7 +29,7 @@ export default function Production() {
 		<Container fluid>
 			<Row>
 				<Col sm={12} >
-					<p className='production-type-title'>Mūsu produkcija</p>
+					<p className='production-title'>Mūsu produkcija</p>
 				</Col>
 				<ProductionLink img={sofa} link="sofa" text="Dīvāni" />
 				<ProductionLink img={sofa_beds} link="sofa_beds" text="Dīvāni-gultas" />

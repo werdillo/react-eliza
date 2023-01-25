@@ -1,0 +1,25 @@
+.not-found {
+	background-color: #000;
+	.-text {
+		text-align: center;
+		font-family: 'Avenir', sans-serif;
+		font-size: 56px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 75%;
+		color: #ffffff;
+		@media screen and (max-width: 768px) {font-size: 42px;}
+	}
+	.-img {
+		width: 100%;
+		height: calc(100vh - 80px);
+		top: 0;
+		bottom: 0;
+		left: 0;
+		object-fit: cover;
+		opacity: 0.65;
+		filter: grayscale(.3)
+	}
+}

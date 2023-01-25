@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../../assets/scss/_collection.css';
+import '../../assets/scss/_collection.scss';
 import { Route, Routes, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import ProductionItem from '../../Components/ProductionItem';
 import { useTranslation } from 'react-i18next';
@@ -26,19 +26,17 @@ export default function SophisticatedLiving() {
     
     const handleSetFilter = (event, item) => {
       setFilter(item);
-      if (location.pathname !== "/collection/sophisticated-living/") {
-        navigate('/collection/sophisticated-living/')
-      }
+      if (location.pathname !== "/collection/sophisticated-living/") navigate('/collection/sophisticated-living/');
     }
     
     return (
       <div className="sticky">
         <div className='filter-wrapper'>
-          <div className={filter === "all" ? 'filter-link-active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "all")}>{t("Pages.collection.all")}</div>
-          <div className={filter === "beds" ? 'filter-link-active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "beds")}>{t("Pages.collection.beds")}</div>
-          <div className={filter === "chair" ? 'filter-link-active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "chair")}>{t("Pages.collection.chairs")}</div>
-          <div className={filter === "sofa" ? 'filter-link-active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "sofa")}>{t("Pages.collection.sofas")}</div>
-          <div className={filter === "mattresses" ? 'filter-link-active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "mattresses")}>Mattresses</div>
+          <div className={filter === "all" ? 'filter-link active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "all")}>{t("Pages.collection.all")}</div>
+          <div className={filter === "beds" ? 'filter-link active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "beds")}>{t("Pages.collection.beds")}</div>
+          <div className={filter === "chair" ? 'filter-link active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "chair")}>{t("Pages.collection.chairs")}</div>
+          <div className={filter === "sofa" ? 'filter-link active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "sofa")}>{t("Pages.collection.sofas")}</div>
+          <div className={filter === "mattresses" ? 'filter-link active' : 'filter-link'} onClick={(event) => handleSetFilter(event, "mattresses")}>Mattresses</div>
         </div>
       </div>
     )
@@ -138,6 +136,5 @@ export default function SophisticatedLiving() {
         })}
       </Routes>
     </>
-
   )
 }

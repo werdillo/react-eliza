@@ -1,11 +1,11 @@
 import React from 'react';
-import '../assets/scss/_product-landing.css';
+import '../assets/scss/_product-landing.scss';
 
 export default function ProductLanding(props) {
 	return (
-		<div className='product-wrapper'>
-			<img src={props.img} alt='' className='product-image'></img>
-			<p className='product-main-text'>{props.text.toUpperCase()}</p>
+		<div className='product-landing'>
+			<img src={props.img} alt='' className='-img'></img>
+			<p className='-text'>{props.text.toUpperCase()}</p>
 		</div>
 	)
 }

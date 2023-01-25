@@ -1,0 +1,42 @@
+.textile {
+	.-title {
+		display: inline-block;
+		font-size: 48px;
+		margin-bottom: 25px;
+		margin-top: 40px !important;
+		@media only screen and (max-width: 550px) {
+			font-size: 24px;
+			margin-bottom: 15px;
+			margin-top: 25px !important;
+		}
+	}
+	.-item {
+		position: relative;
+		text-align: center;
+		transition: 250ms;
+		overflow: hidden;
+		object-fit: contain;
+
+		.-img {
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+			margin-bottom: 24px;
+		}
+
+		.-text {
+			font-family: 'Avenir', sans-serif;
+			font-size: 36px;
+			position: absolute;
+			top: 75%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 85%;
+			color: #ffffff;
+
+			@media only screen and (max-width: 550px) {
+				font-size: 16px;
+			}
+		}
+	}
+}

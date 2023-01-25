@@ -1,6 +1,6 @@
 import React  from 'react';
 import { Outlet } from "react-router-dom";
-import '../App.css';
+import '../assets/scss/layout/_layout.scss';
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import Spinner from 'react-bootstrap/Spinner';
@@ -17,7 +17,7 @@ export default function Layout() {
 				<main id="main-content">
 					<Outlet />
 				</main>
-				<footer className='footer'>
+				<footer>
 					<Footer />	
 				</footer>
 			</div>

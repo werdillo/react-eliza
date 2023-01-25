@@ -1,0 +1,37 @@
+.production-title {
+	font-family: 'Avenir', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.production {
+	position: relative;
+	text-align: center;
+	color: white;
+	margin: 20px 10px;
+	transition: 250ms;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	object-fit: contain;
+	&:hover {
+		box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.20);
+	}
+	&:active {
+		opacity: 0;
+		transform: scale(1.1);
+	}
+	.-image {
+		height: auto;
+		width: 100%;
+	}
+	.-text {
+		font-family: 'Avenir', sans-serif;
+		font-size: 24px;
+		position: absolute;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 75%;
+	}
+}

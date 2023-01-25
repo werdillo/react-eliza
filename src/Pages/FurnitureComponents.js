@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/scss/_furniture-components.css';
+import '../assets/scss/_furniture-components.scss';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 
@@ -17,25 +17,21 @@ import { Link } from 'react-router-dom';
 export default function FurnitureComponents() {
 	const { t } = useTranslation();
 	return (
-		<Container fluid className='furniture-components-container'>
+		<Container fluid className='furniture-components'>
 			<Row>
 				<Col sm={12} lg={6}>
-					<div className='furniture-components-box'>
-						<a href="http://porolons.lv/" target="_blank" rel="noopener noreferrer">
-							<LazyLoadImage className='furniture-components-img' alt='' src={porolon} placeholder={<ClipLoader />} />	
-						</a>		
-						<p className='furniture-components-header'>{t("Pages.components.porolon-title")}</p>
-						<p className='furniture-components-text'>{t("Pages.components.porolon-text")}</p>
-					</div>
+					<a href="http://porolons.lv/" target="_blank" rel="noopener noreferrer">
+						<LazyLoadImage className='-img' alt='' src={porolon} placeholder={<ClipLoader />} />	
+					</a>		
+					<p className='-text xl'>{t("Pages.components.porolon-title")}</p>
+					<p className='-text'>{t("Pages.components.porolon-text")}</p>
 				</Col>
 				<Col sm={12} lg={6}>
-					<div className='furniture-components-box'>
-						<Link to="/textile">
-							<LazyLoadImage className='furniture-components-img' alt='' src={textile} placeholder={<ClipLoader />} />			
-						</Link>
-						<p className='furniture-components-header'>{t("Pages.components.textile-title")}</p>
-						<p className='furniture-components-text'>{t("Pages.components.textile-text")}</p>
-					</div>
+					<Link to="/textile">
+						<LazyLoadImage className='-img' alt='' src={textile} placeholder={<ClipLoader />} />			
+					</Link>
+					<p className='-text xl'>{t("Pages.components.textile-title")}</p>
+					<p className='-text'>{t("Pages.components.textile-text")}</p>
 				</Col>
 			</Row>
 		</Container>

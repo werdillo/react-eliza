@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/scss/_horeca.css';
+import '../assets/scss/_horeca.scss';
 import { useTranslation } from 'react-i18next';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -10,11 +10,11 @@ import restaraunt from "../assets/images/hoReCa/Re.png";
 
 function HorecaItem(props) {
 	return (
-		<div className='horeca-wrapper'>
-			<LazyLoadImage className='horeca-img' rel='' alt='' src={props.img} />
-			<div className='horeca-block'>
-				<p className='horeca-header'>{props.header}</p>
-				<p className='horeca-text'>{props.text}</p>
+		<div className='horeca'>
+			<LazyLoadImage className='-img' rel='' alt='' src={props.img} />
+			<div className='-block'>
+				<div className='-text xl'>{props.header}</div>
+				<div className='-text'>{props.text}</div>
 			</div>
 		</div>
 	)
