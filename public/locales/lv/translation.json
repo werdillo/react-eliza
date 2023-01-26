@@ -57,5 +57,11 @@
 		}
 
 	},
+	"components": {
+		"product-item": {
+			"specification": "Specifikācijas",
+			"cleaning": "Tīrīšana"
+		}
+	},
 	"test" : "Gulēšanas funkcija"
 }

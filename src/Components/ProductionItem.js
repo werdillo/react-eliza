@@ -12,8 +12,11 @@ import { Navigation, Autoplay, Pagination } from "swiper";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { useTranslation } from 'react-i18next';
+
 
 export default function ProductionItem(props) {
+	const { t } = useTranslation();
 	return (
 		<div className='product-item'>
 			<Swiper
@@ -55,7 +58,7 @@ export default function ProductionItem(props) {
 				<div className='-links-wrapper'>
 					{props.file ?
 						<a href={props.file} target='_blank' rel='noopener noreferrer'>
-							<div className='-link'>Specification</div>
+							<div className='-link'>{t("components.product-item.specification")}</div>
 						</a>
 						: null}
 					{props.file_headboard ?
@@ -69,7 +72,7 @@ export default function ProductionItem(props) {
 						</a>
 						: null}
 					<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
-						<div className='-link'>Cleaning</div>
+						<div className='-link'>{t("components.product-item.cleaning")}</div>
 					</a>
 				</div>
 			</Container>

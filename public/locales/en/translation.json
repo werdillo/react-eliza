@@ -48,12 +48,18 @@
 			"working-time": "Working time",
 			"working-days": "Mon-Fri",
 			"sat": "Sat",
-			"sun": "Sun closed",
+			"sun": "Sun - closed",
 			"sat-sun": "Sat, Sun - closed",
 			"breaktime": "Break"
 		},
 		"coming-soon": {
 			"title": "Coming soon"
+		}
+	},
+	"components": {
+		"product-item": {
+			"specification": "Specification",
+			"cleaning": "Cleaning"
 		}
 	},
 	"test": "Sleep function"

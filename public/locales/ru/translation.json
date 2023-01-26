@@ -56,5 +56,11 @@
 			"title": "Ожидается в ближайшее время"
 		}
 	},
+	"components": {
+		"product-item": {
+			"specification": "Спецификации",
+			"cleaning": "Чистка"
+		}
+	},
 	"test": "Функция сна"
 }
