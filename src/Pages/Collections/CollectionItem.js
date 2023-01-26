@@ -24,7 +24,9 @@ export default function CollectionItem({data, collection}) {
 		function ProductLinks({ data, title }) {
 			return (
 				<>
-					<p className='product-type-title'>{title}</p>
+					<Col lg={12}>
+						<p className='product-type-title'>{title}</p>
+					</Col>
 					{data.map((item) => {
 						return (
 							<Col sm={12} md={6} lg={3}>
