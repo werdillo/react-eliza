@@ -58,7 +58,7 @@
 	},
 	"components": {
 		"product-item": {
-			"specification": "Спецификации",
+			"specification": "Спецификация",
 			"cleaning": "Чистка"
 		}
 	},
