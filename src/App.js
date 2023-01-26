@@ -41,8 +41,6 @@ function App() {
           <Route path="/collection/bbold/*" element={<Bbold />} />
           <Route path="/collection/basic/*" element={<Basic />} />
           {/* <Route path="/collection/sophisticated-living/*" element={<SophisticatedLiving />} /> */}
-          {/* <Route path="/collection/sophisticated-living/" element={<Navigate to="/collection/sophisticated-living/products" replace />} /> */}
-
 
           <Route path="*" element={<NotFound /> }/>
         </Route>
