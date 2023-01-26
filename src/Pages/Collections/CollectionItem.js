@@ -78,13 +78,11 @@ export default function CollectionItem({data, collection}) {
 									file={item.file}
 									key={item.key} />
 								}
-						/>
+							/>
 						);
 					})
 				})}
-				 
 			</Routes>
 		</>
-
 	)
 }
