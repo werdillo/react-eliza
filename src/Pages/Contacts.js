@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import '../assets/scss/_contacts.scss';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
@@ -9,6 +10,13 @@ export default function Contacts() {
 	return (
 		<Container>
 			<Row>
+				<Helmet>
+					<title>Contacts</title>
+					<meta name="description" content="Eliza contacts" />
+					<meta name="location" content="Addess: Deglava iela 50" />
+					<meta name="working time" content="Working days: 11:00 - 18:00" />
+					<meta name="working time" content="saturday - 11:00 - 15:00" />
+				</Helmet>
 				<Col sm={12} lg={12}>
 					<p className='contacts-title'>{t("Pages.contacts.pageTitle")}</p>
 				</Col>
@@ -34,7 +42,6 @@ export default function Contacts() {
 						<p className='-text'>{t("Pages.contacts.working-days")} 8:30 - 16:00</p>
 						<p className='-text'>{t("Pages.contacts.breaktime")} 12:00 - 13:00</p>
 						<p className='-text'>{t("Pages.contacts.sat-sun")}</p>
-						{/* +37128363860 */}
 					</div>
 				</Col>
 				<Col sm={12} lg={4}>

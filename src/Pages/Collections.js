@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import '../assets/scss/_collections.scss';
 import { Link } from "react-router-dom";
 import Pic1 from "../assets/images/miniSlider/pic1.jpg";
@@ -8,6 +9,10 @@ import Pic3 from "../assets/images/miniSlider/pic3.jpg";
 export default function Collections() {
 	return (
 		<div className='collections'>
+			<Helmet>
+				<title>Collections</title>
+				<meta name="description" content="Eliza collections" />
+			</Helmet>
 			<a href="https://www.sophisticated-living.com/" rel="noopener noreferrer" target="_blank">
 				<div className='-item'>
 					<img className='-img' alt='' src={Pic2}></img>
