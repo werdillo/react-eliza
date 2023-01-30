@@ -9,7 +9,6 @@ const Bbold_sofa = [
 			require("../../../assets/images/collection/bbold/Sofas/altitude/altitude_2.jpg"),
 			require("../../../assets/images/collection/bbold/Sofas/altitude/altitude_3.jpg"),
 			require("../../../assets/images/collection/bbold/Sofas/altitude/altitude_4.jpg"),
-			require("../../../assets/images/collection/bbold/Sofas/altitude/altitude_5.jpg"),
 		]
 	},
 	{
