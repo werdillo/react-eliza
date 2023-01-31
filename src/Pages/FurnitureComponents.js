@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/scss/_furniture-components.scss';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
+import { Helmet } from "react-helmet";
 
 import textile from "../assets/images/furnitureComponents/textile.png";
 import porolon from "../assets/images/furnitureComponents/porolon.png";
@@ -18,6 +19,11 @@ export default function FurnitureComponents() {
 	const { t } = useTranslation();
 	return (
 		<Container fluid className='furniture-components'>
+			<Helmet>
+				<title>Furniture components</title>
+				<meta name="description" content="Eliza-k components" />
+				<meta name="keywords" content="eliza, eliza-k, furniture, components" />
+			</Helmet>
 			<Row>
 				<Col sm={12} lg={6}>
 					<a href="http://porolons.lv/" target="_blank" rel="noopener noreferrer">

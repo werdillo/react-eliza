@@ -28,11 +28,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home /> }/>
-          <Route path="/Horeca" element={<Horeca /> }/>
-          <Route path="/Components" element={<FurnitureComponents /> }/>
+          <Route path="/horeca" element={<Horeca /> }/>
+          <Route path="/components" element={<FurnitureComponents /> }/>
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/Catalogs" element={<Catalogs />} />
+          <Route path="/catalogue" element={<Catalogs />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/textile" element={<Textile />} />

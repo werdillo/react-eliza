@@ -12,6 +12,7 @@ export default function Collections() {
 			<Helmet>
 				<title>Collections</title>
 				<meta name="description" content="Eliza collections" />
+				<meta name="keywords" content="Eliza-k, eliza, collections" />
 			</Helmet>
 			<a href="https://www.sophisticated-living.com/" rel="noopener noreferrer" target="_blank">
 				<div className='-item'>

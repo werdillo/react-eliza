@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import { Helmet } from "react-helmet";
 import '../assets/scss/_textile.scss';
 
 // eco-leather
@@ -47,6 +48,11 @@ export default function Textile() {
   
   return (
 	  <Container fluid className="textile">
+			<Helmet>
+				<title>textile</title>
+				<meta name="description" content="Eliza-k textile" />
+  				<meta name="keywords" content="eliza, eliza-k, textile" />
+			</Helmet>
 			<Row>
 				<p className='-title'>Microfiber</p>
 				<TextileItem img={bloom} text="Bloom" />

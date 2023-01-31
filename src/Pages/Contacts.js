@@ -13,9 +13,10 @@ export default function Contacts() {
 				<Helmet>
 					<title>Contacts</title>
 					<meta name="description" content="Eliza contacts" />
-					<meta name="location" content="Addess: Deglava iela 50" />
-					<meta name="working time" content="Working days: 11:00 - 18:00" />
-					<meta name="working time" content="saturday - 11:00 - 15:00" />
+					<meta name="description" content="Addess: Deglava iela 50" />
+					<meta name="description" content="Working days: 11:00 - 18:00" />
+					<meta name="description" content="saturday - 11:00 - 15:00" />
+					<meta name="keywords" content="eliza, eliza-k, contacts, working time, adress" />
 				</Helmet>
 				<Col sm={12} lg={12}>
 					<p className='contacts-title'>{t("Pages.contacts.pageTitle")}</p>

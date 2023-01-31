@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 import '../assets/scss/_product-item.scss';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -19,6 +20,11 @@ export default function ProductionItem(props) {
 	const { t } = useTranslation();
 	return (
 		<div className='product-item'>
+			<Helmet>
+				<title>{props.title}</title>
+				<meta name="description" content={"Eliza " + props.title + " collections" }/>
+				<meta name="keywords" content={"Eliza, eliza-k, " + props.title + ", collections" }/>
+			</Helmet>
 			<Swiper
 				loop={true}
 				centeredSlides={true}

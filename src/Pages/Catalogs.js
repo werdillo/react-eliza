@@ -3,6 +3,7 @@ import '../assets/scss/_catalogs.scss';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Row, Col, Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from "react-helmet";
 
 import collection_2018 from "../assets/images/catalog/collection_2018.jpg";
 import collection_2019 from "../assets/images/catalog/collection_2019.jpg";
@@ -30,6 +31,11 @@ export default function Catalogs () {
 	return (		
 		<Container>
 			<Row>
+				<Helmet>
+					<title>Catalogue</title>
+					<meta name="description" content="Eliza catalogue" />
+					<meta name="keywords" content="Eliza-k, eliza, catalogue" />
+				</Helmet>
 				<Col sm={12} >
 					<p className='catalogs-title'>{t("Pages.catalogs.pageTitle")}</p>
 				</Col>

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player'
 import { useTranslation } from 'react-i18next';
+import { Helmet } from "react-helmet";
 
 import '../assets/scss/_about-us.scss';
 import Scene1 from "../assets/images/AboutUs/Scene1.png";
@@ -12,6 +13,11 @@ export default function AboutUs() {
 	const { t } = useTranslation();
 	return (
 		<div className='about-us'>
+			<Helmet>
+				<title>About us</title>
+				<meta name="description" content="Eliza-k about-us" />
+				<meta name="keywords" content="Eliza-k, eliza, about-us" />
+			</Helmet>
 			<div className='-player'>
 				<div className='-item'>
 					<ReactPlayer
@@ -32,6 +38,6 @@ export default function AboutUs() {
 			<p className='-text'>{t("Pages.about-us.scene2-text")}</p>
 			<img src={Scene3} alt='' className='-image' />
 		</div>
-	)
+)
 }
 

@@ -6,6 +6,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from "react-helmet";
 
 
 export default function Gallery() {
@@ -42,6 +43,11 @@ export default function Gallery() {
 
   return (
     <Container fluid>
+      <Helmet>
+				<title>Gallery</title>
+				<meta name="description" content="Eliza-k gallery" />
+        <meta name="keywords" content="eliza, eliza-k, gallery" />
+			</Helmet>
       <p className='gallery-title'>{t("Pages.gallery.pageTitle")}</p>
       <Row>
         {images.map((src, index) => (

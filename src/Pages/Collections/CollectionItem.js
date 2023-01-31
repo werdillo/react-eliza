@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from "react-helmet";
 import '../../assets/scss/_collection.scss';
 import { Row, Col, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css'
@@ -52,6 +53,11 @@ export default function CollectionItem({data, collection}) {
 
 	return (
 		<>
+			<Helmet>
+				<title>{collection.charAt(0).toUpperCase() + collection.slice(1)}</title>
+				<meta name="description" content={"Eliza " + collection.charAt(0).toUpperCase() + collection.slice(1) + " collections" }/>
+				<meta name="keywords" content={"Eliza, eliza-k, " + collection.charAt(0).toUpperCase() + collection.slice(1) + ", collections" }/>
+			</Helmet>
 			<div className="sticky">
 				<div className='filter'>
 					<div className={filter === "all" ? '-link active' : '-link'} onClick={() => handleSetFilter("all")}>{t("Pages.collection.all")}</div>

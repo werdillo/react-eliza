@@ -33,9 +33,9 @@ const Navbar = () => {
 			</div>
 			<ul className={open ? '-links active' : '-links'}>
 				<NavItem link='/collection' title={t("Navigation.collection")} />
-				<NavItem link='/Components' title={t("Navigation.components")} />
-				<NavItem link='/Horeca' title={t("Navigation.horeca")} />
-				<NavItem link='/Catalogs' title={t("Navigation.catalogs")} />
+				<NavItem link='/components' title={t("Navigation.components")} />
+				<NavItem link='/horeca' title={t("Navigation.horeca")} />
+				<NavItem link='/catalogue' title={t("Navigation.catalogs")} />
 				<NavItem link='/gallery' title={t("Navigation.gallery")} />
 				<NavItem link='/about-us' title={t("Navigation.about-us")} />
 				<NavItem link='/contacts' title={t("Navigation.contacts")} />
