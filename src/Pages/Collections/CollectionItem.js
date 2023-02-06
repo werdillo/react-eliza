@@ -74,7 +74,10 @@ export default function CollectionItem({data, collection}) {
 			<Outlet />
 			<Routes>
 				<Route index element={<Links data={data}/>} />
+
 				{data.map((data) => {
+					let productType = data.path;
+					console.log(productType);
 					return data.data.map((item) => {
 						return (
 							<Route key={item.id} path={item.path}
@@ -85,6 +88,7 @@ export default function CollectionItem({data, collection}) {
 									images={item.photo}
 									file={item.file}
 									file_local={item.file_local}
+									type={productType}
 									/>
 								}
 							/>
