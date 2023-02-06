@@ -25,58 +25,54 @@ export default function ProductionItem(props) {
 				<meta name="description" content={"Eliza " + props.title + " collections" }/>
 				<meta name="keywords" content={"Eliza, eliza-k, " + props.title + ", collections" }/>
 			</Helmet>
-			<Swiper
-				loop={true}
-				centeredSlides={true}
-				autoplay={{
-					delay: 10000,
-					disableOnInteraction: false,
-				}}
-				pagination={{
-					type: "fraction",
-					clickable: true,
-				}}
-				navigation={true}
-				modules={[Autoplay, Navigation, Pagination]}
-			>
-				{props.images.map((img) => {
-					return (<SwiperSlide><img src={img} alt="" className="-slider"></img></SwiperSlide>);
-				})}				
-			</Swiper>
+			{(props.images.length > 1) ?
+				<Swiper
+					loop={true}
+					centeredSlides={true}
+					autoplay={{
+						delay: 10000,
+						disableOnInteraction: false,
+					}}
+					pagination={{
+						type: "fraction",
+						clickable: true,
+					}}
+					navigation={true}
+					modules={[Autoplay, Navigation, Pagination]}
+				>
+					{props.images.map((img) => {
+						return (<SwiperSlide><img src={img} alt="" className="-slider"></img></SwiperSlide>);
+					})}				
+				</Swiper>
+				:
+				<img src={props.images[0]} alt="" className="-slider"></img>
+			}
 			
 			<Container>
 				<p className='-text xl'>{props.title}</p>
 				<p className='-text'>{props.description}</p>
-				{props.spec ?
-					<div className='-specs'>
-						{props.specs.map((spec) =>{
-							return (
-								<div className='-item'>
-									<span className='-text bd'>{spec.title}</span>
-									<span className='-text bd'> - </span>
-									<span className='-text'>{spec.content}</span>
-									<br></br>
-								</div>
-							);
-						})}				
-					</div>
-				: null}
 				<div className='-links-wrapper'>
 					{props.file ?
 						<a href={props.file} target='_blank' rel='noopener noreferrer'>
 							<div className='-link'>{t("components.product-item.specification")}</div>
 						</a>
 						: null}
-					{props.file_headboard ?
-						<a href={props.file_headboard} target='_blank' rel='noopener noreferrer'>
-							<div className='-link'>Headboard</div>
-						</a>
-						: null}
-					{props.file_options ?
-						<a href={props.file_options} target='_blank' rel='noopener noreferrer'>
-							<div className='-link'>Options</div>
-						</a>
-						: null}
+					{props.file_local ?
+						<>
+							{t("local") === "en" &&
+								<a href={props.file_local.en} target='_blank' rel='noopener noreferrer'>
+									<div className='-link'>{t("components.product-item.specification")}</div>
+								</a>}
+							{t("local") === "lv" &&
+								<a href={props.file_local.lv} target='_blank' rel='noopener noreferrer'>
+									<div className='-link'>{t("components.product-item.specification")}</div>
+								</a>}
+							{t("local") === "ru" &&
+								<a href={props.file_local.ru} target='_blank' rel='noopener noreferrer'>
+									<div className='-link'>{t("components.product-item.specification")}</div>
+								</a>}
+						</>
+					: null}
 					<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
 						<div className='-link'>{t("components.product-item.cleaning")}</div>
 					</a>

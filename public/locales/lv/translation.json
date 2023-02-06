@@ -1,4 +1,5 @@
 {
+	"local": "lv",
 	"Navigation": {
 		"collection": "Kolekcija",
 		"components": "Mēbeļu komponenti",
@@ -13,7 +14,8 @@
 			"all": "Visi",
 			"beds": "Gultas",
 			"chairs": "Krēsli",
-			"sofas": "Dīvāni"
+			"sofas": "Dīvāni",
+			"mattresses": "Matrači"
 		},
 		"components": {
 			"porolon-title": "Porolons",

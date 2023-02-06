@@ -1,4 +1,5 @@
 {
+	"local": "en",
 	"Navigation": {
 		"collection": "Collection",
 		"components": "For Furniture",
@@ -13,7 +14,8 @@
 			"all": "All",
 			"beds": "Beds",
 			"chairs": "Chairs",
-			"sofas": "Sofas"
+			"sofas": "Sofas",
+			"mattresses": "Mattresses"
 		},
 		"components":{
 			"porolon-title": "Foam",

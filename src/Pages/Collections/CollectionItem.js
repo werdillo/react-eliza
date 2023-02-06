@@ -30,7 +30,7 @@ export default function CollectionItem({data, collection}) {
 					</Col>
 					{data.map((item) => {
 						return (
-							<Col sm={12} md={6} lg={3}>
+							<Col sm={12} md={6} lg={3} key={item.id}>
 								<Link to={item.path}>
 									<ProductLanding img={item.photo[0]} text={item.title} />
 								</Link>
@@ -43,8 +43,8 @@ export default function CollectionItem({data, collection}) {
 		return (
 			<Container fluid >
 				<Row>
-					{data.map((data) => {
-						return (filter === data.path || filter === "all") && <ProductLinks data={data.data} title={data.title} />
+					{data.map((data, key) => {
+						return (filter === data.path || filter === "all") && <ProductLinks data={data.data} title={data.title} key={key} />
 					})}
 				</Row>
 			</Container>
@@ -75,16 +75,17 @@ export default function CollectionItem({data, collection}) {
 			<Routes>
 				<Route index element={<Links data={data}/>} />
 				{data.map((data) => {
-					return data.data.map(item => {
+					return data.data.map((item) => {
 						return (
-							<Route path={item.path}
+							<Route key={item.id} path={item.path}
 								element={
 									<ProductionItem
 									title={item.title}
 									description=""
 									images={item.photo}
 									file={item.file}
-									key={item.key} />
+									file_local={item.file_local}
+									/>
 								}
 							/>
 						);
