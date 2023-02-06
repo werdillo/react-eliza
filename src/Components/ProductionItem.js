@@ -6,6 +6,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Container } from 'react-bootstrap';
 
 import cleaningFile from "../assets/Files/Products/cleaning.pdf";
+import cleaningEn from "../assets/Files/Products/cleaning-en.pdf";
+import cleaningRu from "../assets/Files/Products/cleaning-ru.pdf";
+import cleaningLv from "../assets/Files/Products/cleaning-lv.pdf";
 import cleaningMattressesEn from "../assets/Files/Products/cleaning-mattresses-en.pdf";
 import cleaningMattressesRu from "../assets/Files/Products/cleaning-mattresses-ru.pdf";
 import cleaningMattressesLv from "../assets/Files/Products/cleaning-mattresses-lv.pdf";
@@ -78,26 +81,44 @@ export default function ProductionItem(props) {
 					: null}
 					{props.type === "mattresses" ?
 					<>
-							{t("local") === "en" &&
-								<a href={cleaningMattressesEn} target='_blank' rel='noopener noreferrer'>
-									<div className='-link'>{t("components.product-item.cleaning")}</div>
-								</a>
-							}
-							{t("local") === "lv" &&
-								<a href={cleaningMattressesLv} target='_blank' rel='noopener noreferrer'>
-									<div className='-link'>{t("components.product-item.cleaning")}</div>
-								</a>
-							}
-							{t("local") === "ru" &&
-								<a href={cleaningMattressesRu} target='_blank' rel='noopener noreferrer'>
-									<div className='-link'>{t("components.product-item.cleaning")}</div>
-								</a>
-							}
-					</>					
-					: 
-					<a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
-						<div className='-link'>{t("components.product-item.cleaning")}</div>
-					</a>}
+						{t("local") === "en" &&
+							<a href={cleaningMattressesEn} target='_blank' rel='noopener noreferrer'>
+								<div className='-link'>{t("components.product-item.cleaning")}</div>
+							</a>
+						}
+						{t("local") === "lv" &&
+							<a href={cleaningMattressesLv} target='_blank' rel='noopener noreferrer'>
+								<div className='-link'>{t("components.product-item.cleaning")}</div>
+							</a>
+						}
+						{t("local") === "ru" &&
+							<a href={cleaningMattressesRu} target='_blank' rel='noopener noreferrer'>
+								<div className='-link'>{t("components.product-item.cleaning")}</div>
+							</a>
+						}
+					</>
+					:
+					<>
+						{t("local") === "en" &&
+							<a href={cleaningEn} target='_blank' rel='noopener noreferrer'>
+								<div className='-link'>{t("components.product-item.cleaning")}</div>
+							</a>
+						}
+						{t("local") === "lv" &&
+							<a href={cleaningLv} target='_blank' rel='noopener noreferrer'>
+								<div className='-link'>{t("components.product-item.cleaning")}</div>
+							</a>
+						}
+						{t("local") === "ru" &&
+							<a href={cleaningRu} target='_blank' rel='noopener noreferrer'>
+								<div className='-link'>{t("components.product-item.cleaning")}</div>
+							</a>
+						}
+					</>								
+					// <a href={cleaningFile} target='_blank' rel='noopener noreferrer'>
+					// 	<div className='-link'>{t("components.product-item.cleaning")}</div>
+					// </a>}
+				}
 				</div>
 			</Container>
 		</div>
