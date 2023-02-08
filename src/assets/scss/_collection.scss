@@ -19,11 +19,11 @@
 	padding: 10px 36px !important;
 	display: flex;
 	flex-direction: row;
-	gap: 50px;
+	gap: 60px;
 	justify-content: left;
 	flex-wrap: wrap;
 	@media screen and (max-width: 768px) {
-		gap: 20px;
+		gap: 30px;
 	}
 	.-link {
 		color: #fff;

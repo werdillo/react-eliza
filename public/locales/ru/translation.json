@@ -49,6 +49,8 @@
 			"textile": "Склад тканей",
 			"working-time": "Время работы",
 			"working-days": "Пн-Пт",
+			"working-days-porolon": "Пн-Чт",
+			"closed-days-porolon": "Пт, Сб, Вскр - закрыто",
 			"sat": "Сб",
 			"sun": "Вскр - закрыто",
 			"sat-sun": "Сб, Вскр - закрыто",

@@ -49,6 +49,8 @@
 			"textile": "Textile warehouse",
 			"working-time": "Working time",
 			"working-days": "Mon-Fri",
+			"working-days-porolon": "Mon-Thurs",
+			"closed-days-porolon": "Fri, Sat, Sun - closed",
 			"sat": "Sat",
 			"sun": "Sun - closed",
 			"sat-sun": "Sat, Sun - closed",

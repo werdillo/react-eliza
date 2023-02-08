@@ -49,6 +49,8 @@
 			"textile": "Audumu noliktava",
 			"working-time": "Darba laiks",
 			"working-days": "Pirmd-Piekt",
+			"working-days-porolon": "Pirmd-Ceturt",
+			"closed-days-porolon": "Piekt, Sestd, Svētd - brīvdiena",
 			"sat": "Sestd",
 			"sun": "Svētd - brīvdiena",
 			"sat-sun": "Sestd, Svētd - brīvdiena",

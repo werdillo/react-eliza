@@ -5,7 +5,7 @@ import '../assets/scss/_product-item.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container } from 'react-bootstrap';
 
-import cleaningFile from "../assets/Files/Products/cleaning.pdf";
+// import cleaningFile from "../assets/Files/Products/cleaning.pdf";
 import cleaningEn from "../assets/Files/Products/cleaning-en.pdf";
 import cleaningRu from "../assets/Files/Products/cleaning-ru.pdf";
 import cleaningLv from "../assets/Files/Products/cleaning-lv.pdf";
