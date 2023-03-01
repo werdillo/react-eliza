@@ -53,19 +53,6 @@ const Basic_mattresses = [
 	},
 	{
 		id: 5,
-		path: "mattresses/bio",
-		title: "Bio",
-		file_local: {
-			'en': require("../../../assets/Files/collection/basic/mattresses/en/bio.pdf"),
-			'lv': require("../../../assets/Files/collection/basic/mattresses/lv/bio.pdf"),
-			'ru': require("../../../assets/Files/collection/basic/mattresses/ru/bio.pdf"),
-		},
-		photo: [
-			require("../../../assets/images/collection/basic/Mattresses/bio.jpg")
-		]
-	},
-	{
-		id: 6,
 		path: "mattresses/malibu",
 		title: "Malibu",
 		file_local: {
@@ -77,6 +64,19 @@ const Basic_mattresses = [
 			require("../../../assets/images/collection/basic/Mattresses/malibu.jpg")
 		]
 	},	
+	{
+		id: 6,
+		path: "mattresses/bio",
+		title: "Bio",
+		file_local: {
+			'en': require("../../../assets/Files/collection/basic/mattresses/en/bio.pdf"),
+			'lv': require("../../../assets/Files/collection/basic/mattresses/lv/bio.pdf"),
+			'ru': require("../../../assets/Files/collection/basic/mattresses/ru/bio.pdf"),
+		},
+		photo: [
+			require("../../../assets/images/collection/basic/Mattresses/bio.jpg")
+		]
+	},
 	{
 		id: 7,
 		path: "mattresses/eliza-diamond-de-lux",
