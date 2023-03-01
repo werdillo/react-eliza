@@ -14,32 +14,6 @@ const Basic_mattresses = [
 	},
 	{
 		id: 2,
-		path: "mattresses/visco",
-		title: "Visco",
-		file_local: {
-			'en': require("../../../assets/Files/collection/basic/mattresses/en/visco.pdf"),
-			'lv': require("../../../assets/Files/collection/basic/mattresses/lv/visco.pdf"),
-			'ru': require("../../../assets/Files/collection/basic/mattresses/ru/visco.pdf"),
-		},
-		photo: [
-			require("../../../assets/images/collection/basic/Mattresses/visco.jpg")
-		]
-	},
-	{
-		id: 3,
-		path: "mattresses/bio",
-		title: "Bio",
-		file_local: {
-			'en': require("../../../assets/Files/collection/basic/mattresses/en/bio.pdf"),
-			'lv': require("../../../assets/Files/collection/basic/mattresses/lv/bio.pdf"),
-			'ru': require("../../../assets/Files/collection/basic/mattresses/ru/bio.pdf"),
-		},
-		photo: [
-			require("../../../assets/images/collection/basic/Mattresses/bio.jpg")
-		]
-	},
-	{
-		id: 4,
 		path: "mattresses/sport",
 		title: "Sport",
 		file_local: {
@@ -52,20 +26,7 @@ const Basic_mattresses = [
 		]
 	},
 	{
-		id: 5,
-		path: "mattresses/malibu",
-		title: "Malibu",
-		file_local: {
-			'en': require("../../../assets/Files/collection/basic/mattresses/en/malibu.pdf"),
-			'lv': require("../../../assets/Files/collection/basic/mattresses/lv/malibu.pdf"),
-			'ru': require("../../../assets/Files/collection/basic/mattresses/ru/malibu.pdf"),
-		},
-		photo: [
-			require("../../../assets/images/collection/basic/Mattresses/malibu.jpg")
-		]
-	},
-	{
-		id: 6,
+		id: 3,
 		path: "mattresses/infinity",
 		title: "Infinity",
 		file_local: {
@@ -77,7 +38,45 @@ const Basic_mattresses = [
 			require("../../../assets/images/collection/basic/Mattresses/infinity.jpg")
 		]
 	},
-	
+	{
+		id: 4,
+		path: "mattresses/visco",
+		title: "Visco",
+		file_local: {
+			'en': require("../../../assets/Files/collection/basic/mattresses/en/visco.pdf"),
+			'lv': require("../../../assets/Files/collection/basic/mattresses/lv/visco.pdf"),
+			'ru': require("../../../assets/Files/collection/basic/mattresses/ru/visco.pdf"),
+		},
+		photo: [
+			require("../../../assets/images/collection/basic/Mattresses/visco.jpg")
+		]
+	},
+	{
+		id: 5,
+		path: "mattresses/bio",
+		title: "Bio",
+		file_local: {
+			'en': require("../../../assets/Files/collection/basic/mattresses/en/bio.pdf"),
+			'lv': require("../../../assets/Files/collection/basic/mattresses/lv/bio.pdf"),
+			'ru': require("../../../assets/Files/collection/basic/mattresses/ru/bio.pdf"),
+		},
+		photo: [
+			require("../../../assets/images/collection/basic/Mattresses/bio.jpg")
+		]
+	},
+	{
+		id: 6,
+		path: "mattresses/malibu",
+		title: "Malibu",
+		file_local: {
+			'en': require("../../../assets/Files/collection/basic/mattresses/en/malibu.pdf"),
+			'lv': require("../../../assets/Files/collection/basic/mattresses/lv/malibu.pdf"),
+			'ru': require("../../../assets/Files/collection/basic/mattresses/ru/malibu.pdf"),
+		},
+		photo: [
+			require("../../../assets/images/collection/basic/Mattresses/malibu.jpg")
+		]
+	},	
 	{
 		id: 7,
 		path: "mattresses/eliza-diamond-de-lux",
