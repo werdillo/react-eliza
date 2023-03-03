@@ -37,8 +37,8 @@ const Basic_sofa = [
 	},
 	{
 		id: 4,
-		path: "sofa/ričard",
-		title: "Ričard",
+		path: "sofa/richard",
+		title: "Richard",
 		file: require("../../../assets/Files/collection/basic/Richard.pdf"),
 		photo: [
 			require("../../../assets/images/collection/basic/Sofas/richard/richard_1.jpg"),
