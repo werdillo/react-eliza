@@ -37,7 +37,6 @@ function App() {
           <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/textile" element={<Textile />} />
 
-          
           <Route path="/collection" element={<Collections />} />
           <Route path="/collection/bbold/*" element={<Bbold />} />
           <Route path="/collection/basic/*" element={<Basic />} />
