@@ -49,14 +49,12 @@ const Basic_sofa = [
 	},
 	{
 		id: 5,
-		path: "sofa/argo",
-		title: "Argo",
-		file: require("../../../assets/Files/collection/basic/Argo.pdf"),
+		path: "sofa/tahta",
+		title: "Tahta",
+		file: require("../../../assets/Files/collection/basic/Tahta.pdf"),
 		photo: [
-			require("../../../assets/images/collection/basic/Sofas/argo/argo_1.jpg"),
-			require("../../../assets/images/collection/basic/Sofas/argo/argo_2.jpg"),
-			require("../../../assets/images/collection/basic/Sofas/argo/argo_3.jpg"),
-			require("../../../assets/images/collection/basic/Sofas/argo/argo_4.jpg"),
+			require("../../../assets/images/collection/basic/Sofas/tahta/tahta_1.jpg"),
+			require("../../../assets/images/collection/basic/Sofas/tahta/tahta_2.jpg"),
 		]
 	},
 ]
