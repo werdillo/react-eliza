@@ -35,6 +35,17 @@ const Bbold_sofa = [
 			require("../../../assets/images/collection/bbold/Sofas/shetland/shetland_4.jpg"),
 		]
 	},
+	{
+		id: 4,
+		path: "sofa/edan",
+		title: "Edan",
+		file: require("../../../assets/Files/collection/bbold/Edan.pdf"),
+		photo: [
+			require("../../../assets/images/collection/bbold/Sofas/edan/edan_1.JPG"),
+			require("../../../assets/images/collection/bbold/Sofas/edan/edan_2.png"),
+			require("../../../assets/images/collection/bbold/Sofas/edan/edan_3.jpg"),
+		]
+	},
 	
 ]
 
