@@ -46,6 +46,16 @@ const Bbold_sofa = [
 			require("../../../assets/images/collection/bbold/Sofas/edan/edan_3.jpg"),
 		]
 	},
+	{
+		id: 5,
+		path: "sofa/rix",
+		title: "Rix",
+		photo: [
+			require("../../../assets/images/collection/basic/Sofas/rix/rix_1.jpg"),
+			require("../../../assets/images/collection/basic/Sofas/rix/rix_2.png"),
+			require("../../../assets/images/collection/basic/Sofas/rix/rix_3.png"),
+		]
+	},
 	
 ]
 
