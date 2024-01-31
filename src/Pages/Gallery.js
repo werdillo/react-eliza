@@ -28,6 +28,20 @@ export default function Gallery() {
     require("../assets/images/gallery/img13.png"),
     require("../assets/images/gallery/img14.png"),
     require("../assets/images/gallery/img15.png"),
+    require("../assets/images/gallery/img15_1.jpg"),
+    require("../assets/images/gallery/img16.png"),
+    require("../assets/images/gallery/img17.png"),
+    require("../assets/images/gallery/img18.png"),
+    require("../assets/images/gallery/img19.png"),
+    require("../assets/images/gallery/img20.png"),
+    require("../assets/images/gallery/img21.png"),
+    require("../assets/images/gallery/img22.png"),
+    require("../assets/images/gallery/img23.png"),
+    require("../assets/images/gallery/img24.png"),
+    require("../assets/images/gallery/img25.png"),
+    require("../assets/images/gallery/img26.png"),
+    require("../assets/images/gallery/img27.png"),
+    require("../assets/images/gallery/img28.png"),
   ];
   const openImageViewer = useCallback((index) => {
     setCurrentImage(index);
