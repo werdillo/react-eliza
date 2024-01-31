@@ -50,10 +50,11 @@ const Bbold_sofa = [
 		id: 5,
 		path: "sofa/rix",
 		title: "Rix",
+		file: require("../../../assets/Files/collection/bbold/Rix.pdf"),
 		photo: [
-			require("../../../assets/images/collection/basic/Sofas/rix/rix_1.jpg"),
-			require("../../../assets/images/collection/basic/Sofas/rix/rix_2.png"),
-			require("../../../assets/images/collection/basic/Sofas/rix/rix_3.png"),
+			require("../../../assets/images/collection/bbold/Sofas/rix/rix_1.jpg"),
+			require("../../../assets/images/collection/bbold/Sofas/rix/rix_2.png"),
+			require("../../../assets/images/collection/bbold/Sofas/rix/rix_3.png"),
 		]
 	},
 	
