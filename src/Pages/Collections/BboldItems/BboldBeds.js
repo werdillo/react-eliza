@@ -9,8 +9,6 @@ const Bbold_bed = [
 			require("../../../assets/images/collection/bbold/Beds/reefbreak/reefbreak_2.JPG"),
 			require("../../../assets/images/collection/bbold/Beds/reefbreak/reefbreak_3.JPG"),
 			require("../../../assets/images/collection/bbold/Beds/reefbreak/reefbreak_4.JPG"),
-			require("../../../assets/images/collection/bbold/Beds/reefbreak/reefbreak_5.JPG"),
-			require("../../../assets/images/collection/bbold/Beds/reefbreak/reefbreak_6.JPG"),
 		]
 	},
 	
