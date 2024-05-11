@@ -73,6 +73,18 @@ const Bbold_sofa = [
 			require("../../../assets/images/collection/bbold/Sofas/ole/ole_4.png"),
 		]
 	},
+	{
+		id: 7,
+		path: "sofa/evelina",
+		title: "Evelina",
+		file: require("../../../assets/Files/collection/bbold/Evelina.pdf"),
+		photo: [
+			require("../../../assets/images/collection/bbold/Sofas/evelina/evelina_1.jpg"),
+			require("../../../assets/images/collection/bbold/Sofas/evelina/evelina_2.jpg"),
+			require("../../../assets/images/collection/bbold/Sofas/evelina/evelina_3.jpg"),
+			require("../../../assets/images/collection/bbold/Sofas/evelina/evelina_4.jpg"),
+		]
+	},
 	
 ]
 
