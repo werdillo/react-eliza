@@ -40,9 +40,10 @@ export default function Contacts() {
 						<p className='-text'>LV-1035 order@eliza-k.lv</p>
 						<p className='-text'>67570331, 27862121, 26653510</p> 
 						<p className='-text xl work-time'>{t("Pages.contacts.working-time")}</p>
-						<p className='-text'>{t("Pages.contacts.working-days-porolon")} 8:30 - 16:00</p>
+						<p className='-text'>{t("Pages.contacts.working-days")} 8:30 - 16:00</p>
 						<p className='-text'>{t("Pages.contacts.breaktime")} 12:00 - 13:00</p>
-						<p className='-text'>{t("Pages.contacts.closed-days-porolon")}</p>
+						<p className='-text'>{t("Pages.contacts.sat-sun")}</p>
+						<p className='-text orange'>{t("Pages.contacts.closed")} 22.07.2024 - 04.08.2024</p>
 					</div>
 				</Col>
 				<Col sm={12} lg={4}>

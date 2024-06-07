@@ -54,7 +54,8 @@
 			"sat": "Sat",
 			"sun": "Sun - closed",
 			"sat-sun": "Sat, Sun - closed",
-			"breaktime": "Break"
+			"breaktime": "Break",
+			"closed": "Foam department will be closed for summer holidays"
 		},
 		"coming-soon": {
 			"title": "Coming soon"

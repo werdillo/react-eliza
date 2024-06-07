@@ -54,7 +54,8 @@
 			"sat": "Sestd",
 			"sun": "Svētd - brīvdiena",
 			"sat-sun": "Sestd, Svētd - brīvdiena",
-			"breaktime": "Pārtraukums"
+			"breaktime": "Pārtraukums",
+			"closed": "Porolona cehs būs slēgts vasaras brīvdienās"
 		},
 		"coming-soon": {
 			"title": "Gaidāms drīzumā"
