@@ -43,7 +43,8 @@ export default function Contacts() {
 						<p className='-text'>{t("Pages.contacts.working-days")} 8:30 - 16:00</p>
 						<p className='-text'>{t("Pages.contacts.breaktime")} 12:00 - 13:00</p>
 						<p className='-text'>{t("Pages.contacts.sat-sun")}</p>
-						<p className='-text orange'>{t("Pages.contacts.closed")} 22.07.2024 - 04.08.2024</p>
+						{/* uncomment on holidays */}
+						{/* <p className='-text orange'>{t("Pages.contacts.closed")} 22.07.2024 - 04.08.2024</p> */}
 					</div>
 				</Col>
 				<Col sm={12} lg={4}>
