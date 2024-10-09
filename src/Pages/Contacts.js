@@ -26,7 +26,7 @@ export default function Contacts() {
 						<p className='-text xl special'>{t("Pages.contacts.salon")}</p>
 						<p className='-text'>Rīga, А. Deglava iela 50, LV-1035</p>
 						<p className='-text'>teika@eliza-k.lv</p>
-						<p className='-text'>67802343, 29112499</p>
+						<p className='-text'>29112499</p>
 						<p className='-text xl work-time'>{t("Pages.contacts.working-time")}</p>
 						<p className='-text'>{t("Pages.contacts.working-days")} 11:00 - 18:00</p>
 						<p className='-text'>{t("Pages.contacts.sat")} 11:00 - 15:00</p>
@@ -38,7 +38,7 @@ export default function Contacts() {
 						<p className='-text xl special'>{t("Pages.contacts.porolon")}</p>
 						<p className='-text'>Rīga, A. Deglava iela 52A,</p>
 						<p className='-text'>LV-1035 order@eliza-k.lv</p>
-						<p className='-text'>67570331, 27862121, 26653510</p> 
+						<p className='-text'>27862121, 26653510</p> 
 						<p className='-text xl work-time'>{t("Pages.contacts.working-time")}</p>
 						<p className='-text'>{t("Pages.contacts.working-days")} 8:30 - 16:00</p>
 						<p className='-text'>{t("Pages.contacts.breaktime")} 12:00 - 13:00</p>
@@ -47,6 +47,7 @@ export default function Contacts() {
 						{/* <p className='-text orange'>{t("Pages.contacts.closed")} 22.07.2024 - 04.08.2024</p> */}
 					</div>
 				</Col>
+
 				<Col sm={12} lg={4}>
 					<div className='contacts-wrapper'>
 						<p className='-text xl special'>{t("Pages.contacts.textile")}</p>
