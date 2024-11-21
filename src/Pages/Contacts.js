@@ -30,7 +30,7 @@ export default function Contacts() {
 						<p className='-text xl work-time'>{t("Pages.contacts.working-time")}</p>
 						<p className='-text'>{t("Pages.contacts.working-days_2")} 11:00 - 18:00</p>
 						<p className='-text'>{t("Pages.contacts.sat")} 11:00 - 15:00</p>
-						<p className='-text'>{t("Pages.contacts.sun")}</p>
+						<p className='-text'>{t("Pages.contacts.sun-mon")}</p>
 					</div>
 				</Col>
 				<Col sm={12} lg={4}>
