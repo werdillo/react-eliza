@@ -49,10 +49,12 @@
 			"textile": "Склад тканей",
 			"working-time": "Время работы",
 			"working-days": "Пн-Пт",
+			"working-days_2": "ВТ-Пт",
 			"working-days-porolon": "Пн-Чт",
 			"closed-days-porolon": "Пт, Сб, Вскр - закрыто",
 			"sat": "Сб",
 			"sun": "Вскр - закрыто",
+			"sun-mon": "Вскр, Пн - закрыто",
 			"sat-sun": "Сб, Вскр - закрыто",
 			"breaktime": "Перерыв",
 			"closed": "Поролоновый цех будет закрыт на летние каникулы"

@@ -49,10 +49,12 @@
 			"textile": "Audumu noliktava",
 			"working-time": "Darba laiks",
 			"working-days": "Pirmd-Piekt",
+			"working-days_2": "Otrd-Piekt",
 			"working-days-porolon": "Pirmd-Ceturt",
 			"closed-days-porolon": "Piekt, Sestd, Svētd - brīvdiena",
 			"sat": "Sestd",
 			"sun": "Svētd - brīvdiena",
+			"sun-mon": "Svētd, Pirmd - brīvdiena",
 			"sat-sun": "Sestd, Svētd - brīvdiena",
 			"breaktime": "Pārtraukums",
 			"closed": "Porolona cehs būs slēgts vasaras brīvdienās"

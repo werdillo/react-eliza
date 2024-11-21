@@ -49,10 +49,12 @@
 			"textile": "Textile warehouse",
 			"working-time": "Working time",
 			"working-days": "Mon-Fri",
+			"working-days_2": "Tue-Fri",
 			"working-days-porolon": "Mon-Thurs",
 			"closed-days-porolon": "Fri, Sat, Sun - closed",
 			"sat": "Sat",
 			"sun": "Sun - closed",
+			"sun-mon": "Sun, Mon - closed",
 			"sat-sun": "Sat, Sun - closed",
 			"breaktime": "Break",
 			"closed": "Foam department will be closed for summer holidays"
